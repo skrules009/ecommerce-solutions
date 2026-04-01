@@ -1,0 +1,157 @@
+2026-03-20 22:02:48.679 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 22:02:49.110 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'PaymentDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 22:02:49.440 +05:30 [DBG] 'PaymentDbContext' disposed.
+2026-03-20 22:03:24.215 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 22:03:24.546 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'PaymentDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 22:03:24.555 +05:30 [DBG] Creating DbConnection.
+2026-03-20 22:03:24.581 +05:30 [DBG] Created DbConnection. (24ms).
+2026-03-20 22:03:24.584 +05:30 [DBG] Migrating using database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:24.588 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:24.711 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:25.228 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:25.234 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:25.742 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:25.753 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:26.257 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:26.266 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:26.776 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:26.785 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:27.287 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:27.293 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:27.803 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:27.810 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:28.320 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:28.325 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:28.828 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:28.842 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:29.351 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:29.357 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:29.868 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:29.876 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:30.383 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:30.392 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:30.898 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:30.905 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:31.410 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:31.419 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:31.928 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:31.931 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:32.445 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:32.448 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:32.963 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:32.974 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:33.482 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:33.491 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:34.001 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:34.005 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:34.519 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:34.528 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:35.035 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:35.047 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:35.554 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:35.563 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:36.071 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:36.081 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:36.594 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:36.605 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:37.109 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:37.116 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:37.629 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:37.639 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:38.146 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:38.153 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:38.664 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:38.669 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:39.183 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:39.190 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:39.697 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:39.703 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:40.217 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:40.222 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:40.724 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:40.729 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:41.239 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:41.246 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:41.753 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:41.759 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:42.268 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:42.275 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:42.784 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:42.792 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:43.300 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:43.307 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:43.814 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:43.821 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:44.327 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:44.334 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:44.840 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:44.844 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:45.357 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:45.366 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:45.871 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:45.879 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:46.388 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:46.396 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:46.908 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:46.916 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:47.427 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:47.434 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:47.950 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:47.955 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:48.466 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:48.474 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:48.982 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:48.988 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:49.496 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:49.502 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:50.011 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:50.016 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:50.525 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:50.530 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:51.045 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:51.053 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:51.563 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:51.570 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:52.084 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:52.090 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:52.605 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:52.610 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:53.125 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:53.132 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:53.643 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:53.648 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:54.164 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:54.170 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:54.684 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:54.691 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:55.202 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:55.208 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:55.717 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:55.723 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:56.236 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:56.244 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:56.750 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:56.759 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:57.264 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:57.271 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:57.779 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:57.784 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:58.297 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:58.302 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:58.811 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:58.818 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:59.327 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:59.332 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:59.843 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:03:59.848 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:04:00.359 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:04:00.364 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:04:00.870 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:04:00.878 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:04:01.384 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:04:01.392 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:04:01.899 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:04:01.906 +05:30 [DBG] An error occurred using the connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:07:54.403 +05:30 [DBG] 'PaymentDbContext' disposed.
+2026-03-20 22:07:54.406 +05:30 [DBG] Disposing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-20 22:07:54.410 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).

@@ -1,0 +1,5 @@
+2026-03-26 00:08:09.515 +05:30 [DBG] Connection id "0HNKAJFS3MOMU" received FIN.
+2026-03-26 00:08:09.621 +05:30 [DBG] Connection id "0HNKAJFS3MOMU" is closed. The last processed stream ID was 7.
+2026-03-26 00:08:09.665 +05:30 [DBG] The connection queue processing loop for 0HNKAJFS3MOMU completed.
+2026-03-26 00:08:09.719 +05:30 [DBG] Connection id "0HNKAJFS3MOMU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-26 00:08:09.742 +05:30 [DBG] Connection id "0HNKAJFS3MOMU" stopped.

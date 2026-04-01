@@ -1,0 +1,600 @@
+2026-03-25 22:24:38.256 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 22:24:38.640 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 22:24:39.061 +05:30 [INF] Applying database migrations...
+2026-03-25 22:24:39.669 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 22:24:39.855 +05:30 [INF] Database migration starting...
+2026-03-25 22:24:42.393 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CartDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 22:24:42.710 +05:30 [DBG] Creating DbConnection.
+2026-03-25 22:24:43.303 +05:30 [DBG] Created DbConnection. (587ms).
+2026-03-25 22:24:43.417 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:43.550 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:46.159 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:46.190 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 22:24:46.231 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (32ms).
+2026-03-25 22:24:46.303 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (115ms).
+2026-03-25 22:24:46.345 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:46.597 +05:30 [INF] Executed DbCommand (248ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:46.641 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:46.685 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (32ms).
+2026-03-25 22:24:46.713 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 22:24:46.721 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (11ms).
+2026-03-25 22:24:46.729 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (20ms).
+2026-03-25 22:24:46.778 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:46.794 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:46.831 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:46.957 +05:30 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:47.001 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:47.011 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (9ms).
+2026-03-25 22:24:47.049 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:47.061 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:47.081 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 22:24:47.121 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (40ms).
+2026-03-25 22:24:47.137 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (55ms).
+2026-03-25 22:24:47.155 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:47.183 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:47.203 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:47.220 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (17ms).
+2026-03-25 22:24:47.232 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 22:24:47.239 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (7ms).
+2026-03-25 22:24:47.252 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (20ms).
+2026-03-25 22:24:47.271 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:47.279 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:47.287 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:47.335 +05:30 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:47.347 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:47.381 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (33ms).
+2026-03-25 22:24:47.517 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:47.913 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:48.153 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 22:24:48.178 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (24ms).
+2026-03-25 22:24:48.332 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (178ms).
+2026-03-25 22:24:48.397 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:24:48.682 +05:30 [INF] Executed DbCommand (286ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:24:49.150 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:49.187 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 59ms reading results.
+2026-03-25 22:24:49.275 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:49.343 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (68ms).
+2026-03-25 22:24:49.442 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 22:24:49.556 +05:30 [INF] Database migration completed successfully
+2026-03-25 22:24:49.594 +05:30 [DBG] 'CartDbContext' disposed.
+2026-03-25 22:24:49.673 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:24:49.691 +05:30 [DBG] Disposed connection to database '' on server '' (18ms).
+2026-03-25 22:24:49.733 +05:30 [INF] Starting Cart Service
+2026-03-25 22:24:50.087 +05:30 [INF] Swagger UI will be available at: https://localhost:7004/
+2026-03-25 22:24:50.119 +05:30 [INF] Health check available at: https://localhost:7004/health
+2026-03-25 22:24:50.143 +05:30 [DBG] Hosting starting
+2026-03-25 22:24:51.718 +05:30 [INF] Now listening on: https://localhost:7004
+2026-03-25 22:24:51.756 +05:30 [INF] Now listening on: http://localhost:5004
+2026-03-25 22:24:51.765 +05:30 [DBG] Loaded hosting startup assembly api-cart-service
+2026-03-25 22:24:51.777 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 22:24:51.784 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 22:24:51.788 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 22:24:51.944 +05:30 [DBG] Connection id "0HNKAHSTQSKV9" received FIN.
+2026-03-25 22:24:52.061 +05:30 [DBG] Connection id "0HNKAHSTQSKV9" accepted.
+2026-03-25 22:24:52.296 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 22:24:52.457 +05:30 [DBG] Connection id "0HNKAHSTQSKV9" started.
+2026-03-25 22:24:52.634 +05:30 [INF] Hosting environment: Development
+2026-03-25 22:24:52.710 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 22:24:52.759 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-cart-service
+2026-03-25 22:24:53.251 +05:30 [DBG] Hosting started
+2026-03-25 22:24:53.260 +05:30 [DBG] Connection id "0HNKAHSTQSKV9" stopped.
+2026-03-25 22:24:53.401 +05:30 [DBG] Connection id "0HNKAHSTQSKV9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 22:24:54.445 +05:30 [DBG] Connection id "0HNKAHSTQSKVA" accepted.
+2026-03-25 22:24:54.486 +05:30 [DBG] Connection id "0HNKAHSTQSKVA" started.
+2026-03-25 22:24:54.681 +05:30 [DBG] Connection 0HNKAHSTQSKVA established using the following protocol: "Tls13"
+2026-03-25 22:24:55.231 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/index.html - null null
+2026-03-25 22:24:56.122 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 22:24:56.682 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 22:24:56.698 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 22:24:56.781 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 22:24:56.783 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - null null
+2026-03-25 22:24:56.785 +05:30 [INF] HTTP GET /index.html responded 200 in 488.8371 ms
+2026-03-25 22:24:56.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 93.2438ms
+2026-03-25 22:24:56.914 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 22:24:57.141 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 22:24:57.163 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/index.html - 200 null text/html;charset=utf-8 1945.8744ms
+2026-03-25 22:24:57.206 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 423.447ms
+2026-03-25 22:24:57.343 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - null null
+2026-03-25 22:24:57.973 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 603.6190 ms
+2026-03-25 22:24:57.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 677.9146ms
+2026-03-25 22:47:42.781 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 22:47:43.229 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 22:47:43.403 +05:30 [INF] Applying database migrations...
+2026-03-25 22:47:43.719 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 22:47:43.789 +05:30 [INF] Database migration starting...
+2026-03-25 22:47:44.840 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CartDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 22:47:44.863 +05:30 [DBG] Creating DbConnection.
+2026-03-25 22:47:44.934 +05:30 [DBG] Created DbConnection. (68ms).
+2026-03-25 22:47:44.943 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:44.960 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.598 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.616 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 22:47:45.629 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-25 22:47:45.634 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (19ms).
+2026-03-25 22:47:45.650 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:45.721 +05:30 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:45.732 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.751 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (11ms).
+2026-03-25 22:47:45.762 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 22:47:45.765 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2026-03-25 22:47:45.769 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2026-03-25 22:47:45.774 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.781 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.786 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:45.824 +05:30 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:45.832 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.838 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (5ms).
+2026-03-25 22:47:45.849 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.855 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.859 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 22:47:45.863 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2026-03-25 22:47:45.868 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-25 22:47:45.874 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:45.885 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:45.890 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.893 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (2ms).
+2026-03-25 22:47:45.897 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 22:47:45.899 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2026-03-25 22:47:45.903 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2026-03-25 22:47:45.907 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.910 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.913 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:45.919 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:45.926 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.930 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (3ms).
+2026-03-25 22:47:45.959 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.962 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.968 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 22:47:45.971 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2026-03-25 22:47:45.975 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2026-03-25 22:47:45.981 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:47:45.993 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:47:46.012 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:46.042 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 37ms reading results.
+2026-03-25 22:47:46.058 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:46.074 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (16ms).
+2026-03-25 22:47:46.113 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 22:47:46.115 +05:30 [INF] Database migration completed successfully
+2026-03-25 22:47:46.121 +05:30 [DBG] 'CartDbContext' disposed.
+2026-03-25 22:47:46.129 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 22:47:46.135 +05:30 [DBG] Disposed connection to database '' on server '' (6ms).
+2026-03-25 22:47:46.141 +05:30 [INF] Starting Cart Service
+2026-03-25 22:47:46.143 +05:30 [INF] Swagger UI will be available at: https://localhost:7004/
+2026-03-25 22:47:46.145 +05:30 [INF] Health check available at: https://localhost:7004/health
+2026-03-25 22:47:46.153 +05:30 [DBG] Hosting starting
+2026-03-25 22:47:46.784 +05:30 [INF] Now listening on: https://localhost:7004
+2026-03-25 22:47:46.790 +05:30 [INF] Now listening on: http://localhost:5004
+2026-03-25 22:47:46.795 +05:30 [DBG] Loaded hosting startup assembly api-cart-service
+2026-03-25 22:47:46.801 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 22:47:46.805 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 22:47:46.810 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 22:47:47.220 +05:30 [DBG] Connection id "0HNKAI9NMHPCQ" accepted.
+2026-03-25 22:47:47.220 +05:30 [DBG] Connection id "0HNKAI9NMHPCP" accepted.
+2026-03-25 22:47:47.241 +05:30 [DBG] Connection id "0HNKAI9NMHPCQ" started.
+2026-03-25 22:47:47.248 +05:30 [DBG] Connection id "0HNKAI9NMHPCP" started.
+2026-03-25 22:47:47.578 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 22:47:47.585 +05:30 [INF] Hosting environment: Development
+2026-03-25 22:47:47.590 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-cart-service
+2026-03-25 22:47:47.597 +05:30 [DBG] Hosting started
+2026-03-25 22:47:47.997 +05:30 [DBG] Connection id "0HNKAI9NMHPCP" received FIN.
+2026-03-25 22:47:47.997 +05:30 [DBG] Connection id "0HNKAI9NMHPCQ" received FIN.
+2026-03-25 22:47:48.039 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 22:47:48.039 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 22:47:48.142 +05:30 [DBG] Connection id "0HNKAI9NMHPCQ" stopped.
+2026-03-25 22:47:48.142 +05:30 [DBG] Connection id "0HNKAI9NMHPCP" stopped.
+2026-03-25 22:47:48.176 +05:30 [DBG] Connection id "0HNKAI9NMHPCP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 22:47:48.176 +05:30 [DBG] Connection id "0HNKAI9NMHPCQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 22:47:49.104 +05:30 [DBG] Connection id "0HNKAI9NMHPCR" accepted.
+2026-03-25 22:47:49.148 +05:30 [DBG] Connection id "0HNKAI9NMHPCR" started.
+2026-03-25 22:47:49.445 +05:30 [DBG] Connection 0HNKAI9NMHPCR established using the following protocol: "Tls13"
+2026-03-25 22:47:49.821 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/index.html - null null
+2026-03-25 22:47:50.672 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 22:47:51.005 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 22:47:51.021 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 22:47:51.178 +05:30 [INF] HTTP GET /index.html responded 200 in 478.7993 ms
+2026-03-25 22:47:51.217 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - null null
+2026-03-25 22:47:51.224 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 22:47:51.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 22:47:51.301 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 22:47:51.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/index.html - 200 null text/html;charset=utf-8 1621.4645ms
+2026-03-25 22:47:51.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 220.4145ms
+2026-03-25 22:47:51.749 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 531.6668ms
+2026-03-25 22:47:52.792 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - null null
+2026-03-25 22:47:53.179 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 366.8614 ms
+2026-03-25 22:47:53.209 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 416.7719ms
+2026-03-25 23:28:06.521 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 23:28:06.845 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 23:28:06.954 +05:30 [INF] Applying database migrations...
+2026-03-25 23:28:07.207 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 23:28:07.276 +05:30 [INF] Database migration starting...
+2026-03-25 23:28:08.137 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CartDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 23:28:08.151 +05:30 [DBG] Creating DbConnection.
+2026-03-25 23:28:08.229 +05:30 [DBG] Created DbConnection. (74ms).
+2026-03-25 23:28:08.237 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.251 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:09.648 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:09.738 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:28:09.797 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (39ms).
+2026-03-25 23:28:09.831 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (96ms).
+2026-03-25 23:28:09.889 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:10.102 +05:30 [INF] Executed DbCommand (199ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:10.134 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.194 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (38ms).
+2026-03-25 23:28:10.239 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:28:10.255 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (18ms).
+2026-03-25 23:28:10.265 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (29ms).
+2026-03-25 23:28:10.281 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.296 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.323 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:10.522 +05:30 [INF] Executed DbCommand (199ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:10.603 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.620 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (16ms).
+2026-03-25 23:28:10.654 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.679 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.688 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:28:10.699 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (11ms).
+2026-03-25 23:28:10.720 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (31ms).
+2026-03-25 23:28:10.735 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:10.752 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:10.773 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.783 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (10ms).
+2026-03-25 23:28:10.797 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:28:10.817 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (20ms).
+2026-03-25 23:28:10.836 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (39ms).
+2026-03-25 23:28:10.854 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.865 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.889 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:10.910 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:10.950 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:10.990 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (40ms).
+2026-03-25 23:28:11.117 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:11.131 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:11.148 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 23:28:11.163 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (14ms).
+2026-03-25 23:28:11.180 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (31ms).
+2026-03-25 23:28:11.202 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:28:11.245 +05:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:28:11.318 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:11.338 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 53ms reading results.
+2026-03-25 23:28:11.401 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:11.431 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (30ms).
+2026-03-25 23:28:11.523 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:28:11.576 +05:30 [INF] Database migration completed successfully
+2026-03-25 23:28:11.597 +05:30 [DBG] 'CartDbContext' disposed.
+2026-03-25 23:28:11.679 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:28:11.703 +05:30 [DBG] Disposed connection to database '' on server '' (24ms).
+2026-03-25 23:28:11.719 +05:30 [INF] Starting Cart Service
+2026-03-25 23:28:11.733 +05:30 [INF] Swagger UI will be available at: https://localhost:7004/
+2026-03-25 23:28:11.752 +05:30 [INF] Health check available at: https://localhost:7004/health
+2026-03-25 23:28:11.773 +05:30 [DBG] Hosting starting
+2026-03-25 23:28:13.321 +05:30 [INF] Now listening on: https://localhost:7004
+2026-03-25 23:28:13.326 +05:30 [INF] Now listening on: http://localhost:5004
+2026-03-25 23:28:13.333 +05:30 [DBG] Loaded hosting startup assembly api-cart-service
+2026-03-25 23:28:13.337 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 23:28:13.345 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 23:28:13.351 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 23:28:13.409 +05:30 [DBG] Connection id "0HNKAJ0AOFL7N" received FIN.
+2026-03-25 23:28:13.415 +05:30 [DBG] Connection id "0HNKAJ0AOFL7N" accepted.
+2026-03-25 23:28:13.455 +05:30 [DBG] Connection id "0HNKAJ0AOFL7N" started.
+2026-03-25 23:28:13.551 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:28:13.732 +05:30 [DBG] Connection id "0HNKAJ0AOFL7N" stopped.
+2026-03-25 23:28:13.956 +05:30 [DBG] Connection id "0HNKAJ0AOFL7N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:28:15.299 +05:30 [DBG] Connection id "0HNKAJ0AOFL7O" accepted.
+2026-03-25 23:28:15.340 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:28:15.349 +05:30 [DBG] Connection id "0HNKAJ0AOFL7O" started.
+2026-03-25 23:28:15.380 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:28:15.419 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-cart-service
+2026-03-25 23:28:15.430 +05:30 [DBG] Hosting started
+2026-03-25 23:28:15.535 +05:30 [DBG] Connection 0HNKAJ0AOFL7O established using the following protocol: "Tls13"
+2026-03-25 23:28:15.832 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/index.html - null null
+2026-03-25 23:28:16.340 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 23:28:16.701 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 23:28:16.722 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 23:28:16.919 +05:30 [INF] HTTP GET /index.html responded 200 in 556.1336 ms
+2026-03-25 23:28:16.938 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 23:28:16.944 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 23:28:16.957 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/index.html - 200 null text/html;charset=utf-8 1138.2564ms
+2026-03-25 23:28:17.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:28:17.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - null null
+2026-03-25 23:28:17.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 127.1597ms
+2026-03-25 23:28:17.377 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 291.3011ms
+2026-03-25 23:28:17.861 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - null null
+2026-03-25 23:28:18.279 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 397.3313 ms
+2026-03-25 23:28:18.292 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 431.191ms
+2026-03-25 23:36:20.621 +05:30 [DBG] Connection id "0HNKAJ0AOFL7O" received FIN.
+2026-03-25 23:36:21.057 +05:30 [DBG] Connection id "0HNKAJ0AOFL7O" is closed. The last processed stream ID was 7.
+2026-03-25 23:36:21.060 +05:30 [DBG] The connection queue processing loop for 0HNKAJ0AOFL7O completed.
+2026-03-25 23:36:21.089 +05:30 [DBG] Connection id "0HNKAJ0AOFL7O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:36:21.116 +05:30 [DBG] Connection id "0HNKAJ0AOFL7O" stopped.
+2026-03-25 23:46:18.183 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 23:46:19.488 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 23:46:20.044 +05:30 [INF] Applying database migrations...
+2026-03-25 23:46:20.656 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 23:46:20.920 +05:30 [INF] Database migration starting...
+2026-03-25 23:46:24.010 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CartDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 23:46:24.053 +05:30 [DBG] Creating DbConnection.
+2026-03-25 23:46:24.317 +05:30 [DBG] Created DbConnection. (253ms).
+2026-03-25 23:46:24.341 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:24.388 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.295 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.340 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:46:26.395 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (42ms).
+2026-03-25 23:46:26.419 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (85ms).
+2026-03-25 23:46:26.479 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:26.708 +05:30 [INF] Executed DbCommand (223ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:26.768 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.856 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (61ms).
+2026-03-25 23:46:26.911 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:46:26.924 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (16ms).
+2026-03-25 23:46:26.933 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (25ms).
+2026-03-25 23:46:26.941 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.949 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.956 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:27.086 +05:30 [INF] Executed DbCommand (130ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:27.120 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.167 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (46ms).
+2026-03-25 23:46:27.194 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.219 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.369 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:46:27.436 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (67ms).
+2026-03-25 23:46:27.516 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (146ms).
+2026-03-25 23:46:27.626 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:27.701 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:27.734 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.752 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (18ms).
+2026-03-25 23:46:27.767 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:46:27.779 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (12ms).
+2026-03-25 23:46:27.796 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (28ms).
+2026-03-25 23:46:27.812 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.821 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.834 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:27.852 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:27.882 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.895 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (12ms).
+2026-03-25 23:46:27.980 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.991 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.001 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 23:46:28.012 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (11ms).
+2026-03-25 23:46:28.019 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (18ms).
+2026-03-25 23:46:28.030 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:46:28.073 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:46:28.112 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.131 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 39ms reading results.
+2026-03-25 23:46:28.152 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.166 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (14ms).
+2026-03-25 23:46:28.233 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:46:28.245 +05:30 [INF] Database migration completed successfully
+2026-03-25 23:46:28.255 +05:30 [DBG] 'CartDbContext' disposed.
+2026-03-25 23:46:28.266 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.282 +05:30 [DBG] Disposed connection to database '' on server '' (15ms).
+2026-03-25 23:46:28.294 +05:30 [INF] Starting Cart Service
+2026-03-25 23:46:28.299 +05:30 [INF] Swagger UI will be available at: https://localhost:7004/
+2026-03-25 23:46:28.307 +05:30 [INF] Health check available at: https://localhost:7004/health
+2026-03-25 23:46:28.325 +05:30 [DBG] Hosting starting
+2026-03-25 23:46:29.486 +05:30 [INF] Now listening on: https://localhost:7004
+2026-03-25 23:46:29.516 +05:30 [INF] Now listening on: http://localhost:5004
+2026-03-25 23:46:29.525 +05:30 [DBG] Loaded hosting startup assembly api-cart-service
+2026-03-25 23:46:29.531 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 23:46:29.532 +05:30 [DBG] Connection id "0HNKAJAHDU5ED" received FIN.
+2026-03-25 23:46:29.536 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 23:46:29.550 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 23:46:29.570 +05:30 [DBG] Connection id "0HNKAJAHDU5ED" accepted.
+2026-03-25 23:46:29.588 +05:30 [DBG] Connection id "0HNKAJAHDU5ED" started.
+2026-03-25 23:46:29.658 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:46:29.879 +05:30 [DBG] Connection id "0HNKAJAHDU5ED" stopped.
+2026-03-25 23:46:29.946 +05:30 [DBG] Connection id "0HNKAJAHDU5ED" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:46:30.115 +05:30 [DBG] Connection id "0HNKAJAHDU5EE" accepted.
+2026-03-25 23:46:30.167 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:46:30.259 +05:30 [DBG] Connection id "0HNKAJAHDU5EE" started.
+2026-03-25 23:46:30.293 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:46:30.342 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-cart-service
+2026-03-25 23:46:30.375 +05:30 [DBG] Hosting started
+2026-03-25 23:46:30.481 +05:30 [DBG] Connection 0HNKAJAHDU5EE established using the following protocol: "Tls13"
+2026-03-25 23:46:31.173 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/index.html - null null
+2026-03-25 23:46:32.180 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 23:46:32.616 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 23:46:32.641 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 23:46:32.751 +05:30 [INF] HTTP GET /index.html responded 200 in 508.6340 ms
+2026-03-25 23:46:32.863 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 23:46:32.896 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 23:46:32.934 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/index.html - 200 null text/html;charset=utf-8 1796.6254ms
+2026-03-25 23:46:37.317 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:46:37.327 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - null null
+2026-03-25 23:46:37.414 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 96.8437ms
+2026-03-25 23:46:38.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 812.4357ms
+2026-03-25 23:46:38.336 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - null null
+2026-03-25 23:46:38.788 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 423.0713 ms
+2026-03-25 23:46:38.838 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 501.4446ms
+2026-03-25 23:55:54.809 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 23:55:55.294 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 23:55:55.430 +05:30 [INF] Applying database migrations...
+2026-03-25 23:55:55.680 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 23:55:55.736 +05:30 [INF] Database migration starting...
+2026-03-25 23:55:56.909 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CartDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 23:55:56.942 +05:30 [DBG] Creating DbConnection.
+2026-03-25 23:55:57.097 +05:30 [DBG] Created DbConnection. (145ms).
+2026-03-25 23:55:57.153 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:57.204 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.133 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.187 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:55:59.243 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (34ms).
+2026-03-25 23:55:59.269 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (81ms).
+2026-03-25 23:55:59.310 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:55:59.472 +05:30 [INF] Executed DbCommand (158ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:55:59.510 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.564 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (34ms).
+2026-03-25 23:55:59.609 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:55:59.623 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (16ms).
+2026-03-25 23:55:59.636 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (30ms).
+2026-03-25 23:55:59.646 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.660 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.675 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:55:59.846 +05:30 [INF] Executed DbCommand (169ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:55:59.908 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.935 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (26ms).
+2026-03-25 23:55:59.966 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.974 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.986 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:55:59.994 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-25 23:56:00.007 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (21ms).
+2026-03-25 23:56:00.045 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:56:00.090 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:56:00.121 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.141 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (19ms).
+2026-03-25 23:56:00.158 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:56:00.167 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (9ms).
+2026-03-25 23:56:00.178 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (20ms).
+2026-03-25 23:56:00.192 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.209 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.226 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:56:00.260 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:56:00.318 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.339 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (21ms).
+2026-03-25 23:56:00.420 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.432 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.471 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 23:56:00.478 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2026-03-25 23:56:00.504 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (33ms).
+2026-03-25 23:56:00.556 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:56:00.591 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:56:00.643 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.659 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 36ms reading results.
+2026-03-25 23:56:00.673 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.694 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (21ms).
+2026-03-25 23:56:00.804 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:56:00.816 +05:30 [INF] Database migration completed successfully
+2026-03-25 23:56:00.827 +05:30 [DBG] 'CartDbContext' disposed.
+2026-03-25 23:56:00.885 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-25 23:56:00.925 +05:30 [DBG] Disposed connection to database '' on server '' (41ms).
+2026-03-25 23:56:00.961 +05:30 [INF] Starting Cart Service
+2026-03-25 23:56:00.977 +05:30 [INF] Swagger UI will be available at: https://localhost:7004/
+2026-03-25 23:56:01.014 +05:30 [INF] Health check available at: https://localhost:7004/health
+2026-03-25 23:56:01.055 +05:30 [DBG] Hosting starting
+2026-03-25 23:56:02.450 +05:30 [INF] Now listening on: https://localhost:7004
+2026-03-25 23:56:02.482 +05:30 [INF] Now listening on: http://localhost:5004
+2026-03-25 23:56:02.508 +05:30 [DBG] Loaded hosting startup assembly api-cart-service
+2026-03-25 23:56:02.614 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 23:56:02.647 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 23:56:02.656 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 23:56:02.748 +05:30 [DBG] Connection id "0HNKAJFS8HNBC" received FIN.
+2026-03-25 23:56:02.819 +05:30 [DBG] Connection id "0HNKAJFS8HNBC" accepted.
+2026-03-25 23:56:02.837 +05:30 [DBG] Connection id "0HNKAJFS8HNBC" started.
+2026-03-25 23:56:02.990 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:56:03.249 +05:30 [DBG] Connection id "0HNKAJFS8HNBC" stopped.
+2026-03-25 23:56:03.298 +05:30 [DBG] Connection id "0HNKAJFS8HNBC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:56:03.435 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:56:03.453 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:56:03.462 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-cart-service
+2026-03-25 23:56:03.469 +05:30 [DBG] Hosting started
+2026-03-25 23:56:04.237 +05:30 [DBG] Connection id "0HNKAJFS8HNBD" accepted.
+2026-03-25 23:56:04.321 +05:30 [DBG] Connection id "0HNKAJFS8HNBD" started.
+2026-03-25 23:56:04.510 +05:30 [DBG] Connection 0HNKAJFS8HNBD established using the following protocol: "Tls13"
+2026-03-25 23:56:04.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/index.html - null null
+2026-03-25 23:56:05.499 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 23:56:05.803 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 23:56:05.823 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 23:56:05.909 +05:30 [INF] HTTP GET /index.html responded 200 in 383.2425 ms
+2026-03-25 23:56:05.924 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 23:56:05.937 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 23:56:05.958 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/index.html - 200 null text/html;charset=utf-8 1130.0138ms
+2026-03-25 23:56:08.537 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:56:08.562 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - null null
+2026-03-25 23:56:08.606 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 68.6354ms
+2026-03-25 23:56:08.979 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 417.3911ms
+2026-03-25 23:56:09.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - null null
+2026-03-25 23:56:09.921 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 469.7271 ms
+2026-03-25 23:56:09.937 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 511.8072ms

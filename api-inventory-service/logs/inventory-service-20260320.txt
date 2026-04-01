@@ -1,0 +1,1414 @@
+2026-03-20 22:20:50.855 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 22:20:51.089 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 22:20:51.219 +05:30 [INF] Applying database migrations...
+2026-03-20 22:20:51.429 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 22:20:51.475 +05:30 [INF] Database migration starting...
+2026-03-20 22:20:52.148 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 22:20:52.159 +05:30 [DBG] Creating DbConnection.
+2026-03-20 22:20:52.244 +05:30 [DBG] Created DbConnection. (81ms).
+2026-03-20 22:20:52.251 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:52.263 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:52.773 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:53.289 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:53.322 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:53.832 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:53.866 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:54.389 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:54.421 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:54.940 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:54.975 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:55.491 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:55.658 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:56.186 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:56.405 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:56.948 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:57.041 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:57.570 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:57.676 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.213 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.263 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.776 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.836 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:59.349 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:20:59.452 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.039 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.119 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.634 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.695 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.230 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.293 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.812 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.879 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:02.412 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:02.502 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.036 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.088 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.599 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.677 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.194 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.267 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.784 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.839 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.362 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.397 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.926 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.974 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:06.486 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:06.534 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.047 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.081 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.593 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.639 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.156 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.191 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.705 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.754 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.270 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.299 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.829 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.861 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.378 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.407 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.924 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.969 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.479 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.514 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.031 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.065 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.579 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.611 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.130 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.175 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.690 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.723 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.241 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.266 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.777 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.826 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.344 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.383 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.894 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.942 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:16.456 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:16.503 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.024 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.064 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.618 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.666 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.182 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.259 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.774 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.810 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.320 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.348 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.857 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.885 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.396 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.440 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.956 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.998 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:21.505 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:21.532 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.051 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.077 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.595 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.626 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.148 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.190 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.709 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.741 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.257 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.294 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.809 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.844 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.362 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.386 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.896 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.931 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.459 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.480 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.987 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.009 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.518 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.543 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.047 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.109 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.621 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.647 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.154 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.188 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.699 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.725 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.230 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.295 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.807 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.869 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.382 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.407 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.913 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.946 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:32.461 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:32.490 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.008 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.028 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.536 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.576 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.099 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.119 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.636 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.676 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.185 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.212 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.718 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.763 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.287 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.314 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.835 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.862 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.369 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.428 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.957 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.016 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.533 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.563 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.079 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.156 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.682 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.711 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.226 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.286 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.817 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.847 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.378 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.399 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.908 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.941 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:42.453 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:42.474 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:42.983 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.008 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.514 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.541 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.058 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.083 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.587 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.604 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.117 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.136 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.648 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.667 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.178 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.196 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.711 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.747 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 22:30:27.176 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 22:30:28.043 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 22:30:28.335 +05:30 [INF] Applying database migrations...
+2026-03-20 22:30:28.993 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 22:30:29.143 +05:30 [INF] Database migration starting...
+2026-03-20 22:30:31.564 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 22:30:31.612 +05:30 [DBG] Creating DbConnection.
+2026-03-20 22:30:32.050 +05:30 [DBG] Created DbConnection. (425ms).
+2026-03-20 22:30:32.091 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:32.148 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:33.416 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:33.948 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:34.014 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:34.539 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:34.585 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.099 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.137 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.660 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.704 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:36.221 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:36.261 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:36.782 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:36.817 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.327 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.359 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.870 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.905 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.419 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.443 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.948 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.971 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.483 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.511 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.017 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.038 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.548 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.570 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.077 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.102 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.611 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.636 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.153 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.180 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.686 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.728 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.238 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.280 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.785 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.806 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.317 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.337 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.847 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.867 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.374 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.414 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.922 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.943 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.451 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.467 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.983 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.005 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.513 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.543 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.061 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.078 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.589 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.611 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.124 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.143 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.659 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.683 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.193 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.235 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.756 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.791 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.318 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.340 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.854 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.868 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.383 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.404 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.916 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.933 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.450 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.465 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.969 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.986 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.498 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.512 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.018 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.030 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.532 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.547 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.064 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.090 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.601 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.639 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.148 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.192 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.710 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.735 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.254 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.283 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.805 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.829 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.341 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.368 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.873 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.891 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.406 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.440 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.952 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.968 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.483 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.498 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.016 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.034 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.547 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.575 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.092 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.111 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.623 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.646 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.158 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.191 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.708 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.749 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.273 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.308 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.824 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.856 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.365 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.384 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.895 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.920 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.426 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.451 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.961 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.977 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.494 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.510 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.013 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.028 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.532 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.553 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:10.069 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:10.102 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:10.616 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:10.653 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.164 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.202 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.711 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.741 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.248 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.271 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.781 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.799 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.316 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.330 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.832 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.870 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.376 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.412 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.924 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.954 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:15.470 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:15.531 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.053 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.129 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.645 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.675 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.190 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.219 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.727 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.751 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.262 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.303 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.807 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.839 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.354 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.375 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.885 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.920 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.435 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.452 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.964 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.983 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:21.497 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:21.515 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.025 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.044 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.554 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.578 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.089 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.115 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.619 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.643 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.151 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.198 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.712 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.759 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.274 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.317 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.834 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.871 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.381 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.431 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.944 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.003 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.520 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.552 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.065 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.086 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.595 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.624 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 23:01:08.826 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:01:09.130 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:01:09.229 +05:30 [INF] Applying database migrations...
+2026-03-20 23:01:09.453 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:01:09.508 +05:30 [INF] Database migration starting...
+2026-03-20 23:01:10.373 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:01:10.401 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:01:10.495 +05:30 [DBG] Created DbConnection. (92ms).
+2026-03-20 23:01:10.508 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:01:10.524 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:01:11.232 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:01:11.241 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:01:11.252 +05:30 [DBG] An error occurred using the connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:01:11.340 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:01:11.343 +05:30 [DBG] Created DbConnection. (2ms).
+2026-03-20 23:01:11.346 +05:30 [DBG] Opening connection to database 'master' on server 'localhost'.
+2026-03-20 23:01:11.582 +05:30 [DBG] Opened connection to database 'master' on server 'localhost'.
+2026-03-20 23:01:11.591 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:01:11.601 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-20 23:01:11.605 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (14ms).
+2026-03-20 23:01:11.614 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [InventoryServiceDB];
+2026-03-20 23:01:11.665 +05:30 [ERR] Failed executing DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [InventoryServiceDB];
+2026-03-20 23:01:11.678 +05:30 [DBG] Closing connection to database 'master' on server 'localhost'.
+2026-03-20 23:01:11.693 +05:30 [DBG] Closed connection to database 'master' on server 'localhost' (8ms).
+2026-03-20 23:01:11.709 +05:30 [DBG] Disposing connection to database 'master' on server 'localhost'.
+2026-03-20 23:01:11.727 +05:30 [DBG] Disposed connection to database '' on server '' (16ms).
+2026-03-20 23:01:11.917 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-20 23:01:11.928 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:01:11.935 +05:30 [DBG] Disposed connection to database '' on server '' (6ms).
+2026-03-20 23:01:11.950 +05:30 [ERR] Error during database migration
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__210_1(IAsyncResult result)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQueryAsync(IEnumerable`1 migrationCommands, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQueryAsync(IEnumerable`1 migrationCommands, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQueryAsync(IEnumerable`1 migrationCommands, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQueryAsync(IEnumerable`1 migrationCommands, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.CreateAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.CreateAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service\Program.cs:line 104
+ClientConnectionId:3385a9c8-297d-4fb6-8955-7033e6cd768c
+Error Number:262,State:1,Class:14
+2026-03-20 23:04:18.871 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:04:19.213 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:04:19.349 +05:30 [INF] Applying database migrations...
+2026-03-20 23:04:19.561 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:04:19.609 +05:30 [INF] Database migration starting...
+2026-03-20 23:04:21.064 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:04:21.141 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:04:21.369 +05:30 [DBG] Created DbConnection. (215ms).
+2026-03-20 23:04:21.417 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:21.474 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.238 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.269 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:23.298 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (20ms).
+2026-03-20 23:04:23.313 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (47ms).
+2026-03-20 23:04:23.347 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:23.543 +05:30 [INF] Executed DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:23.572 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.614 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (27ms).
+2026-03-20 23:04:23.647 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:04:23.653 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (7ms).
+2026-03-20 23:04:23.659 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (14ms).
+2026-03-20 23:04:23.666 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.684 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.693 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:23.785 +05:30 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:23.806 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.817 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (11ms).
+2026-03-20 23:04:23.832 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.844 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.851 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:23.860 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2026-03-20 23:04:23.868 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (16ms).
+2026-03-20 23:04:23.880 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:23.916 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:23.927 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.933 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (6ms).
+2026-03-20 23:04:24.246 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:24.254 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2026-03-20 23:04:24.264 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (17ms).
+2026-03-20 23:04:24.279 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.294 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.314 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-03-20 23:04:24.337 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-03-20 23:04:24.349 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.357 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (8ms).
+2026-03-20 23:04:24.378 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.392 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.401 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:24.415 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (14ms).
+2026-03-20 23:04:24.433 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (31ms).
+2026-03-20 23:04:24.446 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:24.467 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:24.496 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.511 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (14ms).
+2026-03-20 23:04:24.518 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:04:24.527 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (9ms).
+2026-03-20 23:04:24.535 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (16ms).
+2026-03-20 23:04:24.540 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.548 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.553 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:24.565 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:24.573 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.580 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (7ms).
+2026-03-20 23:04:24.599 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.609 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.617 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:04:24.621 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2026-03-20 23:04:24.629 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (12ms).
+2026-03-20 23:04:24.635 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:04:24.677 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:04:24.720 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.733 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 42ms reading results.
+2026-03-20 23:04:24.745 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.752 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (7ms).
+2026-03-20 23:04:24.781 +05:30 [INF] Applying migration '20260319165959_InitialCreate'.
+2026-03-20 23:04:24.948 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.953 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.970 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2026-03-20 23:04:24.990 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2026-03-20 23:04:25.015 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.024 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2026-03-20 23:04:25.045 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (29ms).
+2026-03-20 23:04:25.062 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Inventories] (
+    [Id] int NOT NULL IDENTITY,
+    [ProductId] int NOT NULL,
+    [ProductSku] nvarchar(50) NOT NULL,
+    [ProductName] nvarchar(200) NOT NULL,
+    [Quantity] int NOT NULL,
+    [ReorderLevel] int NOT NULL,
+    [ReorderQuantity] int NOT NULL,
+    [Warehouse] nvarchar(100) NOT NULL,
+    [Location] nvarchar(100) NOT NULL,
+    [LastRestockedAt] datetime2 NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NULL,
+    CONSTRAINT [PK_Inventories] PRIMARY KEY ([Id])
+);
+2026-03-20 23:04:25.085 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Inventories] (
+    [Id] int NOT NULL IDENTITY,
+    [ProductId] int NOT NULL,
+    [ProductSku] nvarchar(50) NOT NULL,
+    [ProductName] nvarchar(200) NOT NULL,
+    [Quantity] int NOT NULL,
+    [ReorderLevel] int NOT NULL,
+    [ReorderQuantity] int NOT NULL,
+    [Warehouse] nvarchar(100) NOT NULL,
+    [Location] nvarchar(100) NOT NULL,
+    [LastRestockedAt] datetime2 NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NULL,
+    CONSTRAINT [PK_Inventories] PRIMARY KEY ([Id])
+);
+2026-03-20 23:04:25.101 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.110 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-20 23:04:25.122 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (21ms).
+2026-03-20 23:04:25.140 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [InventoryTransactions] (
+    [Id] int NOT NULL IDENTITY,
+    [InventoryId] int NOT NULL,
+    [TransactionType] nvarchar(20) NOT NULL,
+    [Quantity] int NOT NULL,
+    [Reference] nvarchar(100) NOT NULL,
+    [Notes] nvarchar(max) NOT NULL,
+    [CreatedBy] nvarchar(100) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_InventoryTransactions] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_InventoryTransactions_Inventories_InventoryId] FOREIGN KEY ([InventoryId]) REFERENCES [Inventories] ([Id]) ON DELETE CASCADE
+);
+2026-03-20 23:04:25.165 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [InventoryTransactions] (
+    [Id] int NOT NULL IDENTITY,
+    [InventoryId] int NOT NULL,
+    [TransactionType] nvarchar(20) NOT NULL,
+    [Quantity] int NOT NULL,
+    [Reference] nvarchar(100) NOT NULL,
+    [Notes] nvarchar(max) NOT NULL,
+    [CreatedBy] nvarchar(100) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_InventoryTransactions] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_InventoryTransactions_Inventories_InventoryId] FOREIGN KEY ([InventoryId]) REFERENCES [Inventories] ([Id]) ON DELETE CASCADE
+);
+2026-03-20 23:04:25.185 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.197 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (12ms).
+2026-03-20 23:04:25.205 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (20ms).
+2026-03-20 23:04:25.211 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Inventories_ProductId] ON [Inventories] ([ProductId]);
+2026-03-20 23:04:25.226 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Inventories_ProductId] ON [Inventories] ([ProductId]);
+2026-03-20 23:04:25.247 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.254 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-20 23:04:25.271 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (24ms).
+2026-03-20 23:04:25.288 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Inventories_ProductSku] ON [Inventories] ([ProductSku]);
+2026-03-20 23:04:25.333 +05:30 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Inventories_ProductSku] ON [Inventories] ([ProductSku]);
+2026-03-20 23:04:25.407 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.427 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (20ms).
+2026-03-20 23:04:25.463 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (55ms).
+2026-03-20 23:04:25.487 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Inventories_Quantity] ON [Inventories] ([Quantity]);
+2026-03-20 23:04:25.513 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Inventories_Quantity] ON [Inventories] ([Quantity]);
+2026-03-20 23:04:25.530 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.534 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2026-03-20 23:04:25.543 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (13ms).
+2026-03-20 23:04:25.549 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Inventories_Warehouse] ON [Inventories] ([Warehouse]);
+2026-03-20 23:04:25.562 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Inventories_Warehouse] ON [Inventories] ([Warehouse]);
+2026-03-20 23:04:25.570 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.574 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2026-03-20 23:04:25.581 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2026-03-20 23:04:25.585 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_InventoryTransactions_CreatedAt] ON [InventoryTransactions] ([CreatedAt]);
+2026-03-20 23:04:25.599 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_InventoryTransactions_CreatedAt] ON [InventoryTransactions] ([CreatedAt]);
+2026-03-20 23:04:25.615 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.619 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2026-03-20 23:04:25.624 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-20 23:04:25.632 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_InventoryTransactions_InventoryId] ON [InventoryTransactions] ([InventoryId]);
+2026-03-20 23:04:25.642 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_InventoryTransactions_InventoryId] ON [InventoryTransactions] ([InventoryId]);
+2026-03-20 23:04:25.652 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.663 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (11ms).
+2026-03-20 23:04:25.675 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (22ms).
+2026-03-20 23:04:25.684 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_InventoryTransactions_TransactionType] ON [InventoryTransactions] ([TransactionType]);
+2026-03-20 23:04:25.696 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_InventoryTransactions_TransactionType] ON [InventoryTransactions] ([TransactionType]);
+2026-03-20 23:04:25.703 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.707 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2026-03-20 23:04:25.712 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-20 23:04:25.717 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260319165959_InitialCreate', N'8.0.25');
+2026-03-20 23:04:25.743 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260319165959_InitialCreate', N'8.0.25');
+2026-03-20 23:04:25.758 +05:30 [DBG] Committing transaction.
+2026-03-20 23:04:25.779 +05:30 [DBG] Committed transaction.
+2026-03-20 23:04:25.795 +05:30 [DBG] Disposing transaction.
+2026-03-20 23:04:25.799 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.807 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (7ms).
+2026-03-20 23:04:25.816 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:04:25.822 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-20 23:04:25.832 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.839 +05:30 [DBG] Disposed connection to database '' on server '' (7ms).
+2026-03-20 23:04:25.846 +05:30 [INF] Starting Inventory Service
+2026-03-20 23:04:25.851 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-20 23:04:25.855 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-20 23:04:25.877 +05:30 [DBG] Hosting starting
+2026-03-20 23:04:26.669 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-20 23:04:26.681 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-20 23:04:26.687 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-20 23:04:26.694 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-20 23:04:26.698 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-20 23:04:26.702 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-20 23:04:26.762 +05:30 [DBG] Connection id "0HNK6KRNHRKE5" received FIN.
+2026-03-20 23:04:26.762 +05:30 [DBG] Connection id "0HNK6KRNHRKE4" received FIN.
+2026-03-20 23:04:26.773 +05:30 [DBG] Connection id "0HNK6KRNHRKE4" accepted.
+2026-03-20 23:04:26.806 +05:30 [DBG] Connection id "0HNK6KRNHRKE5" accepted.
+2026-03-20 23:04:26.876 +05:30 [DBG] Connection id "0HNK6KRNHRKE4" started.
+2026-03-20 23:04:26.896 +05:30 [DBG] Connection id "0HNK6KRNHRKE5" started.
+2026-03-20 23:04:27.000 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:04:27.000 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:04:27.206 +05:30 [DBG] Connection id "0HNK6KRNHRKE4" stopped.
+2026-03-20 23:04:27.222 +05:30 [DBG] Connection id "0HNK6KRNHRKE5" stopped.
+2026-03-20 23:04:27.284 +05:30 [DBG] Connection id "0HNK6KRNHRKE4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:04:27.333 +05:30 [DBG] Connection id "0HNK6KRNHRKE5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:04:27.414 +05:30 [DBG] Connection id "0HNK6KRNHRKE6" accepted.
+2026-03-20 23:04:27.592 +05:30 [DBG] Connection id "0HNK6KRNHRKE6" started.
+2026-03-20 23:04:27.635 +05:30 [DBG] Connection id "0HNK6KRNHRKE7" accepted.
+2026-03-20 23:04:27.707 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-20 23:04:27.815 +05:30 [DBG] Connection id "0HNK6KRNHRKE7" started.
+2026-03-20 23:04:27.835 +05:30 [INF] Hosting environment: Development
+2026-03-20 23:04:27.946 +05:30 [DBG] Connection 0HNK6KRNHRKE7 established using the following protocol: "Tls13"
+2026-03-20 23:04:27.947 +05:30 [DBG] Connection 0HNK6KRNHRKE6 established using the following protocol: "Tls13"
+2026-03-20 23:04:27.957 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-20 23:04:28.191 +05:30 [DBG] Hosting started
+2026-03-20 23:04:28.493 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-20 23:04:29.276 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-20 23:11:05.388 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:11:05.606 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:11:05.699 +05:30 [INF] Applying database migrations...
+2026-03-20 23:11:05.885 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:11:05.981 +05:30 [INF] Database migration starting...
+2026-03-20 23:11:07.057 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:11:07.086 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:11:07.185 +05:30 [DBG] Created DbConnection. (93ms).
+2026-03-20 23:11:07.226 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:07.253 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:07.923 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:07.937 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:11:07.951 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (10ms).
+2026-03-20 23:11:07.957 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (21ms).
+2026-03-20 23:11:07.969 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.027 +05:30 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.038 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.054 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (10ms).
+2026-03-20 23:11:08.068 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:11:08.071 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2026-03-20 23:11:08.076 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (9ms).
+2026-03-20 23:11:08.080 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.085 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.089 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:08.131 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:08.137 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.143 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:11:08.152 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.156 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.159 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:11:08.161 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2026-03-20 23:11:08.165 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2026-03-20 23:11:08.169 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.182 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.190 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.196 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:11:08.202 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:11:08.205 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2026-03-20 23:11:08.210 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2026-03-20 23:11:08.217 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.222 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.227 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:08.236 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:08.242 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.245 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:11:08.276 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.281 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.286 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:11:08.289 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2026-03-20 23:11:08.294 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2026-03-20 23:11:08.300 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:11:08.311 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:11:08.331 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.340 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 19ms reading results.
+2026-03-20 23:11:08.346 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.351 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:11:08.375 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-20 23:11:08.379 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:11:08.383 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-20 23:11:08.391 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.398 +05:30 [DBG] Disposed connection to database '' on server '' (7ms).
+2026-03-20 23:11:08.403 +05:30 [INF] Starting Inventory Service
+2026-03-20 23:11:08.405 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-20 23:11:08.409 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-20 23:11:08.417 +05:30 [DBG] Hosting starting
+2026-03-20 23:11:08.827 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-20 23:11:08.841 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-20 23:11:08.843 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-20 23:11:08.846 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-20 23:11:08.848 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-20 23:11:08.850 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-20 23:11:09.074 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-20 23:11:09.084 +05:30 [INF] Hosting environment: Development
+2026-03-20 23:11:09.091 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-20 23:11:09.099 +05:30 [DBG] Hosting started
+2026-03-20 23:11:09.130 +05:30 [DBG] Connection id "0HNK6KVFF5F6B" received FIN.
+2026-03-20 23:11:09.149 +05:30 [DBG] Connection id "0HNK6KVFF5F6B" accepted.
+2026-03-20 23:11:09.155 +05:30 [DBG] Connection id "0HNK6KVFF5F6B" started.
+2026-03-20 23:11:09.180 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:11:09.223 +05:30 [DBG] Connection id "0HNK6KVFF5F6B" stopped.
+2026-03-20 23:11:09.233 +05:30 [DBG] Connection id "0HNK6KVFF5F6B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:11:09.434 +05:30 [DBG] Connection id "0HNK6KVFF5F6C" accepted.
+2026-03-20 23:11:09.447 +05:30 [DBG] Connection id "0HNK6KVFF5F6C" started.
+2026-03-20 23:11:09.515 +05:30 [DBG] Connection 0HNK6KVFF5F6C established using the following protocol: "Tls13"
+2026-03-20 23:11:09.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-20 23:11:09.925 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-20 23:11:10.303 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-20 23:11:10.323 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-20 23:11:10.463 +05:30 [INF] HTTP GET /index.html responded 200 in 499.7769 ms
+2026-03-20 23:11:10.526 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-20 23:11:10.542 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-20 23:11:10.568 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 902.849ms
+2026-03-20 23:11:11.063 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-20 23:11:11.064 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-20 23:11:11.353 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 290.2125ms
+2026-03-20 23:11:11.642 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 577.9375ms
+2026-03-20 23:11:15.982 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-20 23:11:16.380 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 382.4542 ms
+2026-03-20 23:11:16.400 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 419.1724ms
+2026-03-20 23:25:18.710 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Inventories - application/json 211
+2026-03-20 23:25:18.730 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:25:18.743 +05:30 [DBG] The request has an origin header: 'https://localhost:7005'.
+2026-03-20 23:25:18.747 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:25:18.788 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Inventories'
+2026-03-20 23:25:18.798 +05:30 [DBG] Endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)' with route pattern 'api/Inventories' is valid for the request path '/api/Inventories'
+2026-03-20 23:25:18.803 +05:30 [DBG] Request matched endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:25:18.812 +05:30 [INF] Executing endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:25:18.864 +05:30 [INF] Route matched with {action = "CreateInventory", controller = "Inventories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_inventory_service.DTOs.InventoryDto]] CreateInventory(api_inventory_service.DTOs.CreateInventoryDto) on controller api_inventory_service.Controllers.InventoriesController (api-inventory-service).
+2026-03-20 23:25:18.873 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:25:18.878 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:25:18.883 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:25:18.888 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:25:18.892 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:25:18.904 +05:30 [DBG] Executing controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:25:18.910 +05:30 [DBG] Executed controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:25:18.947 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:25:18.961 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' using the name '' in request data ...
+2026-03-20 23:25:18.969 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:25:18.993 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:00000009": started reading request body.
+2026-03-20 23:25:18.998 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:00000009": done reading request body.
+2026-03-20 23:25:19.023 +05:30 [DBG] JSON input formatter threw an exception: 'p' is an invalid start of a property name. Expected a '"'. Path: $ | LineNumber: 1 | BytePositionInLine: 2.
+2026-03-20 23:25:19.029 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:25:19.034 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:25:19.037 +05:30 [DBG] Attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:25:19.055 +05:30 [DBG] Done attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:25:19.065 +05:30 [DBG] The request has model state errors, returning an error response.
+2026-03-20 23:25:19.071 +05:30 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2026-03-20 23:25:19.078 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:25:19.090 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2026-03-20 23:25:19.100 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:25:19.106 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2026-03-20 23:25:19.116 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2026-03-20 23:25:19.122 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-20 23:25:19.176 +05:30 [INF] Executed action api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service) in 273.5454ms
+2026-03-20 23:25:19.182 +05:30 [INF] Executed endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:25:19.183 +05:30 [INF] HTTP POST /api/Inventories responded 400 in 456.1867 ms
+2026-03-20 23:25:19.189 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Inventories - 400 null application/problem+json; charset=utf-8 479.0421ms
+2026-03-20 23:26:31.257 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Inventories - application/json 227
+2026-03-20 23:26:31.266 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:26:31.268 +05:30 [DBG] The request has an origin header: 'https://localhost:7005'.
+2026-03-20 23:26:31.272 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:26:31.276 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Inventories'
+2026-03-20 23:26:31.279 +05:30 [DBG] Endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)' with route pattern 'api/Inventories' is valid for the request path '/api/Inventories'
+2026-03-20 23:26:31.281 +05:30 [DBG] Request matched endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:26:31.284 +05:30 [INF] Executing endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:26:31.287 +05:30 [INF] Route matched with {action = "CreateInventory", controller = "Inventories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_inventory_service.DTOs.InventoryDto]] CreateInventory(api_inventory_service.DTOs.CreateInventoryDto) on controller api_inventory_service.Controllers.InventoriesController (api-inventory-service).
+2026-03-20 23:26:31.292 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:26:31.298 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:26:31.303 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:26:31.307 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:26:31.311 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:26:31.315 +05:30 [DBG] Executing controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:26:31.318 +05:30 [DBG] Executed controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:26:31.321 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:26:31.324 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' using the name '' in request data ...
+2026-03-20 23:26:31.329 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:26:31.331 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:0000000B": started reading request body.
+2026-03-20 23:26:31.333 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:0000000B": done reading request body.
+2026-03-20 23:26:31.338 +05:30 [DBG] JSON input formatter threw an exception: '=' is invalid after a property name. Expected a ':'. Path: $ | LineNumber: 1 | BytePositionInLine: 14.
+2026-03-20 23:26:31.340 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:26:31.343 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:26:31.346 +05:30 [DBG] Attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:26:31.349 +05:30 [DBG] Done attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:26:31.352 +05:30 [DBG] The request has model state errors, returning an error response.
+2026-03-20 23:26:31.354 +05:30 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2026-03-20 23:26:31.357 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:26:31.361 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2026-03-20 23:26:31.367 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:26:31.369 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2026-03-20 23:26:31.374 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2026-03-20 23:26:31.377 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-20 23:26:31.380 +05:30 [INF] Executed action api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service) in 65.2317ms
+2026-03-20 23:26:31.389 +05:30 [INF] Executed endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:26:31.391 +05:30 [INF] HTTP POST /api/Inventories responded 400 in 125.5265 ms
+2026-03-20 23:26:31.396 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Inventories - 400 null application/problem+json; charset=utf-8 139.0399ms
+2026-03-20 23:27:19.712 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Inventories - application/json 227
+2026-03-20 23:27:19.721 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:27:19.725 +05:30 [DBG] The request has an origin header: 'https://localhost:7005'.
+2026-03-20 23:27:19.727 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:27:19.729 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Inventories'
+2026-03-20 23:27:19.731 +05:30 [DBG] Endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)' with route pattern 'api/Inventories' is valid for the request path '/api/Inventories'
+2026-03-20 23:27:19.735 +05:30 [DBG] Request matched endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:27:19.737 +05:30 [INF] Executing endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:27:19.740 +05:30 [INF] Route matched with {action = "CreateInventory", controller = "Inventories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_inventory_service.DTOs.InventoryDto]] CreateInventory(api_inventory_service.DTOs.CreateInventoryDto) on controller api_inventory_service.Controllers.InventoriesController (api-inventory-service).
+2026-03-20 23:27:19.746 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:27:19.749 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:27:19.753 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:27:19.757 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:27:19.761 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:27:19.764 +05:30 [DBG] Executing controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:27:19.771 +05:30 [DBG] Executed controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:27:19.775 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:27:19.779 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' using the name '' in request data ...
+2026-03-20 23:27:19.781 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:27:19.784 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:0000000D": started reading request body.
+2026-03-20 23:27:19.787 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:0000000D": done reading request body.
+2026-03-20 23:27:19.806 +05:30 [DBG] JSON input formatter threw an exception: '"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 4.
+2026-03-20 23:27:19.811 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:27:19.817 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:27:19.820 +05:30 [DBG] Attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:27:19.825 +05:30 [DBG] Done attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:27:19.829 +05:30 [DBG] The request has model state errors, returning an error response.
+2026-03-20 23:27:19.831 +05:30 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2026-03-20 23:27:19.834 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:27:19.840 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2026-03-20 23:27:19.846 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:27:19.848 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2026-03-20 23:27:19.853 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2026-03-20 23:27:19.856 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-20 23:27:19.863 +05:30 [INF] Executed action api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service) in 99.0095ms
+2026-03-20 23:27:19.876 +05:30 [INF] Executed endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:27:19.879 +05:30 [INF] HTTP POST /api/Inventories responded 400 in 157.5714 ms
+2026-03-20 23:27:19.884 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Inventories - 400 null application/problem+json; charset=utf-8 172.6259ms
+2026-03-20 23:27:59.547 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Inventories - application/json 240
+2026-03-20 23:27:59.560 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:27:59.562 +05:30 [DBG] The request has an origin header: 'https://localhost:7005'.
+2026-03-20 23:27:59.564 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:27:59.567 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Inventories'
+2026-03-20 23:27:59.570 +05:30 [DBG] Endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)' with route pattern 'api/Inventories' is valid for the request path '/api/Inventories'
+2026-03-20 23:27:59.577 +05:30 [DBG] Request matched endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:27:59.581 +05:30 [INF] Executing endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:27:59.584 +05:30 [INF] Route matched with {action = "CreateInventory", controller = "Inventories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_inventory_service.DTOs.InventoryDto]] CreateInventory(api_inventory_service.DTOs.CreateInventoryDto) on controller api_inventory_service.Controllers.InventoriesController (api-inventory-service).
+2026-03-20 23:27:59.588 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:27:59.594 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:27:59.599 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:27:59.603 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:27:59.606 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:27:59.611 +05:30 [DBG] Executing controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:27:59.615 +05:30 [DBG] Executed controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:27:59.618 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:27:59.621 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' using the name '' in request data ...
+2026-03-20 23:27:59.626 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:27:59.630 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:0000000F": started reading request body.
+2026-03-20 23:27:59.632 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:0000000F": done reading request body.
+2026-03-20 23:27:59.636 +05:30 [DBG] JSON input formatter threw an exception: '{' is an invalid start of a property name. Expected a '"'. Path: $ | LineNumber: 1 | BytePositionInLine: 2.
+2026-03-20 23:27:59.638 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:27:59.641 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:27:59.644 +05:30 [DBG] Attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:27:59.649 +05:30 [DBG] Done attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:27:59.652 +05:30 [DBG] The request has model state errors, returning an error response.
+2026-03-20 23:27:59.655 +05:30 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2026-03-20 23:27:59.659 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:27:59.668 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2026-03-20 23:27:59.679 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:27:59.684 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2026-03-20 23:27:59.695 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2026-03-20 23:27:59.700 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-20 23:27:59.705 +05:30 [INF] Executed action api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service) in 94.6423ms
+2026-03-20 23:27:59.723 +05:30 [INF] Executed endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:27:59.733 +05:30 [INF] HTTP POST /api/Inventories responded 400 in 172.8025 ms
+2026-03-20 23:27:59.746 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Inventories - 400 null application/problem+json; charset=utf-8 198.8895ms
+2026-03-20 23:28:30.917 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Inventories - application/json 232
+2026-03-20 23:28:30.945 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:28:30.947 +05:30 [DBG] The request has an origin header: 'https://localhost:7005'.
+2026-03-20 23:28:30.950 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:28:30.952 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Inventories'
+2026-03-20 23:28:30.956 +05:30 [DBG] Endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)' with route pattern 'api/Inventories' is valid for the request path '/api/Inventories'
+2026-03-20 23:28:30.961 +05:30 [DBG] Request matched endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:28:30.963 +05:30 [INF] Executing endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:28:30.966 +05:30 [INF] Route matched with {action = "CreateInventory", controller = "Inventories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_inventory_service.DTOs.InventoryDto]] CreateInventory(api_inventory_service.DTOs.CreateInventoryDto) on controller api_inventory_service.Controllers.InventoriesController (api-inventory-service).
+2026-03-20 23:28:30.971 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:28:30.976 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:28:30.979 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:28:30.983 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:28:30.987 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:28:30.994 +05:30 [DBG] Executing controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:28:30.997 +05:30 [DBG] Executed controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:28:31.001 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:28:31.004 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' using the name '' in request data ...
+2026-03-20 23:28:31.010 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:28:31.013 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:00000011": started reading request body.
+2026-03-20 23:28:31.016 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:00000011": done reading request body.
+2026-03-20 23:28:31.021 +05:30 [DBG] JSON input formatter threw an exception: '{' is an invalid start of a property name. Expected a '"'. Path: $ | LineNumber: 1 | BytePositionInLine: 2.
+2026-03-20 23:28:31.025 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:28:31.028 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:28:31.031 +05:30 [DBG] Attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:28:31.034 +05:30 [DBG] Done attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:28:31.037 +05:30 [DBG] The request has model state errors, returning an error response.
+2026-03-20 23:28:31.040 +05:30 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2026-03-20 23:28:31.043 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:28:31.047 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2026-03-20 23:28:31.055 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:28:31.057 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2026-03-20 23:28:31.062 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2026-03-20 23:28:31.065 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-20 23:28:31.069 +05:30 [INF] Executed action api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service) in 74.9857ms
+2026-03-20 23:28:31.074 +05:30 [INF] Executed endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:28:31.079 +05:30 [INF] HTTP POST /api/Inventories responded 400 in 134.0776 ms
+2026-03-20 23:28:31.085 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Inventories - 400 null application/problem+json; charset=utf-8 167.7427ms
+2026-03-20 23:28:49.520 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Inventories - application/json 230
+2026-03-20 23:28:49.542 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:28:49.546 +05:30 [DBG] The request has an origin header: 'https://localhost:7005'.
+2026-03-20 23:28:49.548 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:28:49.551 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Inventories'
+2026-03-20 23:28:49.557 +05:30 [DBG] Endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)' with route pattern 'api/Inventories' is valid for the request path '/api/Inventories'
+2026-03-20 23:28:49.568 +05:30 [DBG] Request matched endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:28:49.574 +05:30 [INF] Executing endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:28:49.581 +05:30 [INF] Route matched with {action = "CreateInventory", controller = "Inventories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_inventory_service.DTOs.InventoryDto]] CreateInventory(api_inventory_service.DTOs.CreateInventoryDto) on controller api_inventory_service.Controllers.InventoriesController (api-inventory-service).
+2026-03-20 23:28:49.594 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:28:49.606 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:28:49.615 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:28:49.620 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:28:49.628 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:28:49.631 +05:30 [DBG] Executing controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:28:49.636 +05:30 [DBG] Executed controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:28:49.643 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:28:49.650 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' using the name '' in request data ...
+2026-03-20 23:28:49.655 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:28:49.661 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:00000013": started reading request body.
+2026-03-20 23:28:49.666 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:00000013": done reading request body.
+2026-03-20 23:28:49.681 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'api_inventory_service.DTOs.CreateInventoryDto'
+2026-03-20 23:28:49.685 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:28:49.689 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:28:49.694 +05:30 [DBG] Attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:28:49.708 +05:30 [DBG] Done attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:28:49.723 +05:30 [INF] POST: New inventory creation requested for SKU LAPTOP-001
+2026-03-20 23:28:49.734 +05:30 [INF] Creating new inventory for product: LAPTOP-001
+2026-03-20 23:28:49.881 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:28:49.978 +05:30 [DBG] Compiling query expression: 
+'DbSet<Inventory>()
+    .Any(i => i.ProductId == __productId_0)'
+2026-03-20 23:28:50.311 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Inventories AS i
+                WHERE i.ProductId == @__productId_0)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        api_inventory_service.Data.InventoryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2026-03-20 23:28:50.399 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:28:50.405 +05:30 [DBG] Created DbConnection. (5ms).
+2026-03-20 23:28:50.410 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:50.828 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:50.836 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:28:50.840 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2026-03-20 23:28:50.847 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (10ms).
+2026-03-20 23:28:50.862 +05:30 [DBG] Executing DbCommand [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Inventories] AS [i]
+        WHERE [i].[ProductId] = @__productId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:28:50.948 +05:30 [INF] Executed DbCommand (95ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Inventories] AS [i]
+        WHERE [i].[ProductId] = @__productId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:28:50.963 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:50.967 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 12ms reading results.
+2026-03-20 23:28:50.971 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:50.977 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:28:51.038 +05:30 [DBG] 'InventoryDbContext' generated a temporary value for the property 'Inventory.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:28:51.169 +05:30 [DBG] Context 'InventoryDbContext' started tracking 'Inventory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:28:51.177 +05:30 [DBG] SaveChanges starting for 'InventoryDbContext'.
+2026-03-20 23:28:51.183 +05:30 [DBG] DetectChanges starting for 'InventoryDbContext'.
+2026-03-20 23:28:51.212 +05:30 [DBG] DetectChanges completed for 'InventoryDbContext'.
+2026-03-20 23:28:51.355 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:51.362 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:51.378 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:28:51.382 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2026-03-20 23:28:51.388 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (10ms).
+2026-03-20 23:28:51.396 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Int32), @p4='?' (Size = 200), @p5='?' (Size = 50), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Inventories] ([CreatedAt], [LastRestockedAt], [Location], [ProductId], [ProductName], [ProductSku], [Quantity], [ReorderLevel], [ReorderQuantity], [UpdatedAt], [Warehouse])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2026-03-20 23:28:51.419 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Int32), @p4='?' (Size = 200), @p5='?' (Size = 50), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Inventories] ([CreatedAt], [LastRestockedAt], [Location], [ProductId], [ProductName], [ProductSku], [Quantity], [ReorderLevel], [ReorderQuantity], [UpdatedAt], [Warehouse])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2026-03-20 23:28:51.449 +05:30 [DBG] The foreign key property 'Inventory.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2026-03-20 23:28:51.465 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:51.470 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 40ms reading results.
+2026-03-20 23:28:51.475 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:51.479 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:28:51.501 +05:30 [DBG] An entity of type 'Inventory' tracked by 'InventoryDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:28:51.515 +05:30 [DBG] SaveChanges completed for 'InventoryDbContext' with 1 entities written to the database.
+2026-03-20 23:28:51.521 +05:30 [INF] Inventory created successfully: 1
+2026-03-20 23:28:51.539 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:28:51.557 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-03-20 23:28:51.568 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:28:51.581 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-03-20 23:28:51.588 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-03-20 23:28:51.593 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-03-20 23:28:51.600 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'api_inventory_service.DTOs.InventoryDto'.
+2026-03-20 23:28:51.643 +05:30 [DBG] Found the endpoints ["api_inventory_service.Controllers.InventoriesController.GetInventoryById (api-inventory-service)"] for address (id=[1],action=[GetInventoryById],controller=[Inventories])
+2026-03-20 23:28:51.655 +05:30 [DBG] Successfully processed template api/Inventories/{id} for api_inventory_service.Controllers.InventoriesController.GetInventoryById (api-inventory-service) resulting in /api/Inventories/1 and 
+2026-03-20 23:28:51.663 +05:30 [DBG] Link generation succeeded for endpoints ["api_inventory_service.Controllers.InventoriesController.GetInventoryById (api-inventory-service)"] with result /api/Inventories/1
+2026-03-20 23:28:51.698 +05:30 [INF] Executed action api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service) in 2066.6922ms
+2026-03-20 23:28:51.705 +05:30 [INF] Executed endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:28:51.713 +05:30 [INF] HTTP POST /api/Inventories responded 201 in 2170.8656 ms
+2026-03-20 23:28:51.718 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-20 23:28:51.726 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:28:51.731 +05:30 [DBG] Disposed connection to database '' on server '' (5ms).
+2026-03-20 23:28:51.736 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Inventories - 201 null application/json; charset=utf-8 2217.1018ms
+2026-03-20 23:29:40.799 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Inventories - application/json 225
+2026-03-20 23:29:40.818 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:29:40.826 +05:30 [DBG] The request has an origin header: 'https://localhost:7005'.
+2026-03-20 23:29:40.831 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:29:40.834 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Inventories'
+2026-03-20 23:29:40.841 +05:30 [DBG] Endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)' with route pattern 'api/Inventories' is valid for the request path '/api/Inventories'
+2026-03-20 23:29:40.850 +05:30 [DBG] Request matched endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:29:40.855 +05:30 [INF] Executing endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:29:40.861 +05:30 [INF] Route matched with {action = "CreateInventory", controller = "Inventories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_inventory_service.DTOs.InventoryDto]] CreateInventory(api_inventory_service.DTOs.CreateInventoryDto) on controller api_inventory_service.Controllers.InventoriesController (api-inventory-service).
+2026-03-20 23:29:40.868 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:29:40.873 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:29:40.881 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:29:40.888 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:29:40.895 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:29:40.900 +05:30 [DBG] Executing controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:29:40.904 +05:30 [DBG] Executed controller factory for controller api_inventory_service.Controllers.InventoriesController (api-inventory-service)
+2026-03-20 23:29:40.911 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:29:40.914 +05:30 [DBG] Attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' using the name '' in request data ...
+2026-03-20 23:29:40.919 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:29:40.924 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:00000015": started reading request body.
+2026-03-20 23:29:40.926 +05:30 [DBG] Connection id "0HNK6KVFF5F6C", Request id "0HNK6KVFF5F6C:00000015": done reading request body.
+2026-03-20 23:29:40.930 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'api_inventory_service.DTOs.CreateInventoryDto'
+2026-03-20 23:29:40.933 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:29:40.938 +05:30 [DBG] Done attempting to bind parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:29:40.943 +05:30 [DBG] Attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto' ...
+2026-03-20 23:29:40.947 +05:30 [DBG] Done attempting to validate the bound parameter 'createInventoryDto' of type 'api_inventory_service.DTOs.CreateInventoryDto'.
+2026-03-20 23:29:40.951 +05:30 [INF] POST: New inventory creation requested for SKU PHONE-001
+2026-03-20 23:29:40.953 +05:30 [INF] Creating new inventory for product: PHONE-001
+2026-03-20 23:29:41.144 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:29:41.157 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:29:41.161 +05:30 [DBG] Created DbConnection. (3ms).
+2026-03-20 23:29:41.165 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.169 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.175 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:29:41.179 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2026-03-20 23:29:41.183 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2026-03-20 23:29:41.186 +05:30 [DBG] Executing DbCommand [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Inventories] AS [i]
+        WHERE [i].[ProductId] = @__productId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:29:41.209 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Inventories] AS [i]
+        WHERE [i].[ProductId] = @__productId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:29:41.216 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.221 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 4ms reading results.
+2026-03-20 23:29:41.229 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.235 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (6ms).
+2026-03-20 23:29:41.248 +05:30 [DBG] 'InventoryDbContext' generated a temporary value for the property 'Inventory.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:29:41.258 +05:30 [DBG] Context 'InventoryDbContext' started tracking 'Inventory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:29:41.266 +05:30 [DBG] SaveChanges starting for 'InventoryDbContext'.
+2026-03-20 23:29:41.272 +05:30 [DBG] DetectChanges starting for 'InventoryDbContext'.
+2026-03-20 23:29:41.279 +05:30 [DBG] DetectChanges completed for 'InventoryDbContext'.
+2026-03-20 23:29:41.286 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.294 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.299 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:29:41.304 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2026-03-20 23:29:41.309 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (10ms).
+2026-03-20 23:29:41.314 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Int32), @p4='?' (Size = 200), @p5='?' (Size = 50), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Inventories] ([CreatedAt], [LastRestockedAt], [Location], [ProductId], [ProductName], [ProductSku], [Quantity], [ReorderLevel], [ReorderQuantity], [UpdatedAt], [Warehouse])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2026-03-20 23:29:41.329 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Int32), @p4='?' (Size = 200), @p5='?' (Size = 50), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Inventories] ([CreatedAt], [LastRestockedAt], [Location], [ProductId], [ProductName], [ProductSku], [Quantity], [ReorderLevel], [ReorderQuantity], [UpdatedAt], [Warehouse])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2026-03-20 23:29:41.334 +05:30 [DBG] The foreign key property 'Inventory.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2026-03-20 23:29:41.339 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.343 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 8ms reading results.
+2026-03-20 23:29:41.348 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.350 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (2ms).
+2026-03-20 23:29:41.353 +05:30 [DBG] An entity of type 'Inventory' tracked by 'InventoryDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:29:41.358 +05:30 [DBG] SaveChanges completed for 'InventoryDbContext' with 1 entities written to the database.
+2026-03-20 23:29:41.360 +05:30 [INF] Inventory created successfully: 2
+2026-03-20 23:29:41.362 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:29:41.366 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-03-20 23:29:41.369 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:29:41.373 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-03-20 23:29:41.374 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-03-20 23:29:41.376 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-03-20 23:29:41.378 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'api_inventory_service.DTOs.InventoryDto'.
+2026-03-20 23:29:41.381 +05:30 [DBG] Found the endpoints ["api_inventory_service.Controllers.InventoriesController.GetInventoryById (api-inventory-service)"] for address (id=[2],action=[GetInventoryById],controller=[Inventories])
+2026-03-20 23:29:41.384 +05:30 [DBG] Successfully processed template api/Inventories/{id} for api_inventory_service.Controllers.InventoriesController.GetInventoryById (api-inventory-service) resulting in /api/Inventories/2 and 
+2026-03-20 23:29:41.389 +05:30 [DBG] Link generation succeeded for endpoints ["api_inventory_service.Controllers.InventoriesController.GetInventoryById (api-inventory-service)"] with result /api/Inventories/2
+2026-03-20 23:29:41.392 +05:30 [INF] Executed action api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service) in 492.8029ms
+2026-03-20 23:29:41.400 +05:30 [INF] Executed endpoint 'api_inventory_service.Controllers.InventoriesController.CreateInventory (api-inventory-service)'
+2026-03-20 23:29:41.403 +05:30 [INF] HTTP POST /api/Inventories responded 201 in 584.3725 ms
+2026-03-20 23:29:41.410 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-20 23:29:41.413 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:29:41.416 +05:30 [DBG] Disposed connection to database '' on server '' (2ms).
+2026-03-20 23:29:41.418 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Inventories - 201 null application/json; charset=utf-8 619.0244ms
+2026-03-20 23:38:59.193 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:38:59.567 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:38:59.746 +05:30 [INF] Applying database migrations...
+2026-03-20 23:39:00.135 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:39:00.232 +05:30 [INF] Database migration starting...
+2026-03-20 23:39:02.305 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:39:02.429 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:39:02.715 +05:30 [DBG] Created DbConnection. (265ms).
+2026-03-20 23:39:02.758 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:02.818 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:04.656 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:04.680 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:39:04.694 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (11ms).
+2026-03-20 23:39:04.702 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (25ms).
+2026-03-20 23:39:04.725 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:04.860 +05:30 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:04.882 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:04.928 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (30ms).
+2026-03-20 23:39:04.961 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:39:04.967 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (8ms).
+2026-03-20 23:39:04.977 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (18ms).
+2026-03-20 23:39:04.985 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.001 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.011 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:05.122 +05:30 [INF] Executed DbCommand (110ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:05.138 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.149 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (11ms).
+2026-03-20 23:39:05.163 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.169 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.180 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:39:05.188 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2026-03-20 23:39:05.197 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (16ms).
+2026-03-20 23:39:05.209 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:05.236 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:05.255 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.268 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (13ms).
+2026-03-20 23:39:05.282 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:39:05.287 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2026-03-20 23:39:05.299 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (16ms).
+2026-03-20 23:39:05.311 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.319 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.328 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:05.347 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:05.366 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.382 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (16ms).
+2026-03-20 23:39:05.458 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.467 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.478 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:39:05.485 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2026-03-20 23:39:05.495 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (16ms).
+2026-03-20 23:39:05.502 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:39:05.536 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:39:05.588 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.605 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 48ms reading results.
+2026-03-20 23:39:05.622 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.635 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (13ms).
+2026-03-20 23:39:05.701 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-20 23:39:05.715 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:39:05.737 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-20 23:39:05.760 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.776 +05:30 [DBG] Disposed connection to database '' on server '' (17ms).
+2026-03-20 23:39:05.788 +05:30 [INF] Starting Inventory Service
+2026-03-20 23:39:05.796 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-20 23:39:05.802 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-20 23:39:05.825 +05:30 [DBG] Hosting starting
+2026-03-20 23:39:06.944 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-20 23:39:06.973 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-20 23:39:06.988 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-20 23:39:07.002 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-20 23:39:07.017 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-20 23:39:07.029 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-20 23:39:07.294 +05:30 [DBG] Connection id "0HNK6LF3JCE9U" received FIN.
+2026-03-20 23:39:07.294 +05:30 [DBG] Connection id "0HNK6LF3JCE9T" received FIN.
+2026-03-20 23:39:07.335 +05:30 [DBG] Connection id "0HNK6LF3JCE9T" accepted.
+2026-03-20 23:39:07.335 +05:30 [DBG] Connection id "0HNK6LF3JCE9U" accepted.
+2026-03-20 23:39:07.350 +05:30 [DBG] Connection id "0HNK6LF3JCE9T" started.
+2026-03-20 23:39:07.374 +05:30 [DBG] Connection id "0HNK6LF3JCE9U" started.
+2026-03-20 23:39:07.440 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:39:07.440 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:39:07.535 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-20 23:39:07.562 +05:30 [DBG] Connection id "0HNK6LF3JCE9T" stopped.
+2026-03-20 23:39:07.591 +05:30 [DBG] Connection id "0HNK6LF3JCE9U" stopped.
+2026-03-20 23:39:07.620 +05:30 [INF] Hosting environment: Development
+2026-03-20 23:39:07.652 +05:30 [DBG] Connection id "0HNK6LF3JCE9T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:39:07.662 +05:30 [DBG] Connection id "0HNK6LF3JCE9U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:39:07.668 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-20 23:39:07.697 +05:30 [DBG] Hosting started
+2026-03-20 23:39:08.087 +05:30 [DBG] Connection id "0HNK6LF3JCE9V" accepted.
+2026-03-20 23:39:08.126 +05:30 [DBG] Connection id "0HNK6LF3JCE9V" started.
+2026-03-20 23:39:08.324 +05:30 [DBG] Connection 0HNK6LF3JCE9V established using the following protocol: "Tls13"
+2026-03-20 23:39:08.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-20 23:39:09.275 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-20 23:39:09.603 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-20 23:39:09.623 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-20 23:39:09.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-20 23:39:09.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-20 23:39:09.764 +05:30 [INF] HTTP GET /index.html responded 200 in 456.4385 ms
+2026-03-20 23:39:09.832 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 75.3155ms
+2026-03-20 23:39:09.944 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-20 23:39:10.033 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-20 23:39:10.269 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 515.8484ms
+2026-03-20 23:39:10.302 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1588.6468ms
+2026-03-20 23:39:11.962 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-20 23:39:12.414 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 433.6107 ms
+2026-03-20 23:39:12.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 487.5868ms

@@ -1,0 +1,7 @@
+C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\obj\Debug\net8.0\api-catalog-service.csproj.AssemblyReference.cache
+C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\obj\Debug\net8.0\api-catalog-service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\obj\Debug\net8.0\api-catalog-service.AssemblyInfoInputs.cache
+C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\obj\Debug\net8.0\api-catalog-service.AssemblyInfo.cs
+C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\obj\Debug\net8.0\api-catalog-service.csproj.CoreCompileInputs.cache
+C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\obj\Debug\net8.0\api-catalog-service.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\obj\Debug\net8.0\api-catalog-service.MvcApplicationPartsAssemblyInfo.cache

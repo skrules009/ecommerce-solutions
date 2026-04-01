@@ -1,0 +1,1209 @@
+2026-03-20 22:20:54.011 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 22:20:54.248 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 22:20:54.340 +05:30 [INF] Applying database migrations...
+2026-03-20 22:20:54.537 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 22:20:54.591 +05:30 [INF] Database migration starting...
+2026-03-20 22:20:55.428 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CatalogDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 22:20:55.513 +05:30 [DBG] Creating DbConnection.
+2026-03-20 22:20:55.750 +05:30 [DBG] Created DbConnection. (225ms).
+2026-03-20 22:20:55.791 +05:30 [DBG] Migrating using database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:55.838 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:57.320 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:57.979 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.131 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.650 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.703 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:59.220 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:59.277 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:59.804 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:20:59.851 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.382 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.449 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.979 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.072 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.625 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.673 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:02.191 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:02.271 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:02.786 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:02.836 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.349 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.490 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.022 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.058 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.581 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.616 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.129 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.172 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.691 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.710 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:06.220 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:06.285 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:06.799 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:06.824 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.329 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.407 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.920 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.001 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.518 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.575 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.080 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.104 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.612 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.644 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.159 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.191 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.710 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.737 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.257 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.293 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.810 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.847 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.360 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.393 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.908 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.941 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.457 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.502 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.019 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.058 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.573 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.608 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.142 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.198 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.720 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.756 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:16.266 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:16.322 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:16.835 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:16.878 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.396 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.463 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.977 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.002 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.523 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.551 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.070 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.108 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.620 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.659 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.174 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.201 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.709 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.744 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:21.254 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:21.342 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:21.847 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:21.870 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.379 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.412 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.932 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.002 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.522 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.568 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.083 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.113 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.637 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.674 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.190 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.216 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.722 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.748 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.255 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.286 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.801 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.860 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.379 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.453 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.970 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.004 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.512 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.543 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.066 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.106 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.624 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.661 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.168 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.268 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.792 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.838 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.367 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.393 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.913 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.938 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:32.461 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:32.495 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.007 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.028 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.537 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.564 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.083 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.103 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.621 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.658 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.185 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.212 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.718 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.761 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.286 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.314 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.819 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.858 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.369 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.451 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.973 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.034 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.549 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.583 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.095 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.188 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.713 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.741 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.258 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.325 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.833 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.891 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.409 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.432 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.939 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.961 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:42.485 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:42.501 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.014 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.027 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.545 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.561 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.074 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.108 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.619 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.638 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.150 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.169 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.679 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.698 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.210 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.227 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.742 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.779 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 22:30:30.166 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 22:30:30.912 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 22:30:31.170 +05:30 [INF] Applying database migrations...
+2026-03-20 22:30:31.914 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 22:30:32.100 +05:30 [INF] Database migration starting...
+2026-03-20 22:30:34.278 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CatalogDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 22:30:34.316 +05:30 [DBG] Creating DbConnection.
+2026-03-20 22:30:34.498 +05:30 [DBG] Created DbConnection. (174ms).
+2026-03-20 22:30:34.519 +05:30 [DBG] Migrating using database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:34.555 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.351 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.884 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.937 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:36.455 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:36.502 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.014 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.068 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.591 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.636 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.154 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.223 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.744 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.770 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.279 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.297 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.814 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.830 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.345 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.371 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.876 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.895 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.405 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.419 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.937 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.956 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.467 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.486 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.002 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.027 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.550 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.569 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.083 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.101 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.611 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.658 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.173 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.193 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.702 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.724 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.234 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.280 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.795 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.824 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.340 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.363 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.875 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.892 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.404 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.425 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.937 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.960 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.471 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.499 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.020 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.035 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.552 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.579 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.099 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.129 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.648 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.662 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.182 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.199 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.712 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.727 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.231 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.246 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.763 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.785 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.295 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.330 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.844 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.862 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.377 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.395 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.909 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.932 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.445 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.464 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.975 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.012 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.524 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.558 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.069 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.101 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.616 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.647 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.167 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.187 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.700 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.720 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.234 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.253 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.767 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.783 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.297 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.318 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.827 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.860 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.374 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.405 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.921 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.936 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.452 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.480 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.999 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.017 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.533 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.550 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.071 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.106 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.619 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.634 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.140 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.168 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.678 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.695 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.208 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.228 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.739 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.778 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.291 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.312 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.825 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.849 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.360 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.420 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.942 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.979 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:10.490 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:10.530 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.038 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.107 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.618 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.659 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.171 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.223 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.734 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.772 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.284 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.303 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.817 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.864 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.376 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.405 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.923 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.948 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:15.455 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:15.519 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.037 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.115 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.630 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.656 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.174 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.195 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.711 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.728 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.232 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.253 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.762 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.801 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.307 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.334 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.838 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.857 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.373 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.408 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.917 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.935 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:21.449 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:21.464 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:21.978 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:21.992 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.507 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.525 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.040 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.055 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.572 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.591 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.104 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.123 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.635 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.661 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.167 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.190 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.709 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.736 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.255 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.277 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.786 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.810 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.317 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.343 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.861 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.886 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.408 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.431 +05:30 [DBG] An error occurred using the connection to database 'CatalogServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 23:01:11.130 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:01:11.421 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:01:11.507 +05:30 [INF] Applying database migrations...
+2026-03-20 23:01:11.711 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:01:11.813 +05:30 [INF] Database migration starting...
+2026-03-20 23:04:20.015 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:04:20.459 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:04:20.749 +05:30 [INF] Applying database migrations...
+2026-03-20 23:04:21.404 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:04:21.586 +05:30 [INF] Database migration starting...
+2026-03-20 23:04:22.986 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CatalogDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:04:23.009 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:04:23.148 +05:30 [DBG] Created DbConnection. (135ms).
+2026-03-20 23:04:23.168 +05:30 [DBG] Migrating using database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.192 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.535 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.551 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:24.564 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-20 23:04:24.571 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (22ms).
+2026-03-20 23:04:24.586 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:24.643 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:24.655 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.675 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (14ms).
+2026-03-20 23:04:24.690 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:04:24.699 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (9ms).
+2026-03-20 23:04:24.712 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (22ms).
+2026-03-20 23:04:24.722 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.732 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.740 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:24.787 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:24.800 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.811 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (10ms).
+2026-03-20 23:04:24.825 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.846 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.857 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:24.864 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2026-03-20 23:04:24.875 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (18ms).
+2026-03-20 23:04:24.888 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:24.905 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:24.913 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:24.917 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (4ms).
+2026-03-20 23:04:25.025 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.030 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2026-03-20 23:04:25.038 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (13ms).
+2026-03-20 23:04:25.049 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.061 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.067 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-03-20 23:04:25.092 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-03-20 23:04:25.098 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.105 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (6ms).
+2026-03-20 23:04:25.114 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.125 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.134 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.141 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2026-03-20 23:04:25.148 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (14ms).
+2026-03-20 23:04:25.155 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:25.168 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:25.180 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.195 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (15ms).
+2026-03-20 23:04:25.202 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:04:25.206 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2026-03-20 23:04:25.212 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (10ms).
+2026-03-20 23:04:25.219 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.228 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.236 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:25.253 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:25.267 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.277 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (10ms).
+2026-03-20 23:04:25.293 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.308 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.328 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:04:25.341 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (13ms).
+2026-03-20 23:04:25.358 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (30ms).
+2026-03-20 23:04:25.390 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:04:25.446 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:04:25.487 +05:30 [DBG] Closing data reader to 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.501 +05:30 [DBG] A data reader for 'CatalogServiceDB' on server 'localhost' is being disposed after spending 21ms reading results.
+2026-03-20 23:04:25.516 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.524 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (8ms).
+2026-03-20 23:04:25.546 +05:30 [INF] Applying migration '20260319163111_InitialCreate'.
+2026-03-20 23:04:25.589 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.595 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.604 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2026-03-20 23:04:25.620 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2026-03-20 23:04:25.624 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.629 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2026-03-20 23:04:25.637 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (12ms).
+2026-03-20 23:04:25.641 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Sku] nvarchar(50) NOT NULL,
+    [Name] nvarchar(200) NOT NULL,
+    [Description] nvarchar(2000) NOT NULL,
+    [Category] nvarchar(100) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [StockQuantity] int NOT NULL,
+    [ImageUrl] nvarchar(500) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NULL,
+    [Manufacturer] nvarchar(100) NOT NULL,
+    [Rating] float NOT NULL,
+    [ReviewCount] int NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2026-03-20 23:04:25.659 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Sku] nvarchar(50) NOT NULL,
+    [Name] nvarchar(200) NOT NULL,
+    [Description] nvarchar(2000) NOT NULL,
+    [Category] nvarchar(100) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [StockQuantity] int NOT NULL,
+    [ImageUrl] nvarchar(500) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NULL,
+    [Manufacturer] nvarchar(100) NOT NULL,
+    [Rating] float NOT NULL,
+    [ReviewCount] int NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2026-03-20 23:04:25.672 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.680 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-20 23:04:25.685 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (12ms).
+2026-03-20 23:04:25.688 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_Category] ON [Products] ([Category]);
+2026-03-20 23:04:25.700 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_Category] ON [Products] ([Category]);
+2026-03-20 23:04:25.706 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.709 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2026-03-20 23:04:25.713 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-20 23:04:25.717 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_CreatedAt] ON [Products] ([CreatedAt]);
+2026-03-20 23:04:25.730 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_CreatedAt] ON [Products] ([CreatedAt]);
+2026-03-20 23:04:25.743 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.747 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2026-03-20 23:04:25.751 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2026-03-20 23:04:25.758 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_IsActive] ON [Products] ([IsActive]);
+2026-03-20 23:04:25.770 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_IsActive] ON [Products] ([IsActive]);
+2026-03-20 23:04:25.780 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.783 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2026-03-20 23:04:25.790 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2026-03-20 23:04:25.798 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_Name] ON [Products] ([Name]);
+2026-03-20 23:04:25.808 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_Name] ON [Products] ([Name]);
+2026-03-20 23:04:25.817 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.821 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2026-03-20 23:04:25.826 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-20 23:04:25.831 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Products_Sku] ON [Products] ([Sku]);
+2026-03-20 23:04:25.841 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Products_Sku] ON [Products] ([Sku]);
+2026-03-20 23:04:25.851 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.856 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2026-03-20 23:04:25.862 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (11ms).
+2026-03-20 23:04:25.868 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260319163111_InitialCreate', N'8.0.25');
+2026-03-20 23:04:25.889 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260319163111_InitialCreate', N'8.0.25');
+2026-03-20 23:04:25.903 +05:30 [DBG] Committing transaction.
+2026-03-20 23:04:25.914 +05:30 [DBG] Committed transaction.
+2026-03-20 23:04:25.922 +05:30 [DBG] Disposing transaction.
+2026-03-20 23:04:25.928 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.934 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:04:25.944 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:04:25.953 +05:30 [DBG] 'CatalogDbContext' disposed.
+2026-03-20 23:04:25.964 +05:30 [DBG] Disposing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.969 +05:30 [DBG] Disposed connection to database '' on server '' (5ms).
+2026-03-20 23:04:25.979 +05:30 [INF] Starting Catalog Service
+2026-03-20 23:04:25.982 +05:30 [INF] Swagger UI will be available at: https://localhost:7003/
+2026-03-20 23:04:25.985 +05:30 [INF] Health check available at: https://localhost:7003/health
+2026-03-20 23:04:25.995 +05:30 [DBG] Hosting starting
+2026-03-20 23:04:26.520 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-20 23:04:26.525 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-20 23:04:26.528 +05:30 [DBG] Loaded hosting startup assembly api-catalog-service
+2026-03-20 23:04:26.532 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-20 23:04:26.535 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-20 23:04:26.538 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-20 23:04:26.728 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-20 23:04:26.754 +05:30 [INF] Hosting environment: Development
+2026-03-20 23:04:26.777 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service
+2026-03-20 23:04:26.797 +05:30 [DBG] Hosting started
+2026-03-20 23:04:26.820 +05:30 [DBG] Connection id "0HNK6KRNIDSAH" accepted.
+2026-03-20 23:04:26.821 +05:30 [DBG] Connection id "0HNK6KRNIDSAH" received FIN.
+2026-03-20 23:04:26.820 +05:30 [DBG] Connection id "0HNK6KRNIDSAI" accepted.
+2026-03-20 23:04:26.830 +05:30 [DBG] Connection id "0HNK6KRNIDSAI" received FIN.
+2026-03-20 23:04:26.921 +05:30 [DBG] Connection id "0HNK6KRNIDSAI" started.
+2026-03-20 23:04:26.882 +05:30 [DBG] Connection id "0HNK6KRNIDSAH" started.
+2026-03-20 23:04:27.041 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:04:27.041 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:04:27.435 +05:30 [DBG] Connection id "0HNK6KRNIDSAH" stopped.
+2026-03-20 23:04:27.509 +05:30 [DBG] Connection id "0HNK6KRNIDSAI" stopped.
+2026-03-20 23:04:27.616 +05:30 [DBG] Connection id "0HNK6KRNIDSAH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:04:27.636 +05:30 [DBG] Connection id "0HNK6KRNIDSAI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:04:28.326 +05:30 [DBG] Connection id "0HNK6KRNIDSAJ" accepted.
+2026-03-20 23:04:28.348 +05:30 [DBG] Connection id "0HNK6KRNIDSAJ" started.
+2026-03-20 23:04:28.387 +05:30 [DBG] Connection id "0HNK6KRNIDSAK" accepted.
+2026-03-20 23:04:28.413 +05:30 [DBG] Connection id "0HNK6KRNIDSAK" started.
+2026-03-20 23:04:28.523 +05:30 [DBG] Connection 0HNK6KRNIDSAJ established using the following protocol: "Tls13"
+2026-03-20 23:04:28.523 +05:30 [DBG] Connection 0HNK6KRNIDSAK established using the following protocol: "Tls13"
+2026-03-20 23:04:28.915 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-20 23:04:29.563 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-20 23:11:06.088 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:11:06.302 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:11:06.393 +05:30 [INF] Applying database migrations...
+2026-03-20 23:11:06.894 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:11:06.953 +05:30 [INF] Database migration starting...
+2026-03-20 23:11:07.822 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CatalogDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:11:07.839 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:11:07.912 +05:30 [DBG] Created DbConnection. (65ms).
+2026-03-20 23:11:07.921 +05:30 [DBG] Migrating using database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:07.940 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.604 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.625 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:11:08.647 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (18ms).
+2026-03-20 23:11:08.656 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (32ms).
+2026-03-20 23:11:08.674 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.753 +05:30 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.770 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.789 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (14ms).
+2026-03-20 23:11:08.800 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:11:08.803 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2026-03-20 23:11:08.806 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (6ms).
+2026-03-20 23:11:08.809 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.813 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.816 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:08.855 +05:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:08.860 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.864 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:11:08.872 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.876 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.892 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:11:08.895 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2026-03-20 23:11:08.899 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-20 23:11:08.905 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.919 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.957 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.961 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:11:08.966 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:11:08.971 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2026-03-20 23:11:08.974 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2026-03-20 23:11:08.978 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.982 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.986 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:08.994 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:09.009 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.014 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (4ms).
+2026-03-20 23:11:09.061 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.065 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.072 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:11:09.080 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2026-03-20 23:11:09.092 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (20ms).
+2026-03-20 23:11:09.108 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:11:09.117 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:11:09.140 +05:30 [DBG] Closing data reader to 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.145 +05:30 [DBG] A data reader for 'CatalogServiceDB' on server 'localhost' is being disposed after spending 17ms reading results.
+2026-03-20 23:11:09.150 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.154 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (4ms).
+2026-03-20 23:11:09.176 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-20 23:11:09.179 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:11:09.184 +05:30 [DBG] 'CatalogDbContext' disposed.
+2026-03-20 23:11:09.191 +05:30 [DBG] Disposing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.197 +05:30 [DBG] Disposed connection to database '' on server '' (5ms).
+2026-03-20 23:11:09.206 +05:30 [INF] Starting Catalog Service
+2026-03-20 23:11:09.209 +05:30 [INF] Swagger UI will be available at: https://localhost:7003/
+2026-03-20 23:11:09.211 +05:30 [INF] Health check available at: https://localhost:7003/health
+2026-03-20 23:11:09.220 +05:30 [DBG] Hosting starting
+2026-03-20 23:11:09.675 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-20 23:11:09.682 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-20 23:11:09.687 +05:30 [DBG] Loaded hosting startup assembly api-catalog-service
+2026-03-20 23:11:09.692 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-20 23:11:09.694 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-20 23:11:09.697 +05:30 [DBG] Connection id "0HNK6KVFKIE6D" received FIN.
+2026-03-20 23:11:09.698 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-20 23:11:09.714 +05:30 [DBG] Connection id "0HNK6KVFKIE6D" accepted.
+2026-03-20 23:11:09.722 +05:30 [DBG] Connection id "0HNK6KVFKIE6D" started.
+2026-03-20 23:11:09.755 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:11:09.804 +05:30 [DBG] Connection id "0HNK6KVFKIE6D" stopped.
+2026-03-20 23:11:09.813 +05:30 [DBG] Connection id "0HNK6KVFKIE6D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:11:09.980 +05:30 [DBG] Connection id "0HNK6KVFKIE6E" accepted.
+2026-03-20 23:11:10.043 +05:30 [DBG] Connection id "0HNK6KVFKIE6E" started.
+2026-03-20 23:11:10.054 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-20 23:11:10.106 +05:30 [INF] Hosting environment: Development
+2026-03-20 23:11:10.125 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service
+2026-03-20 23:11:10.139 +05:30 [DBG] Hosting started
+2026-03-20 23:11:10.236 +05:30 [DBG] Connection 0HNK6KVFKIE6E established using the following protocol: "Tls13"
+2026-03-20 23:11:10.525 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-20 23:11:11.474 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-20 23:11:11.940 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-20 23:11:11.969 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-20 23:11:12.066 +05:30 [INF] HTTP GET /index.html responded 200 in 525.6077 ms
+2026-03-20 23:11:12.070 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-20 23:11:12.070 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-20 23:11:12.080 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-20 23:11:12.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 67.9128ms
+2026-03-20 23:11:12.154 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-20 23:11:12.247 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 1731.865ms
+2026-03-20 23:11:12.342 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 271.7799ms
+2026-03-20 23:11:16.405 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-20 23:11:16.886 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 461.6667 ms
+2026-03-20 23:11:16.900 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 494.8334ms
+2026-03-20 23:22:54.750 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Products - application/json 265
+2026-03-20 23:22:54.783 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:22:54.792 +05:30 [DBG] The request has an origin header: 'https://localhost:7003'.
+2026-03-20 23:22:54.797 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:22:54.857 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products'
+2026-03-20 23:22:54.879 +05:30 [DBG] Endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)' with route pattern 'api/Products' is valid for the request path '/api/Products'
+2026-03-20 23:22:54.894 +05:30 [DBG] Request matched endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:22:54.909 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:22:54.975 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductsController (api-catalog-service).
+2026-03-20 23:22:54.987 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:22:55.006 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:22:55.020 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:22:55.030 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:22:55.038 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:22:55.047 +05:30 [DBG] Executing controller factory for controller api_catalog_service.Controllers.ProductsController (api-catalog-service)
+2026-03-20 23:22:55.060 +05:30 [DBG] Executed controller factory for controller api_catalog_service.Controllers.ProductsController (api-catalog-service)
+2026-03-20 23:22:55.115 +05:30 [DBG] Attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' ...
+2026-03-20 23:22:55.134 +05:30 [DBG] Attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' using the name '' in request data ...
+2026-03-20 23:22:55.151 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:22:55.199 +05:30 [DBG] Connection id "0HNK6KVFKIE6E", Request id "0HNK6KVFKIE6E:00000009": started reading request body.
+2026-03-20 23:22:55.205 +05:30 [DBG] Connection id "0HNK6KVFKIE6E", Request id "0HNK6KVFKIE6E:00000009": done reading request body.
+2026-03-20 23:22:55.267 +05:30 [DBG] JSON input formatter threw an exception: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $ | LineNumber: 9 | BytePositionInLine: 0.
+2026-03-20 23:22:55.276 +05:30 [DBG] Done attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:22:55.285 +05:30 [DBG] Done attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:22:55.293 +05:30 [DBG] Attempting to validate the bound parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' ...
+2026-03-20 23:22:55.335 +05:30 [DBG] Done attempting to validate the bound parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:22:55.346 +05:30 [DBG] The request has model state errors, returning an error response.
+2026-03-20 23:22:55.354 +05:30 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2026-03-20 23:22:55.366 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:22:55.379 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2026-03-20 23:22:55.390 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:22:55.394 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2026-03-20 23:22:55.400 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2026-03-20 23:22:55.403 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-20 23:22:55.482 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service) in 419.2348ms
+2026-03-20 23:22:55.488 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:22:55.491 +05:30 [INF] HTTP POST /api/Products responded 400 in 712.8115 ms
+2026-03-20 23:22:55.497 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Products - 400 null application/problem+json; charset=utf-8 747.6359ms
+2026-03-20 23:23:15.551 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Products - application/json 264
+2026-03-20 23:23:15.571 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:23:15.581 +05:30 [DBG] The request has an origin header: 'https://localhost:7003'.
+2026-03-20 23:23:15.589 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:23:15.597 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products'
+2026-03-20 23:23:15.602 +05:30 [DBG] Endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)' with route pattern 'api/Products' is valid for the request path '/api/Products'
+2026-03-20 23:23:15.606 +05:30 [DBG] Request matched endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:23:15.614 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:23:15.619 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductsController (api-catalog-service).
+2026-03-20 23:23:15.625 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:23:15.630 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:23:15.637 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:23:15.641 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:23:15.646 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:23:15.651 +05:30 [DBG] Executing controller factory for controller api_catalog_service.Controllers.ProductsController (api-catalog-service)
+2026-03-20 23:23:15.655 +05:30 [DBG] Executed controller factory for controller api_catalog_service.Controllers.ProductsController (api-catalog-service)
+2026-03-20 23:23:15.658 +05:30 [DBG] Attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' ...
+2026-03-20 23:23:15.662 +05:30 [DBG] Attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' using the name '' in request data ...
+2026-03-20 23:23:15.669 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:23:15.674 +05:30 [DBG] Connection id "0HNK6KVFKIE6E", Request id "0HNK6KVFKIE6E:0000000B": started reading request body.
+2026-03-20 23:23:15.678 +05:30 [DBG] Connection id "0HNK6KVFKIE6E", Request id "0HNK6KVFKIE6E:0000000B": done reading request body.
+2026-03-20 23:23:15.687 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'api_catalog_service.DTOs.CreateProductDto'
+2026-03-20 23:23:15.693 +05:30 [DBG] Done attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:23:15.697 +05:30 [DBG] Done attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:23:15.700 +05:30 [DBG] Attempting to validate the bound parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' ...
+2026-03-20 23:23:15.719 +05:30 [DBG] Done attempting to validate the bound parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:23:15.726 +05:30 [INF] POST: New product creation requested for SKU LAPTOP-001
+2026-03-20 23:23:15.734 +05:30 [INF] Creating new product: LAPTOP-001
+2026-03-20 23:23:15.850 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CatalogDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:23:15.961 +05:30 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .Any(p => p.Sku.ToLower() == __ToLower_0)'
+2026-03-20 23:23:16.327 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Products AS p
+                WHERE LOWER(p.Sku) == @__ToLower_0)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        api_catalog_service.Data.CatalogDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2026-03-20 23:23:16.406 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:23:16.411 +05:30 [DBG] Created DbConnection. (5ms).
+2026-03-20 23:23:16.416 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:16.816 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:16.823 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:23:16.826 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2026-03-20 23:23:16.833 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (10ms).
+2026-03-20 23:23:16.842 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p]
+        WHERE LOWER([p].[Sku]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:23:16.906 +05:30 [INF] Executed DbCommand (67ms) [Parameters=[@__ToLower_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p]
+        WHERE LOWER([p].[Sku]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:23:16.918 +05:30 [DBG] Closing data reader to 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:16.923 +05:30 [DBG] A data reader for 'CatalogServiceDB' on server 'localhost' is being disposed after spending 12ms reading results.
+2026-03-20 23:23:16.926 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:16.930 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (4ms).
+2026-03-20 23:23:16.984 +05:30 [DBG] 'CatalogDbContext' generated a temporary value for the property 'Product.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:23:17.130 +05:30 [DBG] Context 'CatalogDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:23:17.141 +05:30 [DBG] SaveChanges starting for 'CatalogDbContext'.
+2026-03-20 23:23:17.148 +05:30 [DBG] DetectChanges starting for 'CatalogDbContext'.
+2026-03-20 23:23:17.194 +05:30 [DBG] DetectChanges completed for 'CatalogDbContext'.
+2026-03-20 23:23:17.302 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:17.306 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:17.314 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:23:17.317 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2026-03-20 23:23:17.328 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2026-03-20 23:23:17.336 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 2000), @p3='?' (Size = 500), @p4='?' (DbType = Boolean), @p5='?' (Size = 100), @p6='?' (Size = 200), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (DbType = Double), @p9='?' (DbType = Int32), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [CreatedAt], [Description], [ImageUrl], [IsActive], [Manufacturer], [Name], [Price], [Rating], [ReviewCount], [Sku], [StockQuantity], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-20 23:23:17.358 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 2000), @p3='?' (Size = 500), @p4='?' (DbType = Boolean), @p5='?' (Size = 100), @p6='?' (Size = 200), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (DbType = Double), @p9='?' (DbType = Int32), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [CreatedAt], [Description], [ImageUrl], [IsActive], [Manufacturer], [Name], [Price], [Rating], [ReviewCount], [Sku], [StockQuantity], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-20 23:23:17.404 +05:30 [DBG] The foreign key property 'Product.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2026-03-20 23:23:17.421 +05:30 [DBG] Closing data reader to 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:17.431 +05:30 [DBG] A data reader for 'CatalogServiceDB' on server 'localhost' is being disposed after spending 52ms reading results.
+2026-03-20 23:23:17.438 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:17.442 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (4ms).
+2026-03-20 23:23:17.469 +05:30 [DBG] An entity of type 'Product' tracked by 'CatalogDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:23:17.480 +05:30 [DBG] SaveChanges completed for 'CatalogDbContext' with 1 entities written to the database.
+2026-03-20 23:23:17.487 +05:30 [INF] Product created successfully: 1
+2026-03-20 23:23:17.499 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:23:17.510 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-03-20 23:23:17.516 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:23:17.521 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-03-20 23:23:17.524 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-03-20 23:23:17.527 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-03-20 23:23:17.532 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'api_catalog_service.DTOs.ProductDto'.
+2026-03-20 23:23:17.578 +05:30 [DBG] Found the endpoints ["api_catalog_service.Controllers.ProductsController.GetProductById (api-catalog-service)"] for address (id=[1],action=[GetProductById],controller=[Products])
+2026-03-20 23:23:17.588 +05:30 [DBG] Successfully processed template api/Products/{id} for api_catalog_service.Controllers.ProductsController.GetProductById (api-catalog-service) resulting in /api/Products/1 and 
+2026-03-20 23:23:17.593 +05:30 [DBG] Link generation succeeded for endpoints ["api_catalog_service.Controllers.ProductsController.GetProductById (api-catalog-service)"] with result /api/Products/1
+2026-03-20 23:23:17.629 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service) in 1978.5693ms
+2026-03-20 23:23:17.633 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:23:17.637 +05:30 [INF] HTTP POST /api/Products responded 201 in 2066.9381 ms
+2026-03-20 23:23:17.640 +05:30 [DBG] 'CatalogDbContext' disposed.
+2026-03-20 23:23:17.645 +05:30 [DBG] Disposing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:17.647 +05:30 [DBG] Disposed connection to database '' on server '' (2ms).
+2026-03-20 23:23:17.650 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Products - 201 null application/json; charset=utf-8 2099.1323ms
+2026-03-20 23:23:37.783 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Products - application/json 256
+2026-03-20 23:23:37.801 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:23:37.803 +05:30 [DBG] The request has an origin header: 'https://localhost:7003'.
+2026-03-20 23:23:37.807 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:23:37.809 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products'
+2026-03-20 23:23:37.813 +05:30 [DBG] Endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)' with route pattern 'api/Products' is valid for the request path '/api/Products'
+2026-03-20 23:23:37.821 +05:30 [DBG] Request matched endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:23:37.825 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:23:37.828 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductsController (api-catalog-service).
+2026-03-20 23:23:37.837 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:23:37.842 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:23:37.847 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:23:37.854 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:23:37.859 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:23:37.863 +05:30 [DBG] Executing controller factory for controller api_catalog_service.Controllers.ProductsController (api-catalog-service)
+2026-03-20 23:23:37.877 +05:30 [DBG] Executed controller factory for controller api_catalog_service.Controllers.ProductsController (api-catalog-service)
+2026-03-20 23:23:37.881 +05:30 [DBG] Attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' ...
+2026-03-20 23:23:37.890 +05:30 [DBG] Attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' using the name '' in request data ...
+2026-03-20 23:23:37.896 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:23:37.904 +05:30 [DBG] Connection id "0HNK6KVFKIE6E", Request id "0HNK6KVFKIE6E:0000000D": started reading request body.
+2026-03-20 23:23:37.909 +05:30 [DBG] Connection id "0HNK6KVFKIE6E", Request id "0HNK6KVFKIE6E:0000000D": done reading request body.
+2026-03-20 23:23:37.914 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'api_catalog_service.DTOs.CreateProductDto'
+2026-03-20 23:23:37.920 +05:30 [DBG] Done attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:23:37.925 +05:30 [DBG] Done attempting to bind parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:23:37.930 +05:30 [DBG] Attempting to validate the bound parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto' ...
+2026-03-20 23:23:37.938 +05:30 [DBG] Done attempting to validate the bound parameter 'createProductDto' of type 'api_catalog_service.DTOs.CreateProductDto'.
+2026-03-20 23:23:37.942 +05:30 [INF] POST: New product creation requested for SKU PHONE-001
+2026-03-20 23:23:37.947 +05:30 [INF] Creating new product: PHONE-001
+2026-03-20 23:23:38.107 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CatalogDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:23:38.122 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:23:38.125 +05:30 [DBG] Created DbConnection. (3ms).
+2026-03-20 23:23:38.128 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.131 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.135 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:23:38.137 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2026-03-20 23:23:38.140 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2026-03-20 23:23:38.143 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p]
+        WHERE LOWER([p].[Sku]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:23:38.173 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[@__ToLower_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p]
+        WHERE LOWER([p].[Sku]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:23:38.189 +05:30 [DBG] Closing data reader to 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.198 +05:30 [DBG] A data reader for 'CatalogServiceDB' on server 'localhost' is being disposed after spending 8ms reading results.
+2026-03-20 23:23:38.208 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.214 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:23:38.221 +05:30 [DBG] 'CatalogDbContext' generated a temporary value for the property 'Product.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:23:38.229 +05:30 [DBG] Context 'CatalogDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:23:38.234 +05:30 [DBG] SaveChanges starting for 'CatalogDbContext'.
+2026-03-20 23:23:38.236 +05:30 [DBG] DetectChanges starting for 'CatalogDbContext'.
+2026-03-20 23:23:38.239 +05:30 [DBG] DetectChanges completed for 'CatalogDbContext'.
+2026-03-20 23:23:38.244 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.249 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.254 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:23:38.258 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2026-03-20 23:23:38.262 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2026-03-20 23:23:38.268 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 2000), @p3='?' (Size = 500), @p4='?' (DbType = Boolean), @p5='?' (Size = 100), @p6='?' (Size = 200), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (DbType = Double), @p9='?' (DbType = Int32), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [CreatedAt], [Description], [ImageUrl], [IsActive], [Manufacturer], [Name], [Price], [Rating], [ReviewCount], [Sku], [StockQuantity], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-20 23:23:38.285 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 2000), @p3='?' (Size = 500), @p4='?' (DbType = Boolean), @p5='?' (Size = 100), @p6='?' (Size = 200), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (DbType = Double), @p9='?' (DbType = Int32), @p10='?' (Size = 50), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [CreatedAt], [Description], [ImageUrl], [IsActive], [Manufacturer], [Name], [Price], [Rating], [ReviewCount], [Sku], [StockQuantity], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-20 23:23:38.293 +05:30 [DBG] The foreign key property 'Product.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2026-03-20 23:23:38.298 +05:30 [DBG] Closing data reader to 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.305 +05:30 [DBG] A data reader for 'CatalogServiceDB' on server 'localhost' is being disposed after spending 11ms reading results.
+2026-03-20 23:23:38.310 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.315 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (4ms).
+2026-03-20 23:23:38.321 +05:30 [DBG] An entity of type 'Product' tracked by 'CatalogDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:23:38.327 +05:30 [DBG] SaveChanges completed for 'CatalogDbContext' with 1 entities written to the database.
+2026-03-20 23:23:38.333 +05:30 [INF] Product created successfully: 2
+2026-03-20 23:23:38.337 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:23:38.344 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-03-20 23:23:38.348 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:23:38.354 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-03-20 23:23:38.357 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-03-20 23:23:38.359 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-03-20 23:23:38.364 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'api_catalog_service.DTOs.ProductDto'.
+2026-03-20 23:23:38.370 +05:30 [DBG] Found the endpoints ["api_catalog_service.Controllers.ProductsController.GetProductById (api-catalog-service)"] for address (id=[2],action=[GetProductById],controller=[Products])
+2026-03-20 23:23:38.376 +05:30 [DBG] Successfully processed template api/Products/{id} for api_catalog_service.Controllers.ProductsController.GetProductById (api-catalog-service) resulting in /api/Products/2 and 
+2026-03-20 23:23:38.385 +05:30 [DBG] Link generation succeeded for endpoints ["api_catalog_service.Controllers.ProductsController.GetProductById (api-catalog-service)"] with result /api/Products/2
+2026-03-20 23:23:38.390 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service) in 527.3808ms
+2026-03-20 23:23:38.394 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductsController.CreateProduct (api-catalog-service)'
+2026-03-20 23:23:38.396 +05:30 [INF] HTTP POST /api/Products responded 201 in 595.3637 ms
+2026-03-20 23:23:38.405 +05:30 [DBG] 'CatalogDbContext' disposed.
+2026-03-20 23:23:38.411 +05:30 [DBG] Disposing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:38.417 +05:30 [DBG] Disposed connection to database '' on server '' (5ms).
+2026-03-20 23:23:38.420 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Products - 201 null application/json; charset=utf-8 638.0679ms
+2026-03-20 23:23:51.288 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/api/Products - null null
+2026-03-20 23:23:51.294 +05:30 [DBG] The request path /api/Products does not match a supported file type
+2026-03-20 23:23:51.296 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products'
+2026-03-20 23:23:51.300 +05:30 [DBG] Endpoint 'api_catalog_service.Controllers.ProductsController.GetAllProducts (api-catalog-service)' with route pattern 'api/Products' is valid for the request path '/api/Products'
+2026-03-20 23:23:51.306 +05:30 [DBG] Request matched endpoint 'api_catalog_service.Controllers.ProductsController.GetAllProducts (api-catalog-service)'
+2026-03-20 23:23:51.310 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductsController.GetAllProducts (api-catalog-service)'
+2026-03-20 23:23:51.325 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[api_catalog_service.DTOs.ProductDto]]] GetAllProducts() on controller api_catalog_service.Controllers.ProductsController (api-catalog-service).
+2026-03-20 23:23:51.336 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:23:51.343 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:23:51.347 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:23:51.353 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:23:51.357 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:23:51.360 +05:30 [DBG] Executing controller factory for controller api_catalog_service.Controllers.ProductsController (api-catalog-service)
+2026-03-20 23:23:51.363 +05:30 [DBG] Executed controller factory for controller api_catalog_service.Controllers.ProductsController (api-catalog-service)
+2026-03-20 23:23:51.370 +05:30 [INF] GET: All products requested
+2026-03-20 23:23:51.374 +05:30 [INF] Getting all products
+2026-03-20 23:23:51.381 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CatalogDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:23:51.394 +05:30 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .OrderByDescending(p => p.CreatedAt)'
+2026-03-20 23:23:51.491 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Category (string) Required Index MaxLength(100), 1], [Property: Product.CreatedAt (DateTime) Required Index, 2], [Property: Product.Description (string) Required MaxLength(2000), 3], [Property: Product.ImageUrl (string) Required MaxLength(500), 4], [Property: Product.IsActive (bool) Required Index, 5], [Property: Product.Manufacturer (string) Required MaxLength(100), 6], [Property: Product.Name (string) Required Index MaxLength(200), 7], [Property: Product.Price (decimal) Required, 8], [Property: Product.Rating (double) Required, 9], [Property: Product.ReviewCount (int) Required, 10], [Property: Product.Sku (string) Required Index MaxLength(50), 11], [Property: Product.StockQuantity (int) Required, 12], [Property: Product.UpdatedAt (DateTime?), 13] }
+        SELECT p.Id, p.Category, p.CreatedAt, p.Description, p.ImageUrl, p.IsActive, p.Manufacturer, p.Name, p.Price, p.Rating, p.ReviewCount, p.Sku, p.StockQuantity, p.UpdatedAt
+        FROM Products AS p
+        ORDER BY p.CreatedAt DESC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    api_catalog_service.Data.CatalogDbContext, 
+    False, 
+    False, 
+    True
+)'
+2026-03-20 23:23:51.523 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:23:51.525 +05:30 [DBG] Created DbConnection. (1ms).
+2026-03-20 23:23:51.526 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:51.530 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:51.535 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:23:51.538 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2026-03-20 23:23:51.541 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2026-03-20 23:23:51.546 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[CreatedAt], [p].[Description], [p].[ImageUrl], [p].[IsActive], [p].[Manufacturer], [p].[Name], [p].[Price], [p].[Rating], [p].[ReviewCount], [p].[Sku], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+ORDER BY [p].[CreatedAt] DESC
+2026-03-20 23:23:51.557 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[CreatedAt], [p].[Description], [p].[ImageUrl], [p].[IsActive], [p].[Manufacturer], [p].[Name], [p].[Price], [p].[Rating], [p].[ReviewCount], [p].[Sku], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+ORDER BY [p].[CreatedAt] DESC
+2026-03-20 23:23:51.580 +05:30 [DBG] Context 'CatalogDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:23:51.587 +05:30 [DBG] Context 'CatalogDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:23:51.593 +05:30 [DBG] Closing data reader to 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:51.598 +05:30 [DBG] A data reader for 'CatalogServiceDB' on server 'localhost' is being disposed after spending 29ms reading results.
+2026-03-20 23:23:51.604 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:51.608 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:23:51.616 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:23:51.628 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-03-20 23:23:51.636 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:23:51.645 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-03-20 23:23:51.649 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-03-20 23:23:51.653 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-03-20 23:23:51.659 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[api_catalog_service.DTOs.ProductDto, api-catalog-service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-20 23:23:51.671 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductsController.GetAllProducts (api-catalog-service) in 310.0755ms
+2026-03-20 23:23:51.680 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductsController.GetAllProducts (api-catalog-service)'
+2026-03-20 23:23:51.685 +05:30 [INF] HTTP GET /api/Products responded 200 in 391.2713 ms
+2026-03-20 23:23:51.691 +05:30 [DBG] 'CatalogDbContext' disposed.
+2026-03-20 23:23:51.694 +05:30 [DBG] Disposing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:23:51.699 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2026-03-20 23:23:51.705 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/api/Products - 200 null application/json; charset=utf-8 417.6032ms
+2026-03-20 23:39:00.725 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:39:01.509 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:39:01.841 +05:30 [INF] Applying database migrations...
+2026-03-20 23:39:02.432 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:39:02.587 +05:30 [INF] Database migration starting...
+2026-03-20 23:39:04.805 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CatalogDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:39:04.847 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:39:05.036 +05:30 [DBG] Created DbConnection. (180ms).
+2026-03-20 23:39:05.062 +05:30 [DBG] Migrating using database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.095 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:06.915 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:06.970 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:39:07.023 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (44ms).
+2026-03-20 23:39:07.044 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (85ms).
+2026-03-20 23:39:07.101 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:07.266 +05:30 [INF] Executed DbCommand (164ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:07.299 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.368 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (55ms).
+2026-03-20 23:39:07.428 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:39:07.435 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (8ms).
+2026-03-20 23:39:07.455 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (28ms).
+2026-03-20 23:39:07.466 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.479 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.489 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:07.621 +05:30 [INF] Executed DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:07.671 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.681 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (10ms).
+2026-03-20 23:39:07.711 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.720 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.732 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:39:07.737 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2026-03-20 23:39:07.749 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (16ms).
+2026-03-20 23:39:07.758 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:07.776 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:07.791 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.797 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:39:07.807 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:39:07.813 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (6ms).
+2026-03-20 23:39:07.820 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (12ms).
+2026-03-20 23:39:07.827 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.834 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.844 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:07.877 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:07.913 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.932 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (18ms).
+2026-03-20 23:39:08.042 +05:30 [DBG] Opening connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.121 +05:30 [DBG] Opened connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.136 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:39:08.154 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (17ms).
+2026-03-20 23:39:08.197 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (60ms).
+2026-03-20 23:39:08.292 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:39:08.375 +05:30 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:39:08.451 +05:30 [DBG] Closing data reader to 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.500 +05:30 [DBG] A data reader for 'CatalogServiceDB' on server 'localhost' is being disposed after spending 83ms reading results.
+2026-03-20 23:39:08.517 +05:30 [DBG] Closing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.526 +05:30 [DBG] Closed connection to database 'CatalogServiceDB' on server 'localhost' (8ms).
+2026-03-20 23:39:08.614 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-20 23:39:08.647 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:39:08.665 +05:30 [DBG] 'CatalogDbContext' disposed.
+2026-03-20 23:39:08.707 +05:30 [DBG] Disposing connection to database 'CatalogServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.730 +05:30 [DBG] Disposed connection to database '' on server '' (26ms).
+2026-03-20 23:39:08.735 +05:30 [INF] Starting Catalog Service
+2026-03-20 23:39:08.738 +05:30 [INF] Swagger UI will be available at: https://localhost:7003/
+2026-03-20 23:39:08.751 +05:30 [INF] Health check available at: https://localhost:7003/health
+2026-03-20 23:39:08.792 +05:30 [DBG] Hosting starting
+2026-03-20 23:39:09.715 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-20 23:39:09.738 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-20 23:39:09.748 +05:30 [DBG] Loaded hosting startup assembly api-catalog-service
+2026-03-20 23:39:09.771 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-20 23:39:09.788 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-20 23:39:09.795 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-20 23:39:09.907 +05:30 [DBG] Connection id "0HNK6LF4C9O9V" received FIN.
+2026-03-20 23:39:09.923 +05:30 [DBG] Connection id "0HNK6LF4C9O9V" accepted.
+2026-03-20 23:39:09.970 +05:30 [DBG] Connection id "0HNK6LF4C9O9V" started.
+2026-03-20 23:39:10.069 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:39:10.407 +05:30 [DBG] Connection id "0HNK6LF4C9O9V" stopped.
+2026-03-20 23:39:10.485 +05:30 [DBG] Connection id "0HNK6LF4C9O9V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:39:10.571 +05:30 [DBG] Connection id "0HNK6LF4C9OA0" accepted.
+2026-03-20 23:39:10.591 +05:30 [DBG] Connection id "0HNK6LF4C9OA0" started.
+2026-03-20 23:39:10.705 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-20 23:39:10.763 +05:30 [INF] Hosting environment: Development
+2026-03-20 23:39:10.794 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service
+2026-03-20 23:39:10.803 +05:30 [DBG] Hosting started
+2026-03-20 23:39:10.878 +05:30 [DBG] Connection 0HNK6LF4C9OA0 established using the following protocol: "Tls13"
+2026-03-20 23:39:11.299 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-20 23:39:11.949 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-20 23:39:12.270 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-20 23:39:12.279 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-20 23:39:12.383 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-20 23:39:12.383 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-20 23:39:12.377 +05:30 [INF] HTTP GET /index.html responded 200 in 404.6107 ms
+2026-03-20 23:39:12.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 51.6296ms
+2026-03-20 23:39:12.491 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-20 23:39:12.557 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-20 23:39:12.575 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 1288.3508ms
+2026-03-20 23:39:12.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 314.1841ms
+2026-03-20 23:39:15.695 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-20 23:39:16.030 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 314.0969 ms
+2026-03-20 23:39:16.046 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 352.0975ms

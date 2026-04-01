@@ -1,0 +1,749 @@
+2026-03-25 22:24:36.862 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 22:24:37.952 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 22:24:37.987 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 22:24:43.083 +05:30 [WRN] ⚠️ RabbitMQ connection failed - events won't be published. Make sure RabbitMQ is running on localhost:5672
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.Impl.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 55
+2026-03-25 22:24:46.094 +05:30 [INF] Applying database migrations...
+2026-03-25 22:24:50.314 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:50.542 +05:30 [INF] Executed DbCommand (176ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:50.565 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:50.582 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:50.682 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:24:50.747 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 22:24:50.752 +05:30 [INF] ✅ Database migrations completed successfully
+2026-03-25 22:24:51.461 +05:30 [INF] ✅ CatalogService started successfully
+2026-03-25 22:24:52.609 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-25 22:24:52.616 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-25 22:24:53.302 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 22:24:53.337 +05:30 [INF] Hosting environment: Development
+2026-03-25 22:24:53.353 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service
+2026-03-25 22:24:55.075 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-25 22:24:56.131 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 1059.6485ms
+2026-03-25 22:24:56.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-25 22:24:56.190 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 22:24:56.442 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 251.9506ms
+2026-03-25 22:24:56.547 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 322.6233ms
+2026-03-25 22:24:56.716 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-25 22:24:57.326 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 609.7858ms
+2026-03-25 22:27:04.214 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Product - application/json 198
+2026-03-25 22:27:04.240 +05:30 [INF] CORS policy execution successful.
+2026-03-25 22:27:04.252 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 22:27:04.317 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 22:27:04.348 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service) in 13.4837ms
+2026-03-25 22:27:04.357 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 22:27:04.363 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'api_catalog_service.Publishers.IEventPublisher' while attempting to activate 'api_catalog_service.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-25 22:27:04.407 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Product - 500 null text/plain; charset=utf-8 193.4323ms
+2026-03-25 22:28:22.151 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Product - application/json 198
+2026-03-25 22:28:22.170 +05:30 [INF] CORS policy execution successful.
+2026-03-25 22:28:22.172 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 22:28:22.174 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 22:28:22.181 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service) in 2.158ms
+2026-03-25 22:28:22.186 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 22:28:22.191 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'api_catalog_service.Publishers.IEventPublisher' while attempting to activate 'api_catalog_service.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-25 22:28:22.203 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Product - 500 null text/plain; charset=utf-8 52.2346ms
+2026-03-25 22:30:41.999 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Product - application/json 198
+2026-03-25 22:30:42.015 +05:30 [INF] CORS policy execution successful.
+2026-03-25 22:30:42.018 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 22:30:42.023 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 22:30:42.035 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service) in 5.8118ms
+2026-03-25 22:30:42.045 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 22:30:42.055 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'api_catalog_service.Publishers.IEventPublisher' while attempting to activate 'api_catalog_service.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-25 22:30:42.075 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Product - 500 null text/plain; charset=utf-8 75.9509ms
+2026-03-25 22:30:49.701 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-25 22:30:49.778 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 77.5055ms
+2026-03-25 22:30:49.853 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 22:30:49.854 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-25 22:30:49.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 24.1949ms
+2026-03-25 22:30:49.941 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.4495ms
+2026-03-25 22:30:49.974 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-25 22:30:49.984 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/favicon-32x32.png - null null
+2026-03-25 22:30:50.034 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.7526ms
+2026-03-25 22:30:50.039 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-03-25 22:30:50.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/favicon-32x32.png - 200 628 image/png 74.0186ms
+2026-03-25 22:30:57.352 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Product - application/json 198
+2026-03-25 22:30:57.361 +05:30 [INF] CORS policy execution successful.
+2026-03-25 22:30:57.363 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 22:30:57.366 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 22:30:57.371 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service) in 1.5415ms
+2026-03-25 22:30:57.376 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 22:30:57.383 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'api_catalog_service.Publishers.IEventPublisher' while attempting to activate 'api_catalog_service.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-25 22:30:57.407 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Product - 500 null text/plain; charset=utf-8 54.3653ms
+2026-03-25 22:31:23.112 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/api/Product - null null
+2026-03-25 22:31:23.134 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 22:31:23.145 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[api_catalog_service.DTOs.ProductDto]]] GetAllProducts() on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 22:31:23.156 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service) in 2.0726ms
+2026-03-25 22:31:23.161 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 22:31:23.166 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'api_catalog_service.Publishers.IEventPublisher' while attempting to activate 'api_catalog_service.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-25 22:31:23.182 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/api/Product - 500 null text/plain; charset=utf-8 69.6614ms
+2026-03-25 22:47:43.217 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 22:47:44.301 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 22:47:44.337 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 22:47:48.729 +05:30 [WRN] ⚠️ RabbitMQ connection failed - events won't be published. Make sure RabbitMQ is running on localhost:5672
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.Impl.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 55
+2026-03-25 22:47:50.962 +05:30 [INF] Applying database migrations...
+2026-03-25 22:47:54.500 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:54.587 +05:30 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:54.604 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:54.617 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:54.666 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:47:54.701 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 22:47:54.704 +05:30 [INF] ✅ Database migrations completed successfully
+2026-03-25 22:47:54.939 +05:30 [INF] ✅ CatalogService started successfully
+2026-03-25 22:47:55.450 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-25 22:47:55.453 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-25 22:47:55.543 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 22:47:55.547 +05:30 [INF] Hosting environment: Development
+2026-03-25 22:47:55.549 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service
+2026-03-25 22:47:56.319 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-25 22:47:56.790 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 475.4424ms
+2026-03-25 22:47:56.804 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-25 22:47:56.804 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 22:47:56.846 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 43.6222ms
+2026-03-25 22:47:56.898 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.5697ms
+2026-03-25 22:47:56.927 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-25 22:47:57.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 201.0758ms
+2026-03-25 22:49:19.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/api/Product - null null
+2026-03-25 22:49:19.401 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 22:49:19.429 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[api_catalog_service.DTOs.ProductDto]]] GetAllProducts() on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 22:49:19.450 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service) in 6.7167ms
+2026-03-25 22:49:19.459 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 22:49:19.464 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'api_catalog_service.Publishers.IEventPublisher' while attempting to activate 'api_catalog_service.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-25 22:49:19.484 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/api/Product - 500 null text/plain; charset=utf-8 105.5006ms
+2026-03-25 23:28:03.594 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:28:04.781 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:28:04.847 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:28:09.229 +05:30 [WRN] ⚠️ RabbitMQ connection failed - events won't be published. Make sure RabbitMQ is running on localhost:5672
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.Impl.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 55
+2026-03-25 23:28:11.558 +05:30 [INF] Applying database migrations...
+2026-03-25 23:28:16.989 +05:30 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:17.090 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:17.110 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:17.124 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:17.192 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:28:17.259 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:28:17.264 +05:30 [INF] ✅ Database migrations completed successfully
+2026-03-25 23:28:17.725 +05:30 [INF] ✅ CatalogService started successfully
+2026-03-25 23:28:18.572 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-25 23:28:18.577 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-25 23:28:18.782 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:28:18.788 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:28:18.794 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service
+2026-03-25 23:28:19.616 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-25 23:28:20.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 549.2414ms
+2026-03-25 23:28:20.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-25 23:28:20.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:28:20.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 51.2842ms
+2026-03-25 23:28:20.277 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.591ms
+2026-03-25 23:28:20.419 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-25 23:28:20.666 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 247.6249ms
+2026-03-25 23:29:07.201 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/api/Product - null null
+2026-03-25 23:29:07.233 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 23:29:07.287 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[api_catalog_service.DTOs.ProductDto]]] GetAllProducts() on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 23:29:07.365 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service) in 9.8874ms
+2026-03-25 23:29:07.374 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 23:29:07.384 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'api_catalog_service.Publishers.IEventPublisher' while attempting to activate 'api_catalog_service.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-25 23:29:07.435 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/api/Product - 500 null text/plain; charset=utf-8 225.5569ms
+2026-03-25 23:45:09.848 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-25 23:45:09.923 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 75.1812ms
+2026-03-25 23:45:09.948 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-25 23:45:09.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:45:09.971 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 20.4969ms
+2026-03-25 23:45:10.014 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.835ms
+2026-03-25 23:45:10.049 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-25 23:45:10.119 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.3348ms
+2026-03-25 23:45:14.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/api/Product - null null
+2026-03-25 23:45:14.069 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 23:45:14.071 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[api_catalog_service.DTOs.ProductDto]]] GetAllProducts() on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 23:45:14.081 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service) in 4.4793ms
+2026-03-25 23:45:14.087 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 23:45:14.097 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'api_catalog_service.Publishers.IEventPublisher' while attempting to activate 'api_catalog_service.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-25 23:45:14.121 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/api/Product - 500 null text/plain; charset=utf-8 63.0775ms
+2026-03-25 23:46:15.868 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:46:17.319 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:46:17.466 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:46:19.068 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:46:20.971 +05:30 [INF] Applying database migrations...
+2026-03-25 23:46:26.047 +05:30 [INF] Executed DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:26.208 +05:30 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:26.271 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:26.303 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:26.492 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:46:26.614 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:46:26.632 +05:30 [INF] ✅ Database migrations completed successfully
+2026-03-25 23:46:26.679 +05:30 [INF] ✅ RabbitMQ Publisher initialized - Exchange: ecommerce.events
+2026-03-25 23:46:26.697 +05:30 [INF] ✅ RabbitMQ Publisher initialized on startup
+2026-03-25 23:46:27.332 +05:30 [INF] ✅ CatalogService started successfully
+2026-03-25 23:46:28.910 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-25 23:46:28.918 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-25 23:46:29.250 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:46:29.257 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:46:29.263 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service
+2026-03-25 23:46:31.587 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-25 23:46:32.988 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 1411.0025ms
+2026-03-25 23:46:33.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-25 23:46:33.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:46:33.402 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 392.5939ms
+2026-03-25 23:46:33.564 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 556.1599ms
+2026-03-25 23:46:33.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-25 23:46:34.499 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 554.1398ms
+2026-03-25 23:46:51.934 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/api/Product - null null
+2026-03-25 23:46:51.963 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 23:46:52.057 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[api_catalog_service.DTOs.ProductDto]]] GetAllProducts() on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 23:46:52.074 +05:30 [INF] GET: Retrieving all products
+2026-03-25 23:46:52.801 +05:30 [ERR] Failed executing DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[CreatedAt], [p].[DeletedAt], [p].[Description], [p].[IsActive], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Sku], [p].[Status], [p].[Stock], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[CreatedAt] DESC
+2026-03-25 23:46:52.884 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'api_catalog_service.Data.CatalogDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsDeleted'.
+Invalid column name 'DeletedAt'.
+Invalid column name 'IsDeleted'.
+Invalid column name 'Status'.
+Invalid column name 'Stock'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:9f6e2106-6b6d-4337-830f-fdd55fbbbbb2
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsDeleted'.
+Invalid column name 'DeletedAt'.
+Invalid column name 'IsDeleted'.
+Invalid column name 'Status'.
+Invalid column name 'Stock'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:9f6e2106-6b6d-4337-830f-fdd55fbbbbb2
+Error Number:207,State:1,Class:16
+2026-03-25 23:46:53.130 +05:30 [ERR] ❌ Error getting all products
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsDeleted'.
+Invalid column name 'DeletedAt'.
+Invalid column name 'IsDeleted'.
+Invalid column name 'Status'.
+Invalid column name 'Stock'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at api_catalog_service.Services.ProductService.GetAllProductsAsync() in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Services\ProductServiceImpl.cs:line 92
+ClientConnectionId:9f6e2106-6b6d-4337-830f-fdd55fbbbbb2
+Error Number:207,State:1,Class:16
+2026-03-25 23:46:53.388 +05:30 [ERR] ❌ Error retrieving all products
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsDeleted'.
+Invalid column name 'DeletedAt'.
+Invalid column name 'IsDeleted'.
+Invalid column name 'Status'.
+Invalid column name 'Stock'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at api_catalog_service.Services.ProductService.GetAllProductsAsync() in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Services\ProductServiceImpl.cs:line 92
+   at api_catalog_service.Controllers.ProductController.GetAllProducts() in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Controllers\ProductsController.cs:line 42
+ClientConnectionId:9f6e2106-6b6d-4337-830f-fdd55fbbbbb2
+Error Number:207,State:1,Class:16
+2026-03-25 23:46:53.421 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-25 23:46:53.434 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service) in 1364.8308ms
+2026-03-25 23:46:53.441 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 23:46:53.451 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/api/Product - 500 null application/json; charset=utf-8 1516.7121ms
+2026-03-25 23:51:26.986 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:51:27.072 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:51:27.076 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:51:27.169 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:51:27.228 +05:30 [FTL] ❌ CatalogService terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 92
+2026-03-25 23:51:50.340 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:51:50.423 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:51:50.428 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:51:50.513 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:51:50.560 +05:30 [FTL] ❌ CatalogService terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 92
+2026-03-25 23:52:29.410 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:52:29.544 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:52:29.552 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:52:29.662 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:52:29.742 +05:30 [FTL] ❌ CatalogService terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 92
+2026-03-25 23:53:58.942 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:53:59.077 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:53:59.082 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:53:59.170 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:53:59.288 +05:30 [FTL] ❌ CatalogService terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 92
+2026-03-25 23:54:18.050 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:54:18.143 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:54:18.148 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:54:18.246 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:54:18.288 +05:30 [FTL] ❌ CatalogService terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 92
+2026-03-25 23:54:29.593 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:54:29.677 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:54:29.682 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:54:29.769 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:54:29.815 +05:30 [FTL] ❌ CatalogService terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 92
+2026-03-25 23:55:37.214 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:55:37.300 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:55:37.304 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:55:37.389 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:55:37.439 +05:30 [FTL] ❌ CatalogService terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service\Program.cs:line 92
+2026-03-25 23:55:53.292 +05:30 [INF] 🚀 CatalogService starting...
+2026-03-25 23:55:55.096 +05:30 [INF] Configuring Database: Server=localhost;Database=CatalogServiceDB;User Id=appUser;Password=***
+2026-03-25 23:55:55.206 +05:30 [INF] Configuring RabbitMQ: localhost:5672
+2026-03-25 23:55:55.553 +05:30 [INF] ✅ RabbitMQ configured successfully
+2026-03-25 23:55:57.068 +05:30 [INF] Applying database migrations...
+2026-03-25 23:56:01.858 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:56:01.980 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:56:02.006 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:56:02.022 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:56:02.096 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:56:02.189 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:56:02.196 +05:30 [INF] ✅ Database migrations completed successfully
+2026-03-25 23:56:02.250 +05:30 [INF] ✅ RabbitMQ Publisher initialized - Exchange: ecommerce.events
+2026-03-25 23:56:02.279 +05:30 [INF] ✅ RabbitMQ Publisher initialized on startup
+2026-03-25 23:56:03.352 +05:30 [INF] ✅ CatalogService started successfully
+2026-03-25 23:56:05.718 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-25 23:56:05.724 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-25 23:56:06.386 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:56:06.398 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:56:06.418 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-catalog-service
+2026-03-25 23:56:08.146 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/index.html - null null
+2026-03-25 23:56:09.480 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/index.html - 200 null text/html;charset=utf-8 1340.75ms
+2026-03-25 23:56:09.516 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:56:09.516 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/_vs/browserLink - null null
+2026-03-25 23:56:09.629 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 111.888ms
+2026-03-25 23:56:10.020 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 503.5468ms
+2026-03-25 23:56:10.522 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-25 23:56:11.077 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 556.0213ms
+2026-03-25 23:56:46.613 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/health - null null
+2026-03-25 23:56:46.642 +05:30 [INF] Executing endpoint 'HTTP: GET /health'
+2026-03-25 23:56:46.654 +05:30 [INF] Executed endpoint 'HTTP: GET /health'
+2026-03-25 23:56:46.678 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/health - 200 null application/json; charset=utf-8 65.3363ms
+2026-03-25 23:56:55.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/api/Product - null null
+2026-03-25 23:56:55.341 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 23:56:55.432 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[api_catalog_service.DTOs.ProductDto]]] GetAllProducts() on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 23:56:55.463 +05:30 [INF] GET: Retrieving all products
+2026-03-25 23:56:56.388 +05:30 [INF] Executed DbCommand (96ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[CreatedAt], [p].[DeletedAt], [p].[Description], [p].[IsActive], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Sku], [p].[Status], [p].[Stock], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[CreatedAt] DESC
+2026-03-25 23:56:56.487 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[api_catalog_service.DTOs.ProductDto, api-catalog-service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-25 23:56:56.542 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service) in 1084.6628ms
+2026-03-25 23:56:56.553 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-25 23:56:56.572 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/api/Product - 200 null application/json; charset=utf-8 1257.5879ms
+2026-03-25 23:57:41.900 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Product - application/json 251
+2026-03-25 23:57:41.941 +05:30 [INF] CORS policy execution successful.
+2026-03-25 23:57:41.952 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 23:57:41.981 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 23:57:59.023 +05:30 [INF] POST: New product creation requested for SKU WBH-001
+2026-03-25 23:58:00.725 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[@__createProductDto_Sku_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[CreatedAt], [p].[DeletedAt], [p].[Description], [p].[IsActive], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Sku], [p].[Status], [p].[Stock], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[Sku] = @__createProductDto_Sku_0 AND [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-25 23:58:01.092 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 1000), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (Size = 255), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 100), @p9='?' (Size = 50), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [CreatedAt], [DeletedAt], [Description], [IsActive], [IsDeleted], [Name], [Price], [Sku], [Status], [Stock], [StockQuantity], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-25 23:58:01.148 +05:30 [INF] ✅ Product created: 1 - Wireless Bluetooth Headphones
+2026-03-25 23:58:02.344 +05:30 [INF] ✅ Product created: 1 - Wireless Bluetooth Headphones
+2026-03-25 23:58:08.054 +05:30 [WRN] ⚠️ Publisher not initialized, initializing now...
+2026-03-25 23:58:08.061 +05:30 [INF] ✅ RabbitMQ Publisher initialized - Exchange: ecommerce.events
+2026-03-25 23:58:20.022 +05:30 [INF] ✅ ProductAddedEvent published: Product 1 - Wireless Bluetooth Headphones
+2026-03-25 23:58:23.538 +05:30 [INF] ✅ ProductAddedEvent published: 1
+2026-03-25 23:58:28.745 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'api_catalog_service.DTOs.ProductDto'.
+2026-03-25 23:58:30.991 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service) in 49002.0848ms
+2026-03-25 23:58:30.998 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 23:58:31.003 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Product - 201 null application/json; charset=utf-8 49102.7955ms
+2026-03-25 23:59:39.040 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Product - application/json 215
+2026-03-25 23:59:39.071 +05:30 [INF] CORS policy execution successful.
+2026-03-25 23:59:39.075 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 23:59:39.083 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 23:59:43.374 +05:30 [INF] POST: New product creation requested for SKU GLP-2024
+2026-03-25 23:59:43.416 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[@__createProductDto_Sku_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[CreatedAt], [p].[DeletedAt], [p].[Description], [p].[IsActive], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Sku], [p].[Status], [p].[Stock], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[Sku] = @__createProductDto_Sku_0 AND [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-25 23:59:43.434 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 1000), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (Size = 255), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 100), @p9='?' (Size = 50), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [CreatedAt], [DeletedAt], [Description], [IsActive], [IsDeleted], [Name], [Price], [Sku], [Status], [Stock], [StockQuantity], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-25 23:59:43.439 +05:30 [INF] ✅ Product created: 2 - Gaming Laptop Pro
+2026-03-25 23:59:43.442 +05:30 [INF] ✅ Product created: 2 - Gaming Laptop Pro
+2026-03-25 23:59:43.443 +05:30 [WRN] ⚠️ Publisher not initialized, initializing now...
+2026-03-25 23:59:43.447 +05:30 [INF] ✅ RabbitMQ Publisher initialized - Exchange: ecommerce.events
+2026-03-25 23:59:47.267 +05:30 [INF] ✅ ProductAddedEvent published: Product 2 - Gaming Laptop Pro
+2026-03-25 23:59:47.274 +05:30 [INF] ✅ ProductAddedEvent published: 2
+2026-03-25 23:59:47.276 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'api_catalog_service.DTOs.ProductDto'.
+2026-03-25 23:59:47.280 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service) in 8188.0423ms
+2026-03-25 23:59:47.282 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 23:59:47.312 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Product - 201 null application/json; charset=utf-8 8271.6244ms
+2026-03-25 23:59:56.627 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7003/api/Product - application/json 230
+2026-03-25 23:59:56.635 +05:30 [INF] CORS policy execution successful.
+2026-03-25 23:59:56.638 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 23:59:56.642 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_catalog_service.DTOs.ProductDto]] CreateProduct(api_catalog_service.DTOs.CreateProductDto) on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-25 23:59:56.647 +05:30 [INF] POST: New product creation requested for SKU SPH-X200
+2026-03-25 23:59:56.689 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[@__createProductDto_Sku_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[CreatedAt], [p].[DeletedAt], [p].[Description], [p].[IsActive], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Sku], [p].[Status], [p].[Stock], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[Sku] = @__createProductDto_Sku_0 AND [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-25 23:59:56.720 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 1000), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (Size = 255), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 100), @p9='?' (Size = 50), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [CreatedAt], [DeletedAt], [Description], [IsActive], [IsDeleted], [Name], [Price], [Sku], [Status], [Stock], [StockQuantity], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-25 23:59:56.737 +05:30 [INF] ✅ Product created: 3 - Smartphone X200
+2026-03-25 23:59:56.743 +05:30 [INF] ✅ Product created: 3 - Smartphone X200
+2026-03-25 23:59:56.750 +05:30 [WRN] ⚠️ Publisher not initialized, initializing now...
+2026-03-25 23:59:56.757 +05:30 [INF] ✅ RabbitMQ Publisher initialized - Exchange: ecommerce.events
+2026-03-25 23:59:56.762 +05:30 [INF] ✅ ProductAddedEvent published: Product 3 - Smartphone X200
+2026-03-25 23:59:56.768 +05:30 [INF] ✅ ProductAddedEvent published: 3
+2026-03-25 23:59:56.773 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'api_catalog_service.DTOs.ProductDto'.
+2026-03-25 23:59:56.780 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service) in 134.2752ms
+2026-03-25 23:59:56.784 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.CreateProduct (api-catalog-service)'
+2026-03-25 23:59:56.808 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7003/api/Product - 201 null application/json; charset=utf-8 181.929ms

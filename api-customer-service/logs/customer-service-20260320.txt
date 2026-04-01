@@ -1,0 +1,978 @@
+2026-03-20 22:20:54.198 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 22:20:54.466 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 22:20:54.558 +05:30 [INF] Applying database migrations...
+2026-03-20 22:20:54.749 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 22:20:54.793 +05:30 [INF] Database migration starting...
+2026-03-20 22:20:55.924 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 22:20:55.969 +05:30 [DBG] Creating DbConnection.
+2026-03-20 22:20:56.406 +05:30 [DBG] Created DbConnection. (418ms).
+2026-03-20 22:20:56.458 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:20:56.552 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.185 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.731 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:20:58.794 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:20:59.332 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:20:59.431 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.009 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.109 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.635 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:00.695 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.214 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.281 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.797 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:01.872 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:02.412 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:02.506 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.022 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.078 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.599 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:03.683 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.194 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.272 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.784 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:04.843 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.362 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.411 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.926 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:05.964 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:06.502 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:06.542 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.047 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.094 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.609 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:07.655 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.171 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.209 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.719 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:08.766 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.285 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.342 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.862 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:09.911 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.426 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.455 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:10.977 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.023 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.541 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:11.576 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.092 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.122 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.640 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:12.670 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.191 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.235 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.754 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:13.792 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.304 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.334 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.855 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:14.875 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.391 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.414 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.924 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:15.959 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:16.471 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:16.521 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.039 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.075 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.618 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:17.669 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.182 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.253 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.774 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:18.818 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.337 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.362 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.872 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:19.904 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.412 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.447 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.956 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:20.998 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:21.505 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:21.534 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.051 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.083 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.595 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:22.635 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.146 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.186 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.694 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:23.725 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.240 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.270 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.793 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:24.837 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.347 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.379 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.895 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:25.947 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.459 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.480 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:26.988 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.009 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.518 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:27.543 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.047 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.095 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.622 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:28.654 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.170 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.215 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.729 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:29.752 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.262 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.303 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.807 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:30.861 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.383 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.413 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.928 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:31.961 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:32.477 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:32.523 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.040 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.055 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.568 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:33.603 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.115 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.131 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.636 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:34.670 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.185 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.216 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.734 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:35.776 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.287 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.314 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.819 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:36.858 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.369 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.454 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:37.973 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.034 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.549 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:38.577 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.095 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.175 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.698 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:39.722 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.242 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.307 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.833 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:40.890 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.409 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.436 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.954 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:41.982 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:42.501 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:42.521 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.030 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.050 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.561 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:43.579 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.089 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.127 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.633 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:44.655 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.163 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.184 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.694 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:45.711 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.224 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.252 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.758 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:21:46.828 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 22:30:30.024 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 22:30:30.837 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 22:30:31.140 +05:30 [INF] Applying database migrations...
+2026-03-20 22:30:31.875 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 22:30:32.099 +05:30 [INF] Database migration starting...
+2026-03-20 22:30:34.237 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 22:30:34.282 +05:30 [DBG] Creating DbConnection.
+2026-03-20 22:30:34.461 +05:30 [DBG] Created DbConnection. (167ms).
+2026-03-20 22:30:34.483 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:34.517 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.359 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.882 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:35.930 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:36.455 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:36.499 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.015 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.070 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.591 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:37.635 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.154 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.211 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.728 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:38.752 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.264 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.286 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.798 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:39.813 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.329 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.352 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.859 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:40.884 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.390 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.408 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.922 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:41.939 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.451 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.467 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:42.985 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.022 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.534 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:43.560 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.067 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.090 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.596 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:44.623 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.141 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.163 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.671 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:45.688 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.203 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.233 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.748 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:46.765 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.278 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.296 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.812 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:47.837 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.342 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.362 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.873 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:48.892 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.408 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.430 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.943 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:49.967 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.476 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:50.510 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.023 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.049 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.555 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:51.585 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.104 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.121 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.633 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:52.650 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.168 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.182 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.701 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:53.718 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.233 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.259 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.765 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:54.790 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.300 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.338 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.846 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:55.863 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.366 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.389 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.897 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:56.919 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.430 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.456 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:57.977 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.007 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.521 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:58.535 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.039 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.062 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.573 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:30:59.608 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.125 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.143 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.656 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:00.670 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.187 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.204 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.719 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:01.756 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.266 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.286 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.796 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:02.830 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.341 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.366 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.874 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:03.899 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.408 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.432 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.944 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:04.976 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.494 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:05.515 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.030 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.089 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.614 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:06.655 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.161 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.185 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.692 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:07.727 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.242 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.282 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.795 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:08.817 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.330 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.389 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.912 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:09.954 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:10.474 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:10.522 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.038 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.105 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.618 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:11.660 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.169 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.202 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.718 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:12.749 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.268 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.291 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.801 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:13.846 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.362 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.401 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.907 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:14.927 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:15.439 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:15.507 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.038 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.120 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.645 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:16.673 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.190 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.219 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.727 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:17.750 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.262 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.295 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.807 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:18.840 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.354 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.373 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.885 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:19.915 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.435 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.454 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.964 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:20.983 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:21.497 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:21.516 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.025 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.042 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.554 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:22.577 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.089 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.116 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.619 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:23.643 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.151 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.195 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.712 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:24.764 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.274 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.318 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.834 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:25.870 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.381 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.436 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.943 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:26.996 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.520 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:27.554 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.065 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.088 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.595 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 22:31:28.621 +05:30 [DBG] An error occurred using the connection to database 'CartServiceDB' on server 'IN-PG04K1HG'.
+2026-03-20 23:01:11.180 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:01:11.475 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:01:11.562 +05:30 [INF] Applying database migrations...
+2026-03-20 23:01:11.825 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:01:11.911 +05:30 [INF] Database migration starting...
+2026-03-20 23:04:19.981 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:04:20.380 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:04:20.710 +05:30 [INF] Applying database migrations...
+2026-03-20 23:04:21.344 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:04:21.501 +05:30 [INF] Database migration starting...
+2026-03-20 23:04:23.655 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:04:23.698 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:04:23.908 +05:30 [DBG] Created DbConnection. (191ms).
+2026-03-20 23:04:23.923 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:23.962 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.494 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.534 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:25.559 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (15ms).
+2026-03-20 23:04:25.578 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (41ms).
+2026-03-20 23:04:25.600 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:25.728 +05:30 [INF] Executed DbCommand (120ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:25.753 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.790 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (25ms).
+2026-03-20 23:04:25.815 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:04:25.820 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2026-03-20 23:04:25.825 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (11ms).
+2026-03-20 23:04:25.832 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.839 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.846 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:25.962 +05:30 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:25.975 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.981 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:04:25.993 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:25.999 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.005 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:26.009 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2026-03-20 23:04:26.014 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2026-03-20 23:04:26.020 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:26.039 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:04:26.050 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.056 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:04:26.065 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:04:26.070 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2026-03-20 23:04:26.076 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (10ms).
+2026-03-20 23:04:26.083 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.095 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.103 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:26.113 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:04:26.123 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.132 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (9ms).
+2026-03-20 23:04:26.182 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.187 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.192 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:04:26.196 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2026-03-20 23:04:26.202 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2026-03-20 23:04:26.208 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:04:26.224 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:04:26.249 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.258 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 22ms reading results.
+2026-03-20 23:04:26.267 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.274 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (6ms).
+2026-03-20 23:04:26.311 +05:30 [INF] Applying migration '20260319161000_InitialCreate'.
+2026-03-20 23:04:26.440 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.447 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:26.467 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2026-03-20 23:04:26.499 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2026-03-20 23:04:26.509 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:26.514 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2026-03-20 23:04:26.522 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (13ms).
+2026-03-20 23:04:26.529 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Customers] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(50) NOT NULL,
+    [LastName] nvarchar(50) NOT NULL,
+    [Email] nvarchar(100) NOT NULL,
+    [Phone] nvarchar(20) NOT NULL,
+    [Address] nvarchar(max) NOT NULL,
+    [City] nvarchar(max) NOT NULL,
+    [State] nvarchar(max) NOT NULL,
+    [PostalCode] nvarchar(max) NOT NULL,
+    [Country] nvarchar(max) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NULL,
+    [Notes] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Customers] PRIMARY KEY ([Id])
+);
+2026-03-20 23:04:26.546 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Customers] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(50) NOT NULL,
+    [LastName] nvarchar(50) NOT NULL,
+    [Email] nvarchar(100) NOT NULL,
+    [Phone] nvarchar(20) NOT NULL,
+    [Address] nvarchar(max) NOT NULL,
+    [City] nvarchar(max) NOT NULL,
+    [State] nvarchar(max) NOT NULL,
+    [PostalCode] nvarchar(max) NOT NULL,
+    [Country] nvarchar(max) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NULL,
+    [Notes] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Customers] PRIMARY KEY ([Id])
+);
+2026-03-20 23:04:26.557 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:26.561 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2026-03-20 23:04:26.567 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2026-03-20 23:04:26.572 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Customers_CreatedAt] ON [Customers] ([CreatedAt]);
+2026-03-20 23:04:26.585 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Customers_CreatedAt] ON [Customers] ([CreatedAt]);
+2026-03-20 23:04:26.600 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:26.605 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2026-03-20 23:04:26.611 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2026-03-20 23:04:26.618 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Customers_Email] ON [Customers] ([Email]);
+2026-03-20 23:04:26.630 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Customers_Email] ON [Customers] ([Email]);
+2026-03-20 23:04:26.641 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:26.647 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2026-03-20 23:04:26.653 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (12ms).
+2026-03-20 23:04:26.660 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Customers_Phone] ON [Customers] ([Phone]);
+2026-03-20 23:04:26.680 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Customers_Phone] ON [Customers] ([Phone]);
+2026-03-20 23:04:26.692 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:04:26.698 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-20 23:04:26.706 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (14ms).
+2026-03-20 23:04:26.764 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260319161000_InitialCreate', N'8.0.25');
+2026-03-20 23:04:26.844 +05:30 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260319161000_InitialCreate', N'8.0.25');
+2026-03-20 23:04:26.942 +05:30 [DBG] Committing transaction.
+2026-03-20 23:04:27.006 +05:30 [DBG] Committed transaction.
+2026-03-20 23:04:27.060 +05:30 [DBG] Disposing transaction.
+2026-03-20 23:04:27.073 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:27.092 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (18ms).
+2026-03-20 23:04:27.148 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:04:27.181 +05:30 [DBG] 'CustomerDbContext' disposed.
+2026-03-20 23:04:27.228 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:04:27.259 +05:30 [DBG] Disposed connection to database '' on server '' (32ms).
+2026-03-20 23:04:27.271 +05:30 [INF] Starting Customer Service
+2026-03-20 23:04:27.276 +05:30 [INF] Swagger UI will be available at: https://localhost:7001/
+2026-03-20 23:04:27.284 +05:30 [INF] Health check available at: https://localhost:7001/health
+2026-03-20 23:04:27.311 +05:30 [DBG] Hosting starting
+2026-03-20 23:04:29.027 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address https://127.0.0.1:7004: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-03-20 23:04:29.378 +05:30 [FTL] Customer Service terminated unexpectedly
+System.IO.IOException: Failed to bind to address https://127.0.0.1:7004: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\santoshshukla\source\repos\EcommSolutions\api-customer-service\Program.cs:line 122
+2026-03-20 23:11:06.218 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:11:06.705 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:11:06.879 +05:30 [INF] Applying database migrations...
+2026-03-20 23:11:07.092 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:11:07.161 +05:30 [INF] Database migration starting...
+2026-03-20 23:11:07.965 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:11:07.983 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:11:08.046 +05:30 [DBG] Created DbConnection. (59ms).
+2026-03-20 23:11:08.056 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.075 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.785 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.799 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:11:08.810 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-20 23:11:08.816 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (17ms).
+2026-03-20 23:11:08.830 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.886 +05:30 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:08.903 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.921 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (11ms).
+2026-03-20 23:11:08.942 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:11:08.956 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (14ms).
+2026-03-20 23:11:08.960 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (18ms).
+2026-03-20 23:11:08.965 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.971 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:08.976 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:09.023 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:09.032 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.041 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (8ms).
+2026-03-20 23:11:09.048 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.053 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.057 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:11:09.059 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2026-03-20 23:11:09.064 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-20 23:11:09.069 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:09.094 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:11:09.110 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.113 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:11:09.119 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:11:09.124 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2026-03-20 23:11:09.127 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (8ms).
+2026-03-20 23:11:09.131 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.139 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.143 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:09.150 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:11:09.157 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.160 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:11:09.196 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.204 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.209 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:11:09.211 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2026-03-20 23:11:09.218 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2026-03-20 23:11:09.225 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:11:09.237 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:11:09.259 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.265 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 18ms reading results.
+2026-03-20 23:11:09.276 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.281 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (4ms).
+2026-03-20 23:11:09.309 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-20 23:11:09.314 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:11:09.319 +05:30 [DBG] 'CustomerDbContext' disposed.
+2026-03-20 23:11:09.325 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:11:09.331 +05:30 [DBG] Disposed connection to database '' on server '' (6ms).
+2026-03-20 23:11:09.337 +05:30 [INF] Starting Customer Service
+2026-03-20 23:11:09.339 +05:30 [INF] Swagger UI will be available at: https://localhost:7001/
+2026-03-20 23:11:09.341 +05:30 [INF] Health check available at: https://localhost:7001/health
+2026-03-20 23:11:09.349 +05:30 [DBG] Hosting starting
+2026-03-20 23:11:09.839 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-20 23:11:09.844 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-20 23:11:09.849 +05:30 [DBG] Loaded hosting startup assembly api-customer-service
+2026-03-20 23:11:09.852 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-20 23:11:09.857 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-20 23:11:09.865 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-20 23:11:10.225 +05:30 [DBG] Connection id "0HNK6KVFPJG0K" received FIN.
+2026-03-20 23:11:10.282 +05:30 [DBG] Connection id "0HNK6KVFPJG0K" accepted.
+2026-03-20 23:11:10.302 +05:30 [DBG] Connection id "0HNK6KVFPJG0K" started.
+2026-03-20 23:11:10.341 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-20 23:11:10.403 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:11:10.407 +05:30 [INF] Hosting environment: Development
+2026-03-20 23:11:10.526 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-customer-service
+2026-03-20 23:11:10.534 +05:30 [DBG] Connection id "0HNK6KVFPJG0K" stopped.
+2026-03-20 23:11:10.542 +05:30 [DBG] Hosting started
+2026-03-20 23:11:10.574 +05:30 [DBG] Connection id "0HNK6KVFPJG0K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:11:10.941 +05:30 [DBG] Connection id "0HNK6KVFPJG0L" accepted.
+2026-03-20 23:11:11.124 +05:30 [DBG] Connection id "0HNK6KVFPJG0L" started.
+2026-03-20 23:11:11.126 +05:30 [DBG] Connection id "0HNK6KVFPJG0M" accepted.
+2026-03-20 23:11:11.245 +05:30 [DBG] Connection id "0HNK6KVFPJG0M" started.
+2026-03-20 23:11:11.445 +05:30 [DBG] Connection 0HNK6KVFPJG0L established using the following protocol: "Tls13"
+2026-03-20 23:11:11.445 +05:30 [DBG] Connection 0HNK6KVFPJG0M established using the following protocol: "Tls13"
+2026-03-20 23:11:11.772 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/index.html - null null
+2026-03-20 23:11:12.305 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-20 23:11:12.629 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-20 23:11:12.641 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-20 23:11:12.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2026-03-20 23:11:12.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-20 23:11:12.758 +05:30 [INF] HTTP GET /index.html responded 200 in 419.1694 ms
+2026-03-20 23:11:12.873 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-20 23:11:12.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 115.2581ms
+2026-03-20 23:11:12.885 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-20 23:11:12.932 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/index.html - 200 null text/html;charset=utf-8 1175.1944ms
+2026-03-20 23:11:12.985 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 230.6552ms
+2026-03-20 23:11:13.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-20 23:11:13.369 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 302.5135 ms
+2026-03-20 23:11:13.397 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 345.5408ms
+2026-03-20 23:12:45.198 +05:30 [DBG] Connection id "0HNK6KVFPJG0M" received FIN.
+2026-03-20 23:12:45.240 +05:30 [DBG] Connection id "0HNK6KVFPJG0M" is closed. The last processed stream ID was 0.
+2026-03-20 23:12:45.240 +05:30 [DBG] The connection queue processing loop for 0HNK6KVFPJG0M completed.
+2026-03-20 23:12:45.243 +05:30 [DBG] Connection id "0HNK6KVFPJG0M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:12:45.249 +05:30 [DBG] Connection id "0HNK6KVFPJG0M" stopped.
+2026-03-20 23:16:38.190 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7001/api/Customers - application/json 250
+2026-03-20 23:16:38.213 +05:30 [DBG] POST requests are not supported
+2026-03-20 23:16:38.218 +05:30 [DBG] The request has an origin header: 'https://localhost:7001'.
+2026-03-20 23:16:38.222 +05:30 [INF] CORS policy execution successful.
+2026-03-20 23:16:38.287 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Customers'
+2026-03-20 23:16:38.305 +05:30 [DBG] Endpoint 'api_customer_service.Controllers.CustomersController.CreateCustomer (api-customer-service)' with route pattern 'api/Customers' is valid for the request path '/api/Customers'
+2026-03-20 23:16:38.314 +05:30 [DBG] Request matched endpoint 'api_customer_service.Controllers.CustomersController.CreateCustomer (api-customer-service)'
+2026-03-20 23:16:38.326 +05:30 [INF] Executing endpoint 'api_customer_service.Controllers.CustomersController.CreateCustomer (api-customer-service)'
+2026-03-20 23:16:38.405 +05:30 [INF] Route matched with {action = "CreateCustomer", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[api_customer_service.DTOs.CustomerDto]] CreateCustomer(api_customer_service.DTOs.CreateCustomerDto) on controller api_customer_service.Controllers.CustomersController (api-customer-service).
+2026-03-20 23:16:38.418 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-20 23:16:38.423 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-20 23:16:38.430 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-03-20 23:16:38.436 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-20 23:16:38.441 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-03-20 23:16:38.455 +05:30 [DBG] Executing controller factory for controller api_customer_service.Controllers.CustomersController (api-customer-service)
+2026-03-20 23:16:38.465 +05:30 [DBG] Executed controller factory for controller api_customer_service.Controllers.CustomersController (api-customer-service)
+2026-03-20 23:16:38.508 +05:30 [DBG] Attempting to bind parameter 'createCustomerDto' of type 'api_customer_service.DTOs.CreateCustomerDto' ...
+2026-03-20 23:16:38.519 +05:30 [DBG] Attempting to bind parameter 'createCustomerDto' of type 'api_customer_service.DTOs.CreateCustomerDto' using the name '' in request data ...
+2026-03-20 23:16:38.526 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-03-20 23:16:38.547 +05:30 [DBG] Connection id "0HNK6KVFPJG0L", Request id "0HNK6KVFPJG0L:00000009": started reading request body.
+2026-03-20 23:16:38.553 +05:30 [DBG] Connection id "0HNK6KVFPJG0L", Request id "0HNK6KVFPJG0L:00000009": done reading request body.
+2026-03-20 23:16:38.580 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'api_customer_service.DTOs.CreateCustomerDto'
+2026-03-20 23:16:38.583 +05:30 [DBG] Done attempting to bind parameter 'createCustomerDto' of type 'api_customer_service.DTOs.CreateCustomerDto'.
+2026-03-20 23:16:38.587 +05:30 [DBG] Done attempting to bind parameter 'createCustomerDto' of type 'api_customer_service.DTOs.CreateCustomerDto'.
+2026-03-20 23:16:38.591 +05:30 [DBG] Attempting to validate the bound parameter 'createCustomerDto' of type 'api_customer_service.DTOs.CreateCustomerDto' ...
+2026-03-20 23:16:38.628 +05:30 [DBG] Done attempting to validate the bound parameter 'createCustomerDto' of type 'api_customer_service.DTOs.CreateCustomerDto'.
+2026-03-20 23:16:38.641 +05:30 [INF] POST: New customer creation requested for email john.doe@example.com
+2026-03-20 23:16:38.649 +05:30 [INF] Creating new customer: john.doe@example.com
+2026-03-20 23:16:38.772 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:16:38.875 +05:30 [DBG] Compiling query expression: 
+'DbSet<Customer>()
+    .Any(c => c.Email.ToLower() == __ToLower_0)'
+2026-03-20 23:16:39.323 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Customers AS c
+                WHERE LOWER(c.Email) == @__ToLower_0)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        api_customer_service.Data.CustomerDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2026-03-20 23:16:39.435 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:16:39.440 +05:30 [DBG] Created DbConnection. (5ms).
+2026-03-20 23:16:39.444 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:39.447 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:39.450 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:16:39.453 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2026-03-20 23:16:39.465 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (15ms).
+2026-03-20 23:16:39.473 +05:30 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE LOWER([c].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:16:39.529 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE LOWER([c].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-03-20 23:16:39.545 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:39.550 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 12ms reading results.
+2026-03-20 23:16:39.558 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:39.562 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:16:39.625 +05:30 [DBG] 'CustomerDbContext' generated a temporary value for the property 'Customer.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:16:39.731 +05:30 [DBG] Context 'CustomerDbContext' started tracking 'Customer' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:16:39.740 +05:30 [DBG] SaveChanges starting for 'CustomerDbContext'.
+2026-03-20 23:16:39.746 +05:30 [DBG] DetectChanges starting for 'CustomerDbContext'.
+2026-03-20 23:16:39.779 +05:30 [DBG] DetectChanges completed for 'CustomerDbContext'.
+2026-03-20 23:16:39.886 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:39.892 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:39.899 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:16:39.902 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2026-03-20 23:16:39.906 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2026-03-20 23:16:39.912 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 100), @p5='?' (Size = 50), @p6='?' (DbType = Boolean), @p7='?' (Size = 50), @p8='?' (Size = 4000), @p9='?' (Size = 20), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Customers] ([Address], [City], [Country], [CreatedAt], [Email], [FirstName], [IsActive], [LastName], [Notes], [Phone], [PostalCode], [State], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-20 23:16:39.925 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 100), @p5='?' (Size = 50), @p6='?' (DbType = Boolean), @p7='?' (Size = 50), @p8='?' (Size = 4000), @p9='?' (Size = 20), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Customers] ([Address], [City], [Country], [CreatedAt], [Email], [FirstName], [IsActive], [LastName], [Notes], [Phone], [PostalCode], [State], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2026-03-20 23:16:39.952 +05:30 [DBG] The foreign key property 'Customer.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2026-03-20 23:16:39.968 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:39.972 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 39ms reading results.
+2026-03-20 23:16:39.979 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:39.983 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (3ms).
+2026-03-20 23:16:40.005 +05:30 [DBG] An entity of type 'Customer' tracked by 'CustomerDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-03-20 23:16:40.019 +05:30 [DBG] SaveChanges completed for 'CustomerDbContext' with 1 entities written to the database.
+2026-03-20 23:16:40.029 +05:30 [INF] Customer created successfully: 1
+2026-03-20 23:16:40.048 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-03-20 23:16:40.061 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-03-20 23:16:40.067 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-03-20 23:16:40.071 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-03-20 23:16:40.074 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-03-20 23:16:40.077 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-03-20 23:16:40.081 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'api_customer_service.DTOs.CustomerDto'.
+2026-03-20 23:16:40.115 +05:30 [DBG] Found the endpoints ["api_customer_service.Controllers.CustomersController.GetCustomerById (api-customer-service)"] for address (id=[1],action=[GetCustomerById],controller=[Customers])
+2026-03-20 23:16:40.126 +05:30 [DBG] Successfully processed template api/Customers/{id} for api_customer_service.Controllers.CustomersController.GetCustomerById (api-customer-service) resulting in /api/Customers/1 and 
+2026-03-20 23:16:40.133 +05:30 [DBG] Link generation succeeded for endpoints ["api_customer_service.Controllers.CustomersController.GetCustomerById (api-customer-service)"] with result /api/Customers/1
+2026-03-20 23:16:40.169 +05:30 [INF] Executed action api_customer_service.Controllers.CustomersController.CreateCustomer (api-customer-service) in 1716.2917ms
+2026-03-20 23:16:40.177 +05:30 [INF] Executed endpoint 'api_customer_service.Controllers.CustomersController.CreateCustomer (api-customer-service)'
+2026-03-20 23:16:40.182 +05:30 [INF] HTTP POST /api/Customers responded 201 in 1972.5491 ms
+2026-03-20 23:16:40.189 +05:30 [DBG] 'CustomerDbContext' disposed.
+2026-03-20 23:16:40.196 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:16:40.199 +05:30 [DBG] Disposed connection to database '' on server '' (3ms).
+2026-03-20 23:16:40.202 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7001/api/Customers - 201 null application/json; charset=utf-8 2012.9274ms
+2026-03-20 23:39:00.739 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-20 23:39:01.543 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-20 23:39:01.946 +05:30 [INF] Applying database migrations...
+2026-03-20 23:39:02.520 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-20 23:39:02.702 +05:30 [INF] Database migration starting...
+2026-03-20 23:39:04.800 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-20 23:39:04.855 +05:30 [DBG] Creating DbConnection.
+2026-03-20 23:39:05.033 +05:30 [DBG] Created DbConnection. (173ms).
+2026-03-20 23:39:05.061 +05:30 [DBG] Migrating using database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:05.099 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:06.890 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:06.941 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:39:06.995 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (40ms).
+2026-03-20 23:39:07.026 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (88ms).
+2026-03-20 23:39:07.077 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:07.255 +05:30 [INF] Executed DbCommand (177ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:07.280 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.339 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (42ms).
+2026-03-20 23:39:07.393 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:39:07.431 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (41ms).
+2026-03-20 23:39:07.449 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (59ms).
+2026-03-20 23:39:07.463 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.471 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.483 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:07.611 +05:30 [INF] Executed DbCommand (126ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:07.670 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.681 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (11ms).
+2026-03-20 23:39:07.711 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.720 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.732 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-20 23:39:07.737 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2026-03-20 23:39:07.749 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (17ms).
+2026-03-20 23:39:07.755 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:07.777 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-20 23:39:07.792 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.798 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (5ms).
+2026-03-20 23:39:07.809 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-20 23:39:07.815 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2026-03-20 23:39:07.821 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (12ms).
+2026-03-20 23:39:07.829 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.835 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.845 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:07.889 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-20 23:39:07.927 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:07.950 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (22ms).
+2026-03-20 23:39:08.071 +05:30 [DBG] Opening connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.127 +05:30 [DBG] Opened connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.146 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-20 23:39:08.160 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (14ms).
+2026-03-20 23:39:08.222 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (75ms).
+2026-03-20 23:39:08.310 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:39:08.392 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-20 23:39:08.460 +05:30 [DBG] Closing data reader to 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.508 +05:30 [DBG] A data reader for 'CartServiceDB' on server 'localhost' is being disposed after spending 77ms reading results.
+2026-03-20 23:39:08.520 +05:30 [DBG] Closing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.529 +05:30 [DBG] Closed connection to database 'CartServiceDB' on server 'localhost' (9ms).
+2026-03-20 23:39:08.643 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-20 23:39:08.658 +05:30 [INF] Database migration completed successfully
+2026-03-20 23:39:08.675 +05:30 [DBG] 'CustomerDbContext' disposed.
+2026-03-20 23:39:08.720 +05:30 [DBG] Disposing connection to database 'CartServiceDB' on server 'localhost'.
+2026-03-20 23:39:08.732 +05:30 [DBG] Disposed connection to database '' on server '' (20ms).
+2026-03-20 23:39:08.737 +05:30 [INF] Starting Customer Service
+2026-03-20 23:39:08.745 +05:30 [INF] Swagger UI will be available at: https://localhost:7001/
+2026-03-20 23:39:08.759 +05:30 [INF] Health check available at: https://localhost:7001/health
+2026-03-20 23:39:08.794 +05:30 [DBG] Hosting starting
+2026-03-20 23:39:09.681 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-20 23:39:09.718 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-20 23:39:09.728 +05:30 [DBG] Loaded hosting startup assembly api-customer-service
+2026-03-20 23:39:09.733 +05:30 [DBG] Connection id "0HNK6LF4AKLFI" received FIN.
+2026-03-20 23:39:09.736 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-20 23:39:09.781 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-20 23:39:09.793 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-20 23:39:09.794 +05:30 [DBG] Connection id "0HNK6LF4AKLFI" accepted.
+2026-03-20 23:39:09.819 +05:30 [DBG] Connection id "0HNK6LF4AKLFI" started.
+2026-03-20 23:39:09.928 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-20 23:39:10.121 +05:30 [DBG] Connection id "0HNK6LF4AKLFJ" accepted.
+2026-03-20 23:39:10.226 +05:30 [DBG] Connection id "0HNK6LF4AKLFI" stopped.
+2026-03-20 23:39:10.258 +05:30 [DBG] Connection id "0HNK6LF4AKLFJ" started.
+2026-03-20 23:39:10.352 +05:30 [DBG] Connection id "0HNK6LF4AKLFI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-20 23:39:10.565 +05:30 [DBG] Connection 0HNK6LF4AKLFJ established using the following protocol: "Tls13"
+2026-03-20 23:39:10.769 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-20 23:39:10.824 +05:30 [INF] Hosting environment: Development
+2026-03-20 23:39:10.867 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-customer-service
+2026-03-20 23:39:10.885 +05:30 [DBG] Hosting started
+2026-03-20 23:39:11.082 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/index.html - null null
+2026-03-20 23:39:11.842 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-20 23:39:12.150 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-20 23:39:12.160 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-20 23:39:12.243 +05:30 [INF] HTTP GET /index.html responded 200 in 362.9130 ms
+2026-03-20 23:39:12.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2026-03-20 23:39:12.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-20 23:39:12.257 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-20 23:39:12.321 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-20 23:39:12.351 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 101.2064ms
+2026-03-20 23:39:12.355 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/index.html - 200 null text/html;charset=utf-8 1284.5454ms
+2026-03-20 23:39:12.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 252.0212ms
+2026-03-20 23:39:16.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-20 23:39:16.459 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 301.7314 ms
+2026-03-20 23:39:16.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 335.163ms

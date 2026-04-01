@@ -1,0 +1,690 @@
+2026-03-25 22:24:33.666 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 22:24:33.969 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 22:24:34.119 +05:30 [INF] Applying database migrations...
+2026-03-25 22:24:34.390 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 22:24:34.441 +05:30 [INF] Database migration starting...
+2026-03-25 22:24:35.276 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'PaymentDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 22:24:35.301 +05:30 [DBG] Creating DbConnection.
+2026-03-25 22:24:35.436 +05:30 [DBG] Created DbConnection. (134ms).
+2026-03-25 22:24:35.446 +05:30 [DBG] Migrating using database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:35.470 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.287 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.295 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 22:24:36.302 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2026-03-25 22:24:36.305 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2026-03-25 22:24:36.314 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:36.344 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:36.354 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.361 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (5ms).
+2026-03-25 22:24:36.368 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 22:24:36.373 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2026-03-25 22:24:36.375 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2026-03-25 22:24:36.377 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.381 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.384 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:36.414 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:36.420 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.422 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (2ms).
+2026-03-25 22:24:36.427 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.430 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.434 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 22:24:36.436 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2026-03-25 22:24:36.438 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2026-03-25 22:24:36.440 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:36.445 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:24:36.450 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.452 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (2ms).
+2026-03-25 22:24:36.455 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 22:24:36.457 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2026-03-25 22:24:36.460 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2026-03-25 22:24:36.464 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.467 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.469 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:36.473 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:24:36.478 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.483 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (5ms).
+2026-03-25 22:24:36.499 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.501 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.504 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 22:24:36.505 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2026-03-25 22:24:36.507 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2026-03-25 22:24:36.512 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:24:36.564 +05:30 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:24:36.595 +05:30 [DBG] Closing data reader to 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.599 +05:30 [DBG] A data reader for 'PaymentServiceDB' on server 'localhost' is being disposed after spending 13ms reading results.
+2026-03-25 22:24:36.602 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.605 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (2ms).
+2026-03-25 22:24:36.618 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 22:24:36.621 +05:30 [INF] Database migration completed successfully
+2026-03-25 22:24:36.624 +05:30 [DBG] 'PaymentDbContext' disposed.
+2026-03-25 22:24:36.630 +05:30 [DBG] Disposing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:24:36.634 +05:30 [DBG] Disposed connection to database '' on server '' (3ms).
+2026-03-25 22:24:36.639 +05:30 [INF] Starting Payment Service
+2026-03-25 22:24:36.642 +05:30 [INF] Swagger UI will be available at: https://localhost:7006/
+2026-03-25 22:24:36.645 +05:30 [INF] Health check available at: https://localhost:7006/health
+2026-03-25 22:24:36.647 +05:30 [INF] API endpoints:
+2026-03-25 22:24:36.650 +05:30 [INF]   POST   /api/payments - Process payment
+2026-03-25 22:24:36.653 +05:30 [INF]   GET    /api/payments - Get all payments
+2026-03-25 22:24:36.655 +05:30 [INF]   GET    /api/payments/{id} - Get payment by ID
+2026-03-25 22:24:36.657 +05:30 [INF]   PUT    /api/payments/{id}/complete - Complete payment
+2026-03-25 22:24:36.659 +05:30 [INF]   PUT    /api/payments/{id}/fail - Fail payment
+2026-03-25 22:24:36.660 +05:30 [INF]   POST   /api/payments/{id}/refund - Refund payment
+2026-03-25 22:24:36.662 +05:30 [INF]   GET    /api/payments/{id}/refunds - Get refunds
+2026-03-25 22:24:36.664 +05:30 [INF]   POST   /api/payment-methods - Add payment method
+2026-03-25 22:24:36.665 +05:30 [INF]   GET    /api/payment-methods/customer/{customerId} - Get payment methods
+2026-03-25 22:24:36.666 +05:30 [INF]   PUT    /api/payment-methods/{id} - Update payment method
+2026-03-25 22:24:36.668 +05:30 [INF]   DELETE /api/payment-methods/{id} - Delete payment method
+2026-03-25 22:24:36.675 +05:30 [DBG] Hosting starting
+2026-03-25 22:24:37.136 +05:30 [INF] Now listening on: https://localhost:7006
+2026-03-25 22:24:37.151 +05:30 [INF] Now listening on: http://localhost:5006
+2026-03-25 22:24:37.154 +05:30 [DBG] Loaded hosting startup assembly api-payment-service
+2026-03-25 22:24:37.158 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 22:24:37.162 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 22:24:37.165 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 22:24:37.398 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 22:24:37.404 +05:30 [INF] Hosting environment: Development
+2026-03-25 22:24:37.408 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-payment-service
+2026-03-25 22:24:37.411 +05:30 [DBG] Hosting started
+2026-03-25 22:24:39.658 +05:30 [DBG] Connection id "0HNKAHSQ5NHLU" received FIN.
+2026-03-25 22:24:39.692 +05:30 [DBG] Connection id "0HNKAHSQ5NHLU" accepted.
+2026-03-25 22:24:39.744 +05:30 [DBG] Connection id "0HNKAHSQ5NHLU" started.
+2026-03-25 22:24:39.850 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 22:24:40.107 +05:30 [DBG] Connection id "0HNKAHSQ5NHLU" stopped.
+2026-03-25 22:24:40.137 +05:30 [DBG] Connection id "0HNKAHSQ5NHLU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 22:24:42.281 +05:30 [DBG] Connection id "0HNKAHSQ5NHLV" accepted.
+2026-03-25 22:24:42.379 +05:30 [DBG] Connection id "0HNKAHSQ5NHLV" started.
+2026-03-25 22:24:43.077 +05:30 [DBG] Connection 0HNKAHSQ5NHLV established using the following protocol: "Tls13"
+2026-03-25 22:24:43.588 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/index.html - null null
+2026-03-25 22:24:44.319 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 22:24:44.662 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 22:24:44.689 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 22:24:44.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 22:24:44.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_vs/browserLink - null null
+2026-03-25 22:24:44.880 +05:30 [INF] HTTP GET /index.html responded 200 in 489.7105 ms
+2026-03-25 22:24:45.015 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 130.4103ms
+2026-03-25 22:24:45.347 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 22:24:45.750 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 22:24:45.791 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/index.html - 200 null text/html;charset=utf-8 2209.9977ms
+2026-03-25 22:24:46.102 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1229.2305ms
+2026-03-25 22:24:46.202 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - null null
+2026-03-25 22:24:47.307 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 518.2925 ms
+2026-03-25 22:24:47.319 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1116.3878ms
+2026-03-25 22:47:41.805 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 22:47:42.271 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 22:47:42.405 +05:30 [INF] Applying database migrations...
+2026-03-25 22:47:42.670 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 22:47:42.726 +05:30 [INF] Database migration starting...
+2026-03-25 22:47:43.961 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'PaymentDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 22:47:43.984 +05:30 [DBG] Creating DbConnection.
+2026-03-25 22:47:44.081 +05:30 [DBG] Created DbConnection. (94ms).
+2026-03-25 22:47:44.094 +05:30 [DBG] Migrating using database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:44.118 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:44.868 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:44.882 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 22:47:44.895 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2026-03-25 22:47:44.901 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (19ms).
+2026-03-25 22:47:44.915 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:44.981 +05:30 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:44.993 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.011 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (12ms).
+2026-03-25 22:47:45.023 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 22:47:45.026 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2026-03-25 22:47:45.029 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2026-03-25 22:47:45.033 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.037 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.041 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:45.079 +05:30 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:45.084 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.088 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (3ms).
+2026-03-25 22:47:45.095 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.099 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.103 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 22:47:45.105 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2026-03-25 22:47:45.109 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-25 22:47:45.114 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:45.129 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 22:47:45.135 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.140 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (4ms).
+2026-03-25 22:47:45.144 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 22:47:45.147 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2026-03-25 22:47:45.152 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2026-03-25 22:47:45.155 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.159 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.162 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:45.168 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 22:47:45.174 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.178 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (3ms).
+2026-03-25 22:47:45.208 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.213 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.216 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 22:47:45.221 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2026-03-25 22:47:45.223 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2026-03-25 22:47:45.229 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:47:45.244 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 22:47:45.262 +05:30 [DBG] Closing data reader to 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.267 +05:30 [DBG] A data reader for 'PaymentServiceDB' on server 'localhost' is being disposed after spending 13ms reading results.
+2026-03-25 22:47:45.274 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.277 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (2ms).
+2026-03-25 22:47:45.296 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 22:47:45.299 +05:30 [INF] Database migration completed successfully
+2026-03-25 22:47:45.304 +05:30 [DBG] 'PaymentDbContext' disposed.
+2026-03-25 22:47:45.310 +05:30 [DBG] Disposing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 22:47:45.317 +05:30 [DBG] Disposed connection to database '' on server '' (6ms).
+2026-03-25 22:47:45.321 +05:30 [INF] Starting Payment Service
+2026-03-25 22:47:45.324 +05:30 [INF] Swagger UI will be available at: https://localhost:7006/
+2026-03-25 22:47:45.329 +05:30 [INF] Health check available at: https://localhost:7006/health
+2026-03-25 22:47:45.331 +05:30 [INF] API endpoints:
+2026-03-25 22:47:45.334 +05:30 [INF]   POST   /api/payments - Process payment
+2026-03-25 22:47:45.337 +05:30 [INF]   GET    /api/payments - Get all payments
+2026-03-25 22:47:45.339 +05:30 [INF]   GET    /api/payments/{id} - Get payment by ID
+2026-03-25 22:47:45.342 +05:30 [INF]   PUT    /api/payments/{id}/complete - Complete payment
+2026-03-25 22:47:45.343 +05:30 [INF]   PUT    /api/payments/{id}/fail - Fail payment
+2026-03-25 22:47:45.346 +05:30 [INF]   POST   /api/payments/{id}/refund - Refund payment
+2026-03-25 22:47:45.349 +05:30 [INF]   GET    /api/payments/{id}/refunds - Get refunds
+2026-03-25 22:47:45.353 +05:30 [INF]   POST   /api/payment-methods - Add payment method
+2026-03-25 22:47:45.357 +05:30 [INF]   GET    /api/payment-methods/customer/{customerId} - Get payment methods
+2026-03-25 22:47:45.361 +05:30 [INF]   PUT    /api/payment-methods/{id} - Update payment method
+2026-03-25 22:47:45.363 +05:30 [INF]   DELETE /api/payment-methods/{id} - Delete payment method
+2026-03-25 22:47:45.377 +05:30 [DBG] Hosting starting
+2026-03-25 22:47:45.814 +05:30 [INF] Now listening on: https://localhost:7006
+2026-03-25 22:47:45.818 +05:30 [INF] Now listening on: http://localhost:5006
+2026-03-25 22:47:45.820 +05:30 [DBG] Loaded hosting startup assembly api-payment-service
+2026-03-25 22:47:45.823 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 22:47:45.826 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 22:47:45.829 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 22:47:46.014 +05:30 [DBG] Connection id "0HNKAI9NB20FI" accepted.
+2026-03-25 22:47:46.015 +05:30 [DBG] Connection id "0HNKAI9NB20FH" accepted.
+2026-03-25 22:47:46.048 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 22:47:46.048 +05:30 [DBG] Connection id "0HNKAI9NB20FH" received FIN.
+2026-03-25 22:47:46.048 +05:30 [DBG] Connection id "0HNKAI9NB20FI" received FIN.
+2026-03-25 22:47:46.064 +05:30 [DBG] Connection id "0HNKAI9NB20FI" started.
+2026-03-25 22:47:46.075 +05:30 [DBG] Connection id "0HNKAI9NB20FH" started.
+2026-03-25 22:47:46.081 +05:30 [INF] Hosting environment: Development
+2026-03-25 22:47:46.104 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-payment-service
+2026-03-25 22:47:46.107 +05:30 [DBG] Hosting started
+2026-03-25 22:47:46.122 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 22:47:46.122 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 22:47:46.162 +05:30 [DBG] Connection id "0HNKAI9NB20FI" stopped.
+2026-03-25 22:47:46.162 +05:30 [DBG] Connection id "0HNKAI9NB20FH" stopped.
+2026-03-25 22:47:46.169 +05:30 [DBG] Connection id "0HNKAI9NB20FH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 22:47:46.169 +05:30 [DBG] Connection id "0HNKAI9NB20FI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 22:47:47.165 +05:30 [DBG] Connection id "0HNKAI9NB20FJ" accepted.
+2026-03-25 22:47:47.178 +05:30 [DBG] Connection id "0HNKAI9NB20FJ" started.
+2026-03-25 22:47:47.308 +05:30 [DBG] Connection 0HNKAI9NB20FJ established using the following protocol: "Tls13"
+2026-03-25 22:47:48.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/index.html - null null
+2026-03-25 22:47:48.621 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 22:47:49.084 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 22:47:49.146 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 22:47:49.326 +05:30 [INF] HTTP GET /index.html responded 200 in 572.7318 ms
+2026-03-25 22:47:49.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 22:47:49.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_vs/browserLink - null null
+2026-03-25 22:47:49.386 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 22:47:49.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 81.1722ms
+2026-03-25 22:47:49.496 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 22:47:49.583 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/index.html - 200 null text/html;charset=utf-8 1434.943ms
+2026-03-25 22:47:49.709 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_vs/browserLink - 200 null text/javascript; charset=UTF-8 341.1724ms
+2026-03-25 22:47:51.263 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - null null
+2026-03-25 22:47:51.811 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 528.7886 ms
+2026-03-25 22:47:51.852 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 588.806ms
+2026-03-25 23:28:04.916 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 23:28:05.323 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 23:28:05.543 +05:30 [INF] Applying database migrations...
+2026-03-25 23:28:05.806 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 23:28:05.873 +05:30 [INF] Database migration starting...
+2026-03-25 23:28:06.930 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'PaymentDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 23:28:06.946 +05:30 [DBG] Creating DbConnection.
+2026-03-25 23:28:07.035 +05:30 [DBG] Created DbConnection. (85ms).
+2026-03-25 23:28:07.043 +05:30 [DBG] Migrating using database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.059 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.779 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.791 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:28:07.802 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-25 23:28:07.808 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (17ms).
+2026-03-25 23:28:07.817 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:07.870 +05:30 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:07.878 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.890 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (7ms).
+2026-03-25 23:28:07.900 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:28:07.902 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2026-03-25 23:28:07.904 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2026-03-25 23:28:07.908 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.912 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.916 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:07.959 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:07.964 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.967 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (2ms).
+2026-03-25 23:28:07.973 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.976 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.978 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:28:07.980 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2026-03-25 23:28:07.983 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2026-03-25 23:28:07.986 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:07.990 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:28:07.995 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:07.998 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (3ms).
+2026-03-25 23:28:08.002 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:28:08.006 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2026-03-25 23:28:08.010 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2026-03-25 23:28:08.012 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.014 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.017 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:08.022 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:28:08.028 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.031 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (2ms).
+2026-03-25 23:28:08.060 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.063 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.067 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 23:28:08.069 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2026-03-25 23:28:08.071 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2026-03-25 23:28:08.076 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:28:08.083 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:28:08.095 +05:30 [DBG] Closing data reader to 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.101 +05:30 [DBG] A data reader for 'PaymentServiceDB' on server 'localhost' is being disposed after spending 12ms reading results.
+2026-03-25 23:28:08.104 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.106 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (2ms).
+2026-03-25 23:28:08.121 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:28:08.124 +05:30 [INF] Database migration completed successfully
+2026-03-25 23:28:08.130 +05:30 [DBG] 'PaymentDbContext' disposed.
+2026-03-25 23:28:08.134 +05:30 [DBG] Disposing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:28:08.138 +05:30 [DBG] Disposed connection to database '' on server '' (3ms).
+2026-03-25 23:28:08.142 +05:30 [INF] Starting Payment Service
+2026-03-25 23:28:08.144 +05:30 [INF] Swagger UI will be available at: https://localhost:7006/
+2026-03-25 23:28:08.145 +05:30 [INF] Health check available at: https://localhost:7006/health
+2026-03-25 23:28:08.147 +05:30 [INF] API endpoints:
+2026-03-25 23:28:08.148 +05:30 [INF]   POST   /api/payments - Process payment
+2026-03-25 23:28:08.149 +05:30 [INF]   GET    /api/payments - Get all payments
+2026-03-25 23:28:08.151 +05:30 [INF]   GET    /api/payments/{id} - Get payment by ID
+2026-03-25 23:28:08.152 +05:30 [INF]   PUT    /api/payments/{id}/complete - Complete payment
+2026-03-25 23:28:08.153 +05:30 [INF]   PUT    /api/payments/{id}/fail - Fail payment
+2026-03-25 23:28:08.154 +05:30 [INF]   POST   /api/payments/{id}/refund - Refund payment
+2026-03-25 23:28:08.156 +05:30 [INF]   GET    /api/payments/{id}/refunds - Get refunds
+2026-03-25 23:28:08.158 +05:30 [INF]   POST   /api/payment-methods - Add payment method
+2026-03-25 23:28:08.161 +05:30 [INF]   GET    /api/payment-methods/customer/{customerId} - Get payment methods
+2026-03-25 23:28:08.163 +05:30 [INF]   PUT    /api/payment-methods/{id} - Update payment method
+2026-03-25 23:28:08.164 +05:30 [INF]   DELETE /api/payment-methods/{id} - Delete payment method
+2026-03-25 23:28:08.170 +05:30 [DBG] Hosting starting
+2026-03-25 23:28:08.588 +05:30 [INF] Now listening on: https://localhost:7006
+2026-03-25 23:28:08.606 +05:30 [INF] Now listening on: http://localhost:5006
+2026-03-25 23:28:08.610 +05:30 [DBG] Loaded hosting startup assembly api-payment-service
+2026-03-25 23:28:08.615 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 23:28:08.618 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 23:28:08.622 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 23:28:08.751 +05:30 [DBG] Connection id "0HNKAJ09C2ADK" received FIN.
+2026-03-25 23:28:08.751 +05:30 [DBG] Connection id "0HNKAJ09C2ADJ" received FIN.
+2026-03-25 23:28:08.786 +05:30 [DBG] Connection id "0HNKAJ09C2ADK" accepted.
+2026-03-25 23:28:08.787 +05:30 [DBG] Connection id "0HNKAJ09C2ADJ" accepted.
+2026-03-25 23:28:08.810 +05:30 [DBG] Connection id "0HNKAJ09C2ADK" started.
+2026-03-25 23:28:08.817 +05:30 [DBG] Connection id "0HNKAJ09C2ADJ" started.
+2026-03-25 23:28:08.869 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:28:08.869 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:28:08.951 +05:30 [DBG] Connection id "0HNKAJ09C2ADJ" stopped.
+2026-03-25 23:28:08.952 +05:30 [DBG] Connection id "0HNKAJ09C2ADK" stopped.
+2026-03-25 23:28:08.967 +05:30 [DBG] Connection id "0HNKAJ09C2ADJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:28:08.980 +05:30 [DBG] Connection id "0HNKAJ09C2ADK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:28:09.008 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:28:09.017 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:28:09.056 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-payment-service
+2026-03-25 23:28:09.067 +05:30 [DBG] Hosting started
+2026-03-25 23:28:09.535 +05:30 [DBG] Connection id "0HNKAJ09C2ADL" accepted.
+2026-03-25 23:28:09.552 +05:30 [DBG] Connection id "0HNKAJ09C2ADL" started.
+2026-03-25 23:28:09.711 +05:30 [DBG] Connection 0HNKAJ09C2ADL established using the following protocol: "Tls13"
+2026-03-25 23:28:10.041 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/index.html - null null
+2026-03-25 23:28:10.693 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 23:28:11.105 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 23:28:11.118 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 23:28:11.247 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_vs/browserLink - null null
+2026-03-25 23:28:11.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:28:11.253 +05:30 [INF] HTTP GET /index.html responded 200 in 489.9836 ms
+2026-03-25 23:28:11.447 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 194.9464ms
+2026-03-25 23:28:11.456 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 23:28:11.652 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_vs/browserLink - 200 null text/javascript; charset=UTF-8 407.0683ms
+2026-03-25 23:28:11.684 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 23:28:11.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/index.html - 200 null text/html;charset=utf-8 1703.1769ms
+2026-03-25 23:28:11.828 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - null null
+2026-03-25 23:28:12.535 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 675.9270 ms
+2026-03-25 23:28:12.551 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 723.029ms
+2026-03-25 23:36:20.620 +05:30 [DBG] Connection id "0HNKAJ09C2ADL" received FIN.
+2026-03-25 23:36:21.028 +05:30 [DBG] Connection id "0HNKAJ09C2ADL" is closed. The last processed stream ID was 7.
+2026-03-25 23:36:21.069 +05:30 [DBG] The connection queue processing loop for 0HNKAJ09C2ADL completed.
+2026-03-25 23:36:21.088 +05:30 [DBG] Connection id "0HNKAJ09C2ADL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:36:21.116 +05:30 [DBG] Connection id "0HNKAJ09C2ADL" stopped.
+2026-03-25 23:46:16.857 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 23:46:17.875 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 23:46:18.313 +05:30 [INF] Applying database migrations...
+2026-03-25 23:46:19.310 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 23:46:19.574 +05:30 [INF] Database migration starting...
+2026-03-25 23:46:22.928 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'PaymentDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 23:46:23.049 +05:30 [DBG] Creating DbConnection.
+2026-03-25 23:46:23.567 +05:30 [DBG] Created DbConnection. (496ms).
+2026-03-25 23:46:23.616 +05:30 [DBG] Migrating using database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:23.712 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.134 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.177 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:46:26.225 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (35ms).
+2026-03-25 23:46:26.262 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (87ms).
+2026-03-25 23:46:26.309 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:26.540 +05:30 [INF] Executed DbCommand (211ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:26.620 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.671 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (38ms).
+2026-03-25 23:46:26.709 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:46:26.725 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (17ms).
+2026-03-25 23:46:26.770 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (62ms).
+2026-03-25 23:46:26.798 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.846 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:26.866 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:27.061 +05:30 [INF] Executed DbCommand (193ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:27.114 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.147 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (32ms).
+2026-03-25 23:46:27.185 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.204 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.267 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:46:27.385 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (117ms).
+2026-03-25 23:46:27.481 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (213ms).
+2026-03-25 23:46:27.562 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:27.707 +05:30 [INF] Executed DbCommand (144ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:46:27.738 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.760 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (21ms).
+2026-03-25 23:46:27.770 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:46:27.782 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (12ms).
+2026-03-25 23:46:27.798 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (28ms).
+2026-03-25 23:46:27.813 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.826 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.836 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:27.853 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:46:27.885 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:27.898 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (13ms).
+2026-03-25 23:46:27.999 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.012 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.019 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 23:46:28.026 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2026-03-25 23:46:28.035 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (16ms).
+2026-03-25 23:46:28.046 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:46:28.083 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:46:28.122 +05:30 [DBG] Closing data reader to 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.151 +05:30 [DBG] A data reader for 'PaymentServiceDB' on server 'localhost' is being disposed after spending 47ms reading results.
+2026-03-25 23:46:28.170 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.185 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (14ms).
+2026-03-25 23:46:28.267 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:46:28.278 +05:30 [INF] Database migration completed successfully
+2026-03-25 23:46:28.288 +05:30 [DBG] 'PaymentDbContext' disposed.
+2026-03-25 23:46:28.302 +05:30 [DBG] Disposing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:46:28.315 +05:30 [DBG] Disposed connection to database '' on server '' (13ms).
+2026-03-25 23:46:28.328 +05:30 [INF] Starting Payment Service
+2026-03-25 23:46:28.333 +05:30 [INF] Swagger UI will be available at: https://localhost:7006/
+2026-03-25 23:46:28.345 +05:30 [INF] Health check available at: https://localhost:7006/health
+2026-03-25 23:46:28.349 +05:30 [INF] API endpoints:
+2026-03-25 23:46:28.391 +05:30 [INF]   POST   /api/payments - Process payment
+2026-03-25 23:46:28.483 +05:30 [INF]   GET    /api/payments - Get all payments
+2026-03-25 23:46:28.553 +05:30 [INF]   GET    /api/payments/{id} - Get payment by ID
+2026-03-25 23:46:28.579 +05:30 [INF]   PUT    /api/payments/{id}/complete - Complete payment
+2026-03-25 23:46:28.649 +05:30 [INF]   PUT    /api/payments/{id}/fail - Fail payment
+2026-03-25 23:46:28.661 +05:30 [INF]   POST   /api/payments/{id}/refund - Refund payment
+2026-03-25 23:46:28.677 +05:30 [INF]   GET    /api/payments/{id}/refunds - Get refunds
+2026-03-25 23:46:28.682 +05:30 [INF]   POST   /api/payment-methods - Add payment method
+2026-03-25 23:46:28.699 +05:30 [INF]   GET    /api/payment-methods/customer/{customerId} - Get payment methods
+2026-03-25 23:46:28.715 +05:30 [INF]   PUT    /api/payment-methods/{id} - Update payment method
+2026-03-25 23:46:28.744 +05:30 [INF]   DELETE /api/payment-methods/{id} - Delete payment method
+2026-03-25 23:46:28.766 +05:30 [DBG] Hosting starting
+2026-03-25 23:46:30.309 +05:30 [INF] Now listening on: https://localhost:7006
+2026-03-25 23:46:30.511 +05:30 [INF] Now listening on: http://localhost:5006
+2026-03-25 23:46:30.514 +05:30 [DBG] Connection id "0HNKAJAHN9KJ3" received FIN.
+2026-03-25 23:46:30.514 +05:30 [DBG] Connection id "0HNKAJAHN9KJ2" received FIN.
+2026-03-25 23:46:30.529 +05:30 [DBG] Loaded hosting startup assembly api-payment-service
+2026-03-25 23:46:30.846 +05:30 [DBG] Connection id "0HNKAJAHN9KJ2" accepted.
+2026-03-25 23:46:30.847 +05:30 [DBG] Connection id "0HNKAJAHN9KJ3" accepted.
+2026-03-25 23:46:31.064 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 23:46:31.247 +05:30 [DBG] Connection id "0HNKAJAHN9KJ2" started.
+2026-03-25 23:46:31.285 +05:30 [DBG] Connection id "0HNKAJAHN9KJ3" started.
+2026-03-25 23:46:31.302 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 23:46:31.433 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:46:31.460 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 23:46:31.432 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:46:31.697 +05:30 [DBG] Connection id "0HNKAJAHN9KJ2" stopped.
+2026-03-25 23:46:31.832 +05:30 [DBG] Connection id "0HNKAJAHN9KJ3" stopped.
+2026-03-25 23:46:31.888 +05:30 [DBG] Connection id "0HNKAJAHN9KJ2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:46:31.914 +05:30 [DBG] Connection id "0HNKAJAHN9KJ3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:46:32.429 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:46:32.484 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:46:32.543 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-payment-service
+2026-03-25 23:46:32.555 +05:30 [DBG] Hosting started
+2026-03-25 23:46:33.251 +05:30 [DBG] Connection id "0HNKAJAHN9KJ4" accepted.
+2026-03-25 23:46:33.370 +05:30 [DBG] Connection id "0HNKAJAHN9KJ4" started.
+2026-03-25 23:46:33.553 +05:30 [DBG] Connection 0HNKAJAHN9KJ4 established using the following protocol: "Tls13"
+2026-03-25 23:46:34.365 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/index.html - null null
+2026-03-25 23:46:35.173 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 23:46:35.626 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 23:46:35.690 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 23:46:35.873 +05:30 [INF] HTTP GET /index.html responded 200 in 650.7191 ms
+2026-03-25 23:46:35.891 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 23:46:35.898 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 23:46:35.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/index.html - 200 null text/html;charset=utf-8 1551.553ms
+2026-03-25 23:46:35.926 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:46:35.931 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_vs/browserLink - null null
+2026-03-25 23:46:36.014 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 87.8152ms
+2026-03-25 23:46:36.195 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_vs/browserLink - 200 null text/javascript; charset=UTF-8 263.5108ms
+2026-03-25 23:46:36.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - null null
+2026-03-25 23:46:37.003 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 471.1212 ms
+2026-03-25 23:46:37.030 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 525.8214ms
+2026-03-25 23:55:53.178 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-25 23:55:53.773 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-25 23:55:53.979 +05:30 [INF] Applying database migrations...
+2026-03-25 23:55:54.362 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-25 23:55:54.448 +05:30 [INF] Database migration starting...
+2026-03-25 23:55:55.610 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'PaymentDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-25 23:55:55.632 +05:30 [DBG] Creating DbConnection.
+2026-03-25 23:55:55.716 +05:30 [DBG] Created DbConnection. (82ms).
+2026-03-25 23:55:55.725 +05:30 [DBG] Migrating using database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:55.745 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:57.754 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:57.804 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:55:57.884 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (66ms).
+2026-03-25 23:55:57.906 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (104ms).
+2026-03-25 23:55:57.987 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:55:58.265 +05:30 [INF] Executed DbCommand (277ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:55:58.315 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:58.369 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (34ms).
+2026-03-25 23:55:58.416 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:55:58.474 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (60ms).
+2026-03-25 23:55:58.508 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (94ms).
+2026-03-25 23:55:58.536 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:58.609 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:58.631 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:55:58.758 +05:30 [INF] Executed DbCommand (130ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:55:58.776 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:58.790 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (14ms).
+2026-03-25 23:55:58.817 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:58.843 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:58.879 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-25 23:55:58.917 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (37ms).
+2026-03-25 23:55:58.937 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (57ms).
+2026-03-25 23:55:58.976 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:55:59.051 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-25 23:55:59.074 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.083 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (9ms).
+2026-03-25 23:55:59.096 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-25 23:55:59.102 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (6ms).
+2026-03-25 23:55:59.111 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (15ms).
+2026-03-25 23:55:59.123 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.154 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.171 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:55:59.195 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-25 23:55:59.230 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.243 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (13ms).
+2026-03-25 23:55:59.338 +05:30 [DBG] Opening connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.349 +05:30 [DBG] Opened connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.359 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-25 23:55:59.370 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (10ms).
+2026-03-25 23:55:59.378 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (18ms).
+2026-03-25 23:55:59.431 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:55:59.454 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-25 23:55:59.505 +05:30 [DBG] Closing data reader to 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.524 +05:30 [DBG] A data reader for 'PaymentServiceDB' on server 'localhost' is being disposed after spending 46ms reading results.
+2026-03-25 23:55:59.539 +05:30 [DBG] Closing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.551 +05:30 [DBG] Closed connection to database 'PaymentServiceDB' on server 'localhost' (11ms).
+2026-03-25 23:55:59.615 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-25 23:55:59.624 +05:30 [INF] Database migration completed successfully
+2026-03-25 23:55:59.639 +05:30 [DBG] 'PaymentDbContext' disposed.
+2026-03-25 23:55:59.654 +05:30 [DBG] Disposing connection to database 'PaymentServiceDB' on server 'localhost'.
+2026-03-25 23:55:59.671 +05:30 [DBG] Disposed connection to database '' on server '' (15ms).
+2026-03-25 23:55:59.698 +05:30 [INF] Starting Payment Service
+2026-03-25 23:55:59.707 +05:30 [INF] Swagger UI will be available at: https://localhost:7006/
+2026-03-25 23:55:59.716 +05:30 [INF] Health check available at: https://localhost:7006/health
+2026-03-25 23:55:59.738 +05:30 [INF] API endpoints:
+2026-03-25 23:55:59.745 +05:30 [INF]   POST   /api/payments - Process payment
+2026-03-25 23:55:59.753 +05:30 [INF]   GET    /api/payments - Get all payments
+2026-03-25 23:55:59.759 +05:30 [INF]   GET    /api/payments/{id} - Get payment by ID
+2026-03-25 23:55:59.782 +05:30 [INF]   PUT    /api/payments/{id}/complete - Complete payment
+2026-03-25 23:55:59.794 +05:30 [INF]   PUT    /api/payments/{id}/fail - Fail payment
+2026-03-25 23:55:59.807 +05:30 [INF]   POST   /api/payments/{id}/refund - Refund payment
+2026-03-25 23:55:59.815 +05:30 [INF]   GET    /api/payments/{id}/refunds - Get refunds
+2026-03-25 23:55:59.847 +05:30 [INF]   POST   /api/payment-methods - Add payment method
+2026-03-25 23:55:59.892 +05:30 [INF]   GET    /api/payment-methods/customer/{customerId} - Get payment methods
+2026-03-25 23:55:59.903 +05:30 [INF]   PUT    /api/payment-methods/{id} - Update payment method
+2026-03-25 23:55:59.921 +05:30 [INF]   DELETE /api/payment-methods/{id} - Delete payment method
+2026-03-25 23:55:59.948 +05:30 [DBG] Hosting starting
+2026-03-25 23:56:00.981 +05:30 [INF] Now listening on: https://localhost:7006
+2026-03-25 23:56:01.073 +05:30 [INF] Now listening on: http://localhost:5006
+2026-03-25 23:56:01.147 +05:30 [DBG] Loaded hosting startup assembly api-payment-service
+2026-03-25 23:56:01.156 +05:30 [DBG] Connection id "0HNKAJFRPC39U" received FIN.
+2026-03-25 23:56:01.168 +05:30 [DBG] Connection id "0HNKAJFRPC39V" received FIN.
+2026-03-25 23:56:01.337 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-25 23:56:01.466 +05:30 [DBG] Connection id "0HNKAJFRPC39U" accepted.
+2026-03-25 23:56:01.478 +05:30 [DBG] Connection id "0HNKAJFRPC39V" accepted.
+2026-03-25 23:56:01.525 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-25 23:56:01.576 +05:30 [DBG] Connection id "0HNKAJFRPC39U" started.
+2026-03-25 23:56:01.594 +05:30 [DBG] Connection id "0HNKAJFRPC39V" started.
+2026-03-25 23:56:01.606 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-25 23:56:01.669 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:56:01.670 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-25 23:56:01.776 +05:30 [DBG] Connection id "0HNKAJFRPC39V" stopped.
+2026-03-25 23:56:01.776 +05:30 [DBG] Connection id "0HNKAJFRPC39U" stopped.
+2026-03-25 23:56:01.804 +05:30 [DBG] Connection id "0HNKAJFRPC39U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:56:01.804 +05:30 [DBG] Connection id "0HNKAJFRPC39V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-25 23:56:02.159 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 23:56:02.185 +05:30 [INF] Hosting environment: Development
+2026-03-25 23:56:02.194 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-payment-service
+2026-03-25 23:56:02.209 +05:30 [DBG] Hosting started
+2026-03-25 23:56:02.844 +05:30 [DBG] Connection id "0HNKAJFRPC3A0" accepted.
+2026-03-25 23:56:02.900 +05:30 [DBG] Connection id "0HNKAJFRPC3A0" started.
+2026-03-25 23:56:03.169 +05:30 [DBG] Connection 0HNKAJFRPC3A0 established using the following protocol: "Tls13"
+2026-03-25 23:56:03.483 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/index.html - null null
+2026-03-25 23:56:04.401 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-25 23:56:04.805 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-25 23:56:04.814 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-25 23:56:04.904 +05:30 [INF] HTTP GET /index.html responded 200 in 465.9211 ms
+2026-03-25 23:56:04.927 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-25 23:56:04.937 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-25 23:56:04.950 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/index.html - 200 null text/html;charset=utf-8 1475.182ms
+2026-03-25 23:56:04.992 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 23:56:05.000 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/_vs/browserLink - null null
+2026-03-25 23:56:05.056 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 63.2785ms
+2026-03-25 23:56:05.458 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/_vs/browserLink - 200 null text/javascript; charset=UTF-8 457.8431ms
+2026-03-25 23:56:11.190 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - null null
+2026-03-25 23:56:11.723 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 512.3098 ms
+2026-03-25 23:56:11.739 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 548.759ms

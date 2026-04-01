@@ -1,0 +1,1367 @@
+2026-03-21 12:33:23.484 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 12:33:25.090 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 12:33:25.638 +05:30 [INF] Applying database migrations...
+2026-03-21 12:33:26.758 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 12:33:26.999 +05:30 [INF] Database migration starting...
+2026-03-21 12:33:30.815 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 12:33:30.905 +05:30 [DBG] Creating DbConnection.
+2026-03-21 12:33:31.203 +05:30 [DBG] Created DbConnection. (276ms).
+2026-03-21 12:33:31.242 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:31.304 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:33.568 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:33.642 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 12:33:33.697 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (50ms).
+2026-03-21 12:33:33.718 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (86ms).
+2026-03-21 12:33:33.767 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 12:33:34.003 +05:30 [INF] Executed DbCommand (228ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 12:33:34.034 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.107 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (52ms).
+2026-03-21 12:33:34.143 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 12:33:34.159 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (20ms).
+2026-03-21 12:33:34.168 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (29ms).
+2026-03-21 12:33:34.179 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.199 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.208 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 12:33:34.310 +05:30 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 12:33:34.334 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.345 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (11ms).
+2026-03-21 12:33:34.388 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.398 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.409 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 12:33:34.418 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2026-03-21 12:33:34.438 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (29ms).
+2026-03-21 12:33:34.449 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 12:33:34.490 +05:30 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 12:33:34.512 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.537 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (24ms).
+2026-03-21 12:33:34.559 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 12:33:34.571 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (12ms).
+2026-03-21 12:33:34.594 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (35ms).
+2026-03-21 12:33:34.618 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.631 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.641 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 12:33:34.672 +05:30 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 12:33:34.700 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.728 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (27ms).
+2026-03-21 12:33:34.833 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.840 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:34.881 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 12:33:34.891 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (9ms).
+2026-03-21 12:33:34.906 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (24ms).
+2026-03-21 12:33:34.919 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 12:33:34.951 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 12:33:34.984 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:35.005 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 37ms reading results.
+2026-03-21 12:33:35.016 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:35.027 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (11ms).
+2026-03-21 12:33:35.071 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 12:33:35.076 +05:30 [INF] Database migration completed successfully
+2026-03-21 12:33:35.085 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 12:33:35.108 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 12:33:35.148 +05:30 [DBG] Disposed connection to database '' on server '' (38ms).
+2026-03-21 12:33:35.157 +05:30 [INF] Starting Inventory Service
+2026-03-21 12:33:35.174 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 12:33:35.191 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 12:33:35.212 +05:30 [DBG] Hosting starting
+2026-03-21 12:33:35.914 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 12:33:35.946 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 12:33:35.960 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 12:33:35.969 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 12:33:35.974 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 12:33:35.979 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 12:33:36.354 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 12:33:36.394 +05:30 [DBG] Connection id "0HNK72VSF7KB6" accepted.
+2026-03-21 12:33:36.393 +05:30 [DBG] Connection id "0HNK72VSF7KB7" received FIN.
+2026-03-21 12:33:36.423 +05:30 [INF] Hosting environment: Development
+2026-03-21 12:33:36.439 +05:30 [DBG] Connection id "0HNK72VSF7KB6" started.
+2026-03-21 12:33:36.393 +05:30 [DBG] Connection id "0HNK72VSF7KB8" received FIN.
+2026-03-21 12:33:36.394 +05:30 [DBG] Connection id "0HNK72VSF7KB5" accepted.
+2026-03-21 12:33:36.485 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 12:33:36.508 +05:30 [DBG] Connection id "0HNK72VSF7KB5" started.
+2026-03-21 12:33:36.517 +05:30 [DBG] Hosting started
+2026-03-21 12:33:36.528 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 12:33:36.536 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 12:33:36.610 +05:30 [DBG] Connection id "0HNK72VSF7KB6" stopped.
+2026-03-21 12:33:36.611 +05:30 [DBG] Connection id "0HNK72VSF7KB5" stopped.
+2026-03-21 12:33:36.634 +05:30 [DBG] Connection id "0HNK72VSF7KB6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 12:33:36.637 +05:30 [DBG] Connection id "0HNK72VSF7KB5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 12:33:37.131 +05:30 [DBG] Connection id "0HNK72VSF7KB9" accepted.
+2026-03-21 12:33:37.153 +05:30 [DBG] Connection id "0HNK72VSF7KB9" started.
+2026-03-21 12:33:37.334 +05:30 [DBG] Connection 0HNK72VSF7KB9 established using the following protocol: "Tls13"
+2026-03-21 12:33:37.783 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 12:33:38.555 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 12:33:39.009 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 12:33:39.039 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 12:33:39.199 +05:30 [INF] HTTP GET /index.html responded 200 in 566.1827 ms
+2026-03-21 12:33:39.235 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 12:33:39.256 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 12:33:39.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1507.1405ms
+2026-03-21 12:33:44.710 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 12:33:44.739 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 28.2621ms
+2026-03-21 12:33:44.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 12:33:45.072 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 249.2842ms
+2026-03-21 12:33:46.667 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 12:33:46.997 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 315.7849 ms
+2026-03-21 12:33:47.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 345.0516ms
+2026-03-21 12:49:08.582 +05:30 [DBG] Connection id "0HNK72VSF7KB9" received FIN.
+2026-03-21 12:49:08.669 +05:30 [DBG] Connection id "0HNK72VSF7KB9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 12:49:08.690 +05:30 [DBG] Connection id "0HNK72VSF7KB9" is closed. The last processed stream ID was 7.
+2026-03-21 12:49:08.702 +05:30 [DBG] The connection queue processing loop for 0HNK72VSF7KB9 completed.
+2026-03-21 12:49:08.708 +05:30 [DBG] Connection id "0HNK72VSF7KB9" stopped.
+2026-03-21 13:06:21.846 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 13:06:22.942 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 13:06:23.333 +05:30 [INF] Applying database migrations...
+2026-03-21 13:06:23.980 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 13:06:24.098 +05:30 [INF] Database migration starting...
+2026-03-21 13:06:27.767 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 13:06:27.857 +05:30 [DBG] Creating DbConnection.
+2026-03-21 13:06:28.119 +05:30 [DBG] Created DbConnection. (244ms).
+2026-03-21 13:06:28.139 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:28.206 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.046 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.087 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 13:06:30.114 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (15ms).
+2026-03-21 13:06:30.137 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (50ms).
+2026-03-21 13:06:30.173 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 13:06:30.300 +05:30 [INF] Executed DbCommand (121ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 13:06:30.363 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.420 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (44ms).
+2026-03-21 13:06:30.469 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 13:06:30.485 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (17ms).
+2026-03-21 13:06:30.507 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (39ms).
+2026-03-21 13:06:30.540 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.556 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.571 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 13:06:30.700 +05:30 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 13:06:30.718 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.735 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (16ms).
+2026-03-21 13:06:30.749 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.752 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.756 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 13:06:30.762 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2026-03-21 13:06:30.769 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (13ms).
+2026-03-21 13:06:30.774 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 13:06:30.797 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 13:06:30.822 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.832 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (10ms).
+2026-03-21 13:06:30.843 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 13:06:30.850 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (7ms).
+2026-03-21 13:06:30.859 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (15ms).
+2026-03-21 13:06:30.865 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.874 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.880 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 13:06:30.896 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 13:06:30.907 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.919 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (12ms).
+2026-03-21 13:06:30.979 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.986 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:30.996 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 13:06:31.000 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2026-03-21 13:06:31.013 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (17ms).
+2026-03-21 13:06:31.029 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 13:06:31.060 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 13:06:31.097 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:31.112 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 32ms reading results.
+2026-03-21 13:06:31.117 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:31.124 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (7ms).
+2026-03-21 13:06:31.166 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 13:06:31.168 +05:30 [INF] Database migration completed successfully
+2026-03-21 13:06:31.175 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 13:06:31.184 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 13:06:31.189 +05:30 [DBG] Disposed connection to database '' on server '' (5ms).
+2026-03-21 13:06:31.194 +05:30 [INF] Starting Inventory Service
+2026-03-21 13:06:31.202 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 13:06:31.213 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 13:06:31.236 +05:30 [DBG] Hosting starting
+2026-03-21 13:06:32.061 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 13:06:32.072 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 13:06:32.085 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 13:06:32.090 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 13:06:32.095 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 13:06:32.098 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 13:06:32.132 +05:30 [DBG] Connection id "0HNK73I99BONG" received FIN.
+2026-03-21 13:06:32.204 +05:30 [DBG] Connection id "0HNK73I99BONG" accepted.
+2026-03-21 13:06:32.263 +05:30 [DBG] Connection id "0HNK73I99BONG" started.
+2026-03-21 13:06:32.411 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 13:06:32.680 +05:30 [DBG] Connection id "0HNK73I99BONH" accepted.
+2026-03-21 13:06:32.757 +05:30 [DBG] Connection id "0HNK73I99BONG" stopped.
+2026-03-21 13:06:32.830 +05:30 [DBG] Connection id "0HNK73I99BONH" started.
+2026-03-21 13:06:33.062 +05:30 [DBG] Connection id "0HNK73I99BONG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 13:06:33.137 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 13:06:33.297 +05:30 [INF] Hosting environment: Development
+2026-03-21 13:06:33.363 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 13:06:33.413 +05:30 [DBG] Connection 0HNK73I99BONH established using the following protocol: "Tls13"
+2026-03-21 13:06:33.512 +05:30 [DBG] Hosting started
+2026-03-21 13:06:34.088 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 13:06:35.016 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 13:06:35.436 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 13:06:35.448 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 13:06:35.574 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 13:06:35.572 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 13:06:35.600 +05:30 [INF] HTTP GET /index.html responded 200 in 531.7806 ms
+2026-03-21 13:06:35.675 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 98.8831ms
+2026-03-21 13:06:35.757 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 13:06:35.811 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 13:06:35.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1756.9552ms
+2026-03-21 13:06:35.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 323.7192ms
+2026-03-21 13:06:40.081 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 13:06:40.573 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 472.0856 ms
+2026-03-21 13:06:40.584 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 502.8044ms
+2026-03-21 14:21:57.985 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 14:21:58.378 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 14:21:58.481 +05:30 [INF] Applying database migrations...
+2026-03-21 14:21:58.787 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 14:21:58.837 +05:30 [INF] Database migration starting...
+2026-03-21 14:21:59.513 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 14:21:59.526 +05:30 [DBG] Creating DbConnection.
+2026-03-21 14:21:59.586 +05:30 [DBG] Created DbConnection. (59ms).
+2026-03-21 14:21:59.594 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:21:59.607 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:00.784 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:00.831 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 14:22:00.883 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (40ms).
+2026-03-21 14:22:00.911 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (82ms).
+2026-03-21 14:22:00.977 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 14:22:01.211 +05:30 [INF] Executed DbCommand (238ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 14:22:01.264 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.344 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (44ms).
+2026-03-21 14:22:01.414 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 14:22:01.439 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (27ms).
+2026-03-21 14:22:01.458 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (47ms).
+2026-03-21 14:22:01.468 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.477 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.484 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 14:22:01.637 +05:30 [INF] Executed DbCommand (150ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 14:22:01.653 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.668 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (15ms).
+2026-03-21 14:22:01.695 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.704 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.731 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 14:22:01.745 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (14ms).
+2026-03-21 14:22:01.761 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (29ms).
+2026-03-21 14:22:01.782 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 14:22:01.796 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 14:22:01.818 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.832 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (14ms).
+2026-03-21 14:22:01.845 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 14:22:01.865 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (19ms).
+2026-03-21 14:22:01.886 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (40ms).
+2026-03-21 14:22:01.931 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.950 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:01.971 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 14:22:02.021 +05:30 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 14:22:02.054 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:02.084 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (29ms).
+2026-03-21 14:22:02.210 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:02.241 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:02.271 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 14:22:02.367 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (95ms).
+2026-03-21 14:22:02.460 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (188ms).
+2026-03-21 14:22:02.569 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 14:22:02.704 +05:30 [INF] Executed DbCommand (137ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 14:22:02.800 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:02.861 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 84ms reading results.
+2026-03-21 14:22:02.911 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:02.951 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (40ms).
+2026-03-21 14:22:03.035 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 14:22:03.044 +05:30 [INF] Database migration completed successfully
+2026-03-21 14:22:03.061 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 14:22:03.080 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 14:22:03.113 +05:30 [DBG] Disposed connection to database '' on server '' (26ms).
+2026-03-21 14:22:03.144 +05:30 [INF] Starting Inventory Service
+2026-03-21 14:22:03.162 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 14:22:03.189 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 14:22:03.245 +05:30 [DBG] Hosting starting
+2026-03-21 14:22:04.265 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 14:22:04.297 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 14:22:04.315 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 14:22:04.332 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 14:22:04.347 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 14:22:04.357 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 14:22:04.453 +05:30 [DBG] Connection id "0HNK74SG0U0M1" accepted.
+2026-03-21 14:22:04.453 +05:30 [DBG] Connection id "0HNK74SG0U0M0" accepted.
+2026-03-21 14:22:04.491 +05:30 [DBG] Connection id "0HNK74SG0U0M0" received FIN.
+2026-03-21 14:22:04.491 +05:30 [DBG] Connection id "0HNK74SG0U0M1" received FIN.
+2026-03-21 14:22:04.499 +05:30 [DBG] Connection id "0HNK74SG0U0M0" started.
+2026-03-21 14:22:04.493 +05:30 [DBG] Connection id "0HNK74SG0U0M1" started.
+2026-03-21 14:22:04.600 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 14:22:04.600 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 14:22:04.765 +05:30 [DBG] Connection id "0HNK74SG0U0M0" stopped.
+2026-03-21 14:22:04.776 +05:30 [DBG] Connection id "0HNK74SG0U0M1" stopped.
+2026-03-21 14:22:04.810 +05:30 [DBG] Connection id "0HNK74SG0U0M0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 14:22:04.817 +05:30 [DBG] Connection id "0HNK74SG0U0M1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 14:22:05.036 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 14:22:05.055 +05:30 [INF] Hosting environment: Development
+2026-03-21 14:22:05.075 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 14:22:05.087 +05:30 [DBG] Hosting started
+2026-03-21 14:22:05.623 +05:30 [DBG] Connection id "0HNK74SG0U0M2" accepted.
+2026-03-21 14:22:05.640 +05:30 [DBG] Connection id "0HNK74SG0U0M2" started.
+2026-03-21 14:22:05.811 +05:30 [DBG] Connection 0HNK74SG0U0M2 established using the following protocol: "Tls13"
+2026-03-21 14:22:06.131 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 14:22:06.731 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 14:22:07.141 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 14:22:07.218 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 14:22:07.450 +05:30 [INF] HTTP GET /index.html responded 200 in 688.2254 ms
+2026-03-21 14:22:07.505 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 14:22:07.544 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 14:22:07.595 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1470.6215ms
+2026-03-21 14:22:11.681 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 14:22:11.683 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 14:22:11.715 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 34.3333ms
+2026-03-21 14:22:11.874 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 191.2643ms
+2026-03-21 14:22:12.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 14:22:12.909 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 448.4048 ms
+2026-03-21 14:22:12.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 495.2297ms
+2026-03-21 14:49:07.527 +05:30 [DBG] Connection id "0HNK74SG0U0M2" received FIN.
+2026-03-21 14:49:07.626 +05:30 [DBG] Connection id "0HNK74SG0U0M2" is closed. The last processed stream ID was 7.
+2026-03-21 14:49:07.629 +05:30 [DBG] The connection queue processing loop for 0HNK74SG0U0M2 completed.
+2026-03-21 14:49:07.654 +05:30 [DBG] Connection id "0HNK74SG0U0M2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 14:49:07.682 +05:30 [DBG] Connection id "0HNK74SG0U0M2" stopped.
+2026-03-21 17:25:45.027 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 17:25:45.815 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 17:25:46.116 +05:30 [INF] Applying database migrations...
+2026-03-21 17:25:46.654 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 17:25:46.751 +05:30 [INF] Database migration starting...
+2026-03-21 17:25:48.455 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 17:25:48.492 +05:30 [DBG] Creating DbConnection.
+2026-03-21 17:25:48.707 +05:30 [DBG] Created DbConnection. (206ms).
+2026-03-21 17:25:48.732 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:48.772 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:50.633 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:50.671 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 17:25:50.738 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (60ms).
+2026-03-21 17:25:50.778 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (111ms).
+2026-03-21 17:25:50.837 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 17:25:51.073 +05:30 [INF] Executed DbCommand (238ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 17:25:51.113 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.194 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (68ms).
+2026-03-21 17:25:51.243 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 17:25:51.273 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (31ms).
+2026-03-21 17:25:51.283 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (42ms).
+2026-03-21 17:25:51.295 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.313 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.340 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 17:25:51.496 +05:30 [INF] Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 17:25:51.520 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.528 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (8ms).
+2026-03-21 17:25:51.555 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.564 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.669 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 17:25:51.719 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (49ms).
+2026-03-21 17:25:51.738 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (69ms).
+2026-03-21 17:25:51.760 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 17:25:51.798 +05:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 17:25:51.819 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.828 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (9ms).
+2026-03-21 17:25:51.840 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 17:25:51.846 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2026-03-21 17:25:51.857 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (16ms).
+2026-03-21 17:25:51.864 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.877 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.889 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 17:25:51.901 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 17:25:51.911 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.922 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (10ms).
+2026-03-21 17:25:51.978 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:51.990 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:52.007 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 17:25:52.012 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2026-03-21 17:25:52.025 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (17ms).
+2026-03-21 17:25:52.038 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 17:25:52.112 +05:30 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 17:25:52.157 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:52.177 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 46ms reading results.
+2026-03-21 17:25:52.233 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:52.256 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (22ms).
+2026-03-21 17:25:52.312 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 17:25:52.323 +05:30 [INF] Database migration completed successfully
+2026-03-21 17:25:52.333 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 17:25:52.353 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:25:52.442 +05:30 [DBG] Disposed connection to database '' on server '' (92ms).
+2026-03-21 17:25:52.475 +05:30 [INF] Starting Inventory Service
+2026-03-21 17:25:52.491 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 17:25:52.495 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 17:25:52.521 +05:30 [DBG] Hosting starting
+2026-03-21 17:25:54.692 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 17:25:54.746 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 17:25:54.757 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 17:25:54.790 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 17:25:54.810 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 17:25:54.819 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 17:25:54.879 +05:30 [DBG] Connection id "0HNK7837B8OOU" received FIN.
+2026-03-21 17:25:54.879 +05:30 [DBG] Connection id "0HNK7837B8OOV" received FIN.
+2026-03-21 17:25:55.013 +05:30 [DBG] Connection id "0HNK7837B8OOV" accepted.
+2026-03-21 17:25:54.994 +05:30 [DBG] Connection id "0HNK7837B8OOU" accepted.
+2026-03-21 17:25:55.074 +05:30 [DBG] Connection id "0HNK7837B8OOV" started.
+2026-03-21 17:25:55.104 +05:30 [DBG] Connection id "0HNK7837B8OOU" started.
+2026-03-21 17:25:55.223 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 17:25:55.223 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 17:25:55.410 +05:30 [DBG] Connection id "0HNK7837B8OOV" stopped.
+2026-03-21 17:25:55.419 +05:30 [DBG] Connection id "0HNK7837B8OOU" stopped.
+2026-03-21 17:25:55.453 +05:30 [DBG] Connection id "0HNK7837B8OOV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 17:25:55.460 +05:30 [DBG] Connection id "0HNK7837B8OOU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 17:25:55.520 +05:30 [DBG] Connection id "0HNK7837B8OP0" accepted.
+2026-03-21 17:25:55.594 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 17:25:55.705 +05:30 [DBG] Connection id "0HNK7837B8OP0" started.
+2026-03-21 17:25:55.763 +05:30 [INF] Hosting environment: Development
+2026-03-21 17:25:55.952 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 17:25:56.039 +05:30 [DBG] Hosting started
+2026-03-21 17:25:56.089 +05:30 [DBG] Connection 0HNK7837B8OP0 established using the following protocol: "Tls13"
+2026-03-21 17:25:56.704 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 17:25:57.415 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 17:25:57.781 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 17:25:57.825 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 17:25:57.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 17:25:57.941 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 17:25:57.967 +05:30 [INF] HTTP GET /index.html responded 200 in 529.5935 ms
+2026-03-21 17:25:58.083 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 140.4887ms
+2026-03-21 17:25:58.162 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 17:25:58.209 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 17:25:58.262 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1563.3817ms
+2026-03-21 17:25:58.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 370.0488ms
+2026-03-21 17:26:03.536 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 17:26:03.945 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 391.4870 ms
+2026-03-21 17:26:03.958 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 421.6599ms
+2026-03-21 17:29:37.685 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 17:29:37.988 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 17:29:38.101 +05:30 [INF] Applying database migrations...
+2026-03-21 17:29:38.311 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 17:29:38.360 +05:30 [INF] Database migration starting...
+2026-03-21 17:29:39.580 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 17:29:39.759 +05:30 [DBG] Creating DbConnection.
+2026-03-21 17:29:40.119 +05:30 [DBG] Created DbConnection. (347ms).
+2026-03-21 17:29:40.244 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:40.434 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:42.202 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:42.233 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 17:29:42.366 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (133ms).
+2026-03-21 17:29:42.402 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (178ms).
+2026-03-21 17:29:42.458 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 17:29:42.654 +05:30 [INF] Executed DbCommand (195ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 17:29:42.688 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:42.749 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (43ms).
+2026-03-21 17:29:42.794 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 17:29:42.823 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (31ms).
+2026-03-21 17:29:42.868 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (76ms).
+2026-03-21 17:29:42.947 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:43.012 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:43.022 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 17:29:43.197 +05:30 [INF] Executed DbCommand (173ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 17:29:43.223 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:43.235 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (12ms).
+2026-03-21 17:29:43.282 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:43.316 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:43.341 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 17:29:43.379 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (38ms).
+2026-03-21 17:29:43.489 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (148ms).
+2026-03-21 17:29:43.602 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 17:29:43.739 +05:30 [INF] Executed DbCommand (138ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 17:29:43.815 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:43.870 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (55ms).
+2026-03-21 17:29:43.952 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 17:29:43.990 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (37ms).
+2026-03-21 17:29:44.033 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (81ms).
+2026-03-21 17:29:44.075 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:44.131 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:44.188 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 17:29:44.210 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 17:29:44.252 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:44.292 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (39ms).
+2026-03-21 17:29:44.413 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:44.434 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:44.450 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 17:29:44.469 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (18ms).
+2026-03-21 17:29:44.488 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (37ms).
+2026-03-21 17:29:44.503 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 17:29:44.546 +05:30 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 17:29:44.611 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:44.643 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 59ms reading results.
+2026-03-21 17:29:44.665 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:44.674 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (9ms).
+2026-03-21 17:29:44.742 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 17:29:44.763 +05:30 [INF] Database migration completed successfully
+2026-03-21 17:29:44.780 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 17:29:44.797 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 17:29:44.823 +05:30 [DBG] Disposed connection to database '' on server '' (21ms).
+2026-03-21 17:29:44.837 +05:30 [INF] Starting Inventory Service
+2026-03-21 17:29:44.849 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 17:29:44.865 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 17:29:44.889 +05:30 [DBG] Hosting starting
+2026-03-21 17:29:45.760 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 17:29:45.770 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 17:29:45.774 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 17:29:45.791 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 17:29:45.802 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 17:29:45.807 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 17:29:45.875 +05:30 [DBG] Connection id "0HNK785C67MM6" received FIN.
+2026-03-21 17:29:45.922 +05:30 [DBG] Connection id "0HNK785C67MM6" accepted.
+2026-03-21 17:29:45.964 +05:30 [DBG] Connection id "0HNK785C67MM6" started.
+2026-03-21 17:29:46.029 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 17:29:46.132 +05:30 [DBG] Connection id "0HNK785C67MM6" stopped.
+2026-03-21 17:29:46.156 +05:30 [DBG] Connection id "0HNK785C67MM6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 17:29:46.312 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 17:29:46.355 +05:30 [INF] Hosting environment: Development
+2026-03-21 17:29:46.389 +05:30 [DBG] Connection id "0HNK785C67MM7" accepted.
+2026-03-21 17:29:46.422 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 17:29:46.456 +05:30 [DBG] Connection id "0HNK785C67MM7" started.
+2026-03-21 17:29:46.517 +05:30 [DBG] Hosting started
+2026-03-21 17:29:46.716 +05:30 [DBG] Connection 0HNK785C67MM7 established using the following protocol: "Tls13"
+2026-03-21 17:29:47.064 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 17:29:47.857 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 17:29:48.368 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 17:29:48.399 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 17:29:48.537 +05:30 [INF] HTTP GET /index.html responded 200 in 601.8348 ms
+2026-03-21 17:29:48.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 17:29:48.620 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 17:29:48.736 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 17:29:48.857 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 242.1712ms
+2026-03-21 17:29:48.887 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 17:29:48.953 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1906.3695ms
+2026-03-21 17:29:49.054 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 433.6017ms
+2026-03-21 17:29:53.208 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 17:29:53.645 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 410.9967 ms
+2026-03-21 17:29:53.679 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 470.8966ms
+2026-03-21 17:46:18.408 +05:30 [DBG] Connection id "0HNK785C67MM7" received FIN.
+2026-03-21 17:46:18.449 +05:30 [DBG] Connection id "0HNK785C67MM7" is closed. The last processed stream ID was 7.
+2026-03-21 17:46:18.458 +05:30 [DBG] The connection queue processing loop for 0HNK785C67MM7 completed.
+2026-03-21 17:46:18.463 +05:30 [DBG] Connection id "0HNK785C67MM7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 17:46:18.501 +05:30 [DBG] Connection id "0HNK785C67MM7" stopped.
+2026-03-21 18:12:41.340 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 18:12:41.926 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 18:12:42.875 +05:30 [INF] Applying database migrations...
+2026-03-21 18:12:43.648 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 18:12:43.905 +05:30 [INF] Database migration starting...
+2026-03-21 18:12:46.785 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 18:12:46.926 +05:30 [DBG] Creating DbConnection.
+2026-03-21 18:12:47.109 +05:30 [DBG] Created DbConnection. (177ms).
+2026-03-21 18:12:47.136 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:47.194 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:49.681 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:49.730 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 18:12:49.765 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (19ms).
+2026-03-21 18:12:49.787 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (59ms).
+2026-03-21 18:12:49.817 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 18:12:50.068 +05:30 [INF] Executed DbCommand (223ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 18:12:50.155 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.260 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (76ms).
+2026-03-21 18:12:50.326 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 18:12:50.349 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (24ms).
+2026-03-21 18:12:50.387 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (62ms).
+2026-03-21 18:12:50.403 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.443 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.466 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 18:12:50.645 +05:30 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 18:12:50.658 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.673 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (14ms).
+2026-03-21 18:12:50.693 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.709 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.715 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 18:12:50.730 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (15ms).
+2026-03-21 18:12:50.744 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (28ms).
+2026-03-21 18:12:50.760 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 18:12:50.793 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 18:12:50.817 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.839 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (22ms).
+2026-03-21 18:12:50.861 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 18:12:50.875 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (14ms).
+2026-03-21 18:12:50.890 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (28ms).
+2026-03-21 18:12:50.920 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.963 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:50.981 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 18:12:51.004 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 18:12:51.013 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:51.027 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (13ms).
+2026-03-21 18:12:51.108 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:51.122 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:51.131 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 18:12:51.151 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (20ms).
+2026-03-21 18:12:51.163 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (31ms).
+2026-03-21 18:12:51.179 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 18:12:51.207 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 18:12:51.259 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:51.283 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 42ms reading results.
+2026-03-21 18:12:51.301 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:51.326 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (24ms).
+2026-03-21 18:12:51.395 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 18:12:51.399 +05:30 [INF] Database migration completed successfully
+2026-03-21 18:12:51.423 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 18:12:51.453 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 18:12:51.475 +05:30 [DBG] Disposed connection to database '' on server '' (21ms).
+2026-03-21 18:12:51.493 +05:30 [INF] Starting Inventory Service
+2026-03-21 18:12:51.500 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 18:12:51.509 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 18:12:51.528 +05:30 [DBG] Hosting starting
+2026-03-21 18:12:52.425 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 18:12:52.442 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 18:12:52.457 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 18:12:52.463 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 18:12:52.467 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 18:12:52.488 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 18:12:52.550 +05:30 [DBG] Connection id "0HNK78TF2M7IK" received FIN.
+2026-03-21 18:12:52.592 +05:30 [DBG] Connection id "0HNK78TF2M7IK" accepted.
+2026-03-21 18:12:52.616 +05:30 [DBG] Connection id "0HNK78TF2M7IK" started.
+2026-03-21 18:12:52.747 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 18:12:52.934 +05:30 [DBG] Connection id "0HNK78TF2M7IK" stopped.
+2026-03-21 18:12:53.007 +05:30 [DBG] Connection id "0HNK78TF2M7IK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 18:12:53.199 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 18:12:53.214 +05:30 [INF] Hosting environment: Development
+2026-03-21 18:12:53.231 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 18:12:53.250 +05:30 [DBG] Hosting started
+2026-03-21 18:12:53.384 +05:30 [DBG] Connection id "0HNK78TF2M7IL" accepted.
+2026-03-21 18:12:53.393 +05:30 [DBG] Connection id "0HNK78TF2M7IL" started.
+2026-03-21 18:12:53.540 +05:30 [DBG] Connection 0HNK78TF2M7IL established using the following protocol: "Tls13"
+2026-03-21 18:12:53.909 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 18:12:54.371 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 18:12:55.009 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 18:12:55.026 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 18:12:55.161 +05:30 [INF] HTTP GET /index.html responded 200 in 744.2191 ms
+2026-03-21 18:12:55.198 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 18:12:55.198 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 18:12:55.271 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 18:12:55.375 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 173.8996ms
+2026-03-21 18:12:55.434 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 18:12:55.598 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1706.0302ms
+2026-03-21 18:12:55.750 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 552.272ms
+2026-03-21 18:13:00.655 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 18:13:01.225 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 543.6205 ms
+2026-03-21 18:13:01.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 599.767ms
+2026-03-21 19:33:10.679 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 19:33:11.138 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 19:33:11.325 +05:30 [INF] Applying database migrations...
+2026-03-21 19:33:11.642 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 19:33:11.758 +05:30 [INF] Database migration starting...
+2026-03-21 19:33:13.773 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 19:33:13.881 +05:30 [DBG] Creating DbConnection.
+2026-03-21 19:33:14.485 +05:30 [DBG] Created DbConnection. (580ms).
+2026-03-21 19:33:14.578 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:14.760 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:17.199 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:17.266 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 19:33:17.307 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (22ms).
+2026-03-21 19:33:17.331 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (63ms).
+2026-03-21 19:33:17.368 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:33:17.578 +05:30 [INF] Executed DbCommand (189ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:33:17.615 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:17.698 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (58ms).
+2026-03-21 19:33:17.756 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 19:33:17.764 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (11ms).
+2026-03-21 19:33:17.772 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (19ms).
+2026-03-21 19:33:17.785 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:17.798 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:17.819 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:33:18.012 +05:30 [INF] Executed DbCommand (193ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:33:18.022 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:18.032 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (10ms).
+2026-03-21 19:33:18.053 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:18.067 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:18.080 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 19:33:18.096 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (15ms).
+2026-03-21 19:33:18.137 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (56ms).
+2026-03-21 19:33:18.170 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:33:18.265 +05:30 [INF] Executed DbCommand (95ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:33:18.288 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:18.296 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (8ms).
+2026-03-21 19:33:18.324 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 19:33:18.340 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (15ms).
+2026-03-21 19:33:18.382 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (58ms).
+2026-03-21 19:33:18.418 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:18.468 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:18.507 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:33:18.543 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:33:18.615 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:18.687 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (72ms).
+2026-03-21 19:33:18.949 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:19.013 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:19.038 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 19:33:19.070 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (32ms).
+2026-03-21 19:33:19.187 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (148ms).
+2026-03-21 19:33:19.274 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 19:33:19.529 +05:30 [INF] Executed DbCommand (254ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 19:33:19.580 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:19.595 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 40ms reading results.
+2026-03-21 19:33:19.627 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:19.654 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (26ms).
+2026-03-21 19:33:19.734 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 19:33:19.794 +05:30 [INF] Database migration completed successfully
+2026-03-21 19:33:19.819 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 19:33:19.853 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:33:19.914 +05:30 [DBG] Disposed connection to database '' on server '' (60ms).
+2026-03-21 19:33:19.963 +05:30 [INF] Starting Inventory Service
+2026-03-21 19:33:19.988 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 19:33:20.025 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 19:33:20.074 +05:30 [DBG] Hosting starting
+2026-03-21 19:33:21.482 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 19:33:21.503 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 19:33:21.525 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 19:33:21.534 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 19:33:21.577 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 19:33:21.610 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 19:33:21.635 +05:30 [DBG] Connection id "0HNK7AAE8DTV7" received FIN.
+2026-03-21 19:33:21.635 +05:30 [DBG] Connection id "0HNK7AAE8DTV8" received FIN.
+2026-03-21 19:33:21.648 +05:30 [DBG] Connection id "0HNK7AAE8DTV7" accepted.
+2026-03-21 19:33:21.648 +05:30 [DBG] Connection id "0HNK7AAE8DTV8" accepted.
+2026-03-21 19:33:21.849 +05:30 [DBG] Connection id "0HNK7AAE8DTV7" started.
+2026-03-21 19:33:21.870 +05:30 [DBG] Connection id "0HNK7AAE8DTV8" started.
+2026-03-21 19:33:22.007 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 19:33:22.007 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 19:33:22.337 +05:30 [DBG] Connection id "0HNK7AAE8DTV8" stopped.
+2026-03-21 19:33:22.405 +05:30 [DBG] Connection id "0HNK7AAE8DTV7" stopped.
+2026-03-21 19:33:22.482 +05:30 [DBG] Connection id "0HNK7AAE8DTV8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 19:33:22.633 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 19:33:22.575 +05:30 [DBG] Connection id "0HNK7AAE8DTV7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 19:33:22.641 +05:30 [DBG] Connection id "0HNK7AAE8DTV9" accepted.
+2026-03-21 19:33:22.695 +05:30 [INF] Hosting environment: Development
+2026-03-21 19:33:22.753 +05:30 [DBG] Connection id "0HNK7AAE8DTV9" started.
+2026-03-21 19:33:22.769 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 19:33:22.821 +05:30 [DBG] Hosting started
+2026-03-21 19:33:22.929 +05:30 [DBG] Connection 0HNK7AAE8DTV9 established using the following protocol: "Tls13"
+2026-03-21 19:33:23.448 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 19:33:24.121 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 19:33:24.481 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 19:33:24.490 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 19:33:24.586 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 19:33:24.586 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 19:33:24.598 +05:30 [INF] HTTP GET /index.html responded 200 in 436.6199 ms
+2026-03-21 19:33:24.699 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 110.1831ms
+2026-03-21 19:33:24.703 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 19:33:24.766 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 19:33:24.826 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 239.6486ms
+2026-03-21 19:33:24.839 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1406.2061ms
+2026-03-21 19:33:32.083 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 19:33:32.451 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 345.9947 ms
+2026-03-21 19:33:32.458 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 374.7229ms
+2026-03-21 19:34:42.323 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 19:34:43.403 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 19:34:43.812 +05:30 [INF] Applying database migrations...
+2026-03-21 19:34:44.704 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 19:34:44.962 +05:30 [INF] Database migration starting...
+2026-03-21 19:34:47.894 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 19:34:47.937 +05:30 [DBG] Creating DbConnection.
+2026-03-21 19:34:48.099 +05:30 [DBG] Created DbConnection. (147ms).
+2026-03-21 19:34:48.122 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:48.158 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:49.992 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:50.040 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 19:34:50.083 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (38ms).
+2026-03-21 19:34:50.123 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (88ms).
+2026-03-21 19:34:50.167 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:34:50.415 +05:30 [INF] Executed DbCommand (245ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:34:50.492 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:50.555 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (38ms).
+2026-03-21 19:34:50.634 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 19:34:50.664 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (33ms).
+2026-03-21 19:34:50.697 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (66ms).
+2026-03-21 19:34:50.735 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:50.744 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:50.757 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:34:50.892 +05:30 [INF] Executed DbCommand (136ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:34:50.955 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.026 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (69ms).
+2026-03-21 19:34:51.124 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.173 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.227 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 19:34:51.286 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (58ms).
+2026-03-21 19:34:51.370 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (142ms).
+2026-03-21 19:34:51.462 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:34:51.529 +05:30 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:34:51.568 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.578 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (10ms).
+2026-03-21 19:34:51.591 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 19:34:51.597 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2026-03-21 19:34:51.604 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (13ms).
+2026-03-21 19:34:51.618 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.650 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.673 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:34:51.730 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:34:51.754 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.780 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (26ms).
+2026-03-21 19:34:51.879 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.890 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:51.902 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 19:34:51.911 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2026-03-21 19:34:51.927 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (24ms).
+2026-03-21 19:34:51.938 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 19:34:51.982 +05:30 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 19:34:52.068 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:52.107 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 77ms reading results.
+2026-03-21 19:34:52.140 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:52.182 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (42ms).
+2026-03-21 19:34:52.279 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 19:34:52.295 +05:30 [INF] Database migration completed successfully
+2026-03-21 19:34:52.320 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 19:34:52.358 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:34:52.390 +05:30 [DBG] Disposed connection to database '' on server '' (30ms).
+2026-03-21 19:34:52.415 +05:30 [INF] Starting Inventory Service
+2026-03-21 19:34:52.421 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 19:34:52.433 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 19:34:52.471 +05:30 [DBG] Hosting starting
+2026-03-21 19:34:53.311 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 19:34:53.329 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 19:34:53.334 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 19:34:53.356 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 19:34:53.378 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 19:34:53.391 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 19:34:53.621 +05:30 [DBG] Connection id "0HNK7AB9LL8AK" received FIN.
+2026-03-21 19:34:53.629 +05:30 [DBG] Connection id "0HNK7AB9LL8AK" accepted.
+2026-03-21 19:34:53.659 +05:30 [DBG] Connection id "0HNK7AB9LL8AK" started.
+2026-03-21 19:34:53.742 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 19:34:53.950 +05:30 [DBG] Connection id "0HNK7AB9LL8AK" stopped.
+2026-03-21 19:34:54.005 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 19:34:54.009 +05:30 [DBG] Connection id "0HNK7AB9LL8AK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 19:34:54.079 +05:30 [INF] Hosting environment: Development
+2026-03-21 19:34:54.229 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 19:34:54.286 +05:30 [DBG] Hosting started
+2026-03-21 19:34:54.637 +05:30 [DBG] Connection id "0HNK7AB9LL8AL" accepted.
+2026-03-21 19:34:54.714 +05:30 [DBG] Connection id "0HNK7AB9LL8AL" started.
+2026-03-21 19:34:54.990 +05:30 [DBG] Connection 0HNK7AB9LL8AL established using the following protocol: "Tls13"
+2026-03-21 19:34:55.624 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 19:34:56.450 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 19:34:56.879 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 19:34:56.890 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 19:34:56.951 +05:30 [INF] HTTP GET /index.html responded 200 in 471.6248 ms
+2026-03-21 19:34:56.959 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 19:34:56.973 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 19:34:56.989 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 19:34:57.026 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 63.8635ms
+2026-03-21 19:34:57.040 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 19:34:57.115 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1508.1131ms
+2026-03-21 19:34:57.196 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 222.5705ms
+2026-03-21 19:35:01.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 19:35:02.131 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 436.0407 ms
+2026-03-21 19:35:02.146 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 483.2121ms
+2026-03-21 19:43:54.964 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 19:43:56.017 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 19:43:56.380 +05:30 [INF] Applying database migrations...
+2026-03-21 19:43:57.065 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 19:43:57.226 +05:30 [INF] Database migration starting...
+2026-03-21 19:44:01.170 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 19:44:01.245 +05:30 [DBG] Creating DbConnection.
+2026-03-21 19:44:01.451 +05:30 [DBG] Created DbConnection. (199ms).
+2026-03-21 19:44:01.469 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:01.563 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:03.419 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:03.481 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 19:44:03.523 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (30ms).
+2026-03-21 19:44:03.538 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (58ms).
+2026-03-21 19:44:03.579 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:44:03.804 +05:30 [INF] Executed DbCommand (219ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:44:03.875 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:03.946 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (49ms).
+2026-03-21 19:44:03.996 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 19:44:04.011 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (20ms).
+2026-03-21 19:44:04.046 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (55ms).
+2026-03-21 19:44:04.061 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.069 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.085 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:44:04.273 +05:30 [INF] Executed DbCommand (186ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:44:04.287 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.293 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (6ms).
+2026-03-21 19:44:04.314 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.321 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.356 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 19:44:04.383 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (27ms).
+2026-03-21 19:44:04.415 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (59ms).
+2026-03-21 19:44:04.422 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:44:04.447 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:44:04.474 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.502 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (28ms).
+2026-03-21 19:44:04.511 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 19:44:04.518 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (6ms).
+2026-03-21 19:44:04.533 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (21ms).
+2026-03-21 19:44:04.540 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.548 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.556 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:44:04.586 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:44:04.653 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.723 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (69ms).
+2026-03-21 19:44:04.812 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.824 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:04.833 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 19:44:04.848 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (15ms).
+2026-03-21 19:44:04.873 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (39ms).
+2026-03-21 19:44:04.906 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 19:44:04.991 +05:30 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 19:44:05.035 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:05.041 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 18ms reading results.
+2026-03-21 19:44:05.051 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:05.067 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (15ms).
+2026-03-21 19:44:05.125 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 19:44:05.151 +05:30 [INF] Database migration completed successfully
+2026-03-21 19:44:05.197 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 19:44:05.255 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:44:05.297 +05:30 [DBG] Disposed connection to database '' on server '' (39ms).
+2026-03-21 19:44:05.331 +05:30 [INF] Starting Inventory Service
+2026-03-21 19:44:05.340 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 19:44:05.352 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 19:44:05.380 +05:30 [DBG] Hosting starting
+2026-03-21 19:44:06.275 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 19:44:06.291 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 19:44:06.294 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 19:44:06.298 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 19:44:06.307 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 19:44:06.310 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 19:44:06.675 +05:30 [DBG] Connection id "0HNK7AGEFVN34" accepted.
+2026-03-21 19:44:06.676 +05:30 [DBG] Connection id "0HNK7AGEFVN34" received FIN.
+2026-03-21 19:44:06.700 +05:30 [DBG] Connection id "0HNK7AGEFVN34" started.
+2026-03-21 19:44:06.797 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 19:44:06.806 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 19:44:06.880 +05:30 [INF] Hosting environment: Development
+2026-03-21 19:44:06.887 +05:30 [DBG] Connection id "0HNK7AGEFVN34" stopped.
+2026-03-21 19:44:06.897 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 19:44:06.975 +05:30 [DBG] Connection id "0HNK7AGEFVN34" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 19:44:07.001 +05:30 [DBG] Hosting started
+2026-03-21 19:44:07.271 +05:30 [DBG] Connection id "0HNK7AGEFVN35" accepted.
+2026-03-21 19:44:07.428 +05:30 [DBG] Connection id "0HNK7AGEFVN35" started.
+2026-03-21 19:44:07.798 +05:30 [DBG] Connection 0HNK7AGEFVN35 established using the following protocol: "Tls13"
+2026-03-21 19:44:08.653 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 19:44:11.291 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 19:44:12.416 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 19:44:12.574 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 19:44:12.799 +05:30 [INF] HTTP GET /index.html responded 200 in 1294.4006 ms
+2026-03-21 19:44:12.911 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 19:44:12.855 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 19:44:13.100 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 19:44:14.157 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 1300.761ms
+2026-03-21 19:44:14.165 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1247.1502ms
+2026-03-21 19:44:14.198 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 19:44:14.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 5795.8999ms
+2026-03-21 19:44:14.503 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 19:44:15.054 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 518.9637 ms
+2026-03-21 19:44:15.089 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 585.3643ms
+2026-03-21 19:48:36.100 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 19:48:36.896 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 19:48:37.209 +05:30 [INF] Applying database migrations...
+2026-03-21 19:48:37.853 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 19:48:38.013 +05:30 [INF] Database migration starting...
+2026-03-21 19:48:41.091 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 19:48:41.233 +05:30 [DBG] Creating DbConnection.
+2026-03-21 19:48:41.627 +05:30 [DBG] Created DbConnection. (366ms).
+2026-03-21 19:48:41.708 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:41.797 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:43.815 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:43.963 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 19:48:44.018 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (49ms).
+2026-03-21 19:48:44.038 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (80ms).
+2026-03-21 19:48:44.076 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:48:44.361 +05:30 [INF] Executed DbCommand (250ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:48:44.497 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:44.576 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (44ms).
+2026-03-21 19:48:44.736 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 19:48:44.785 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (52ms).
+2026-03-21 19:48:44.809 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (76ms).
+2026-03-21 19:48:44.883 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:44.936 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:45.003 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:48:45.172 +05:30 [INF] Executed DbCommand (168ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:48:45.308 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:45.364 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (56ms).
+2026-03-21 19:48:45.491 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:45.523 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:45.572 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 19:48:45.619 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (47ms).
+2026-03-21 19:48:45.669 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (97ms).
+2026-03-21 19:48:45.746 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:48:45.809 +05:30 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 19:48:45.906 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:45.961 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (57ms).
+2026-03-21 19:48:45.996 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 19:48:46.029 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (33ms).
+2026-03-21 19:48:46.059 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (62ms).
+2026-03-21 19:48:46.114 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:46.157 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:46.199 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:48:46.255 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 19:48:46.277 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:46.289 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (11ms).
+2026-03-21 19:48:46.362 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:46.372 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:46.377 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 19:48:46.383 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2026-03-21 19:48:46.392 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2026-03-21 19:48:46.408 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 19:48:46.446 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 19:48:46.495 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:46.525 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 47ms reading results.
+2026-03-21 19:48:46.545 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:46.566 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (20ms).
+2026-03-21 19:48:46.608 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 19:48:46.616 +05:30 [INF] Database migration completed successfully
+2026-03-21 19:48:46.623 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 19:48:46.640 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 19:48:46.652 +05:30 [DBG] Disposed connection to database '' on server '' (12ms).
+2026-03-21 19:48:46.668 +05:30 [INF] Starting Inventory Service
+2026-03-21 19:48:46.676 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 19:48:46.686 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 19:48:46.711 +05:30 [DBG] Hosting starting
+2026-03-21 19:48:47.665 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 19:48:47.690 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 19:48:47.694 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 19:48:47.700 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 19:48:47.705 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 19:48:47.720 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 19:48:47.948 +05:30 [DBG] Connection id "0HNK7AJ2AE25J" received FIN.
+2026-03-21 19:48:47.948 +05:30 [DBG] Connection id "0HNK7AJ2AE25K" received FIN.
+2026-03-21 19:48:48.004 +05:30 [DBG] Connection id "0HNK7AJ2AE25J" accepted.
+2026-03-21 19:48:48.036 +05:30 [DBG] Connection id "0HNK7AJ2AE25K" accepted.
+2026-03-21 19:48:48.079 +05:30 [DBG] Connection id "0HNK7AJ2AE25J" started.
+2026-03-21 19:48:48.094 +05:30 [DBG] Connection id "0HNK7AJ2AE25K" started.
+2026-03-21 19:48:48.248 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 19:48:48.248 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 19:48:48.265 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 19:48:49.695 +05:30 [DBG] Connection id "0HNK7AJ2AE25L" accepted.
+2026-03-21 19:48:49.784 +05:30 [DBG] Connection id "0HNK7AJ2AE25K" stopped.
+2026-03-21 19:48:49.807 +05:30 [DBG] Connection id "0HNK7AJ2AE25J" stopped.
+2026-03-21 19:48:49.838 +05:30 [DBG] Connection id "0HNK7AJ2AE25L" started.
+2026-03-21 19:48:49.822 +05:30 [INF] Hosting environment: Development
+2026-03-21 19:48:49.906 +05:30 [DBG] Connection id "0HNK7AJ2AE25K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 19:48:49.933 +05:30 [DBG] Connection id "0HNK7AJ2AE25J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 19:48:50.088 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 19:48:50.199 +05:30 [DBG] Connection 0HNK7AJ2AE25L established using the following protocol: "Tls13"
+2026-03-21 19:48:50.206 +05:30 [DBG] Hosting started
+2026-03-21 19:48:50.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 19:48:51.151 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 19:48:51.592 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 19:48:51.606 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 19:48:51.725 +05:30 [INF] HTTP GET /index.html responded 200 in 531.0302 ms
+2026-03-21 19:48:51.801 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 19:48:51.825 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 19:48:51.868 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 19:48:51.984 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 176.8421ms
+2026-03-21 19:48:52.086 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 19:48:52.248 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1712.539ms
+2026-03-21 19:48:52.348 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 523.5596ms
+2026-03-21 19:48:52.635 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 19:48:53.379 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 680.2934 ms
+2026-03-21 19:48:53.405 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 770.9109ms
+2026-03-21 20:09:26.024 +05:30 [INF] Development environment detected - enabling Swagger
+2026-03-21 20:09:27.313 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-21 20:09:27.760 +05:30 [INF] Applying database migrations...
+2026-03-21 20:09:29.897 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-03-21 20:09:30.156 +05:30 [INF] Database migration starting...
+2026-03-21 20:09:34.182 +05:30 [DBG] Entity Framework Core 8.0.25 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.25' with options: None
+2026-03-21 20:09:34.244 +05:30 [DBG] Creating DbConnection.
+2026-03-21 20:09:36.098 +05:30 [DBG] Created DbConnection. (1844ms).
+2026-03-21 20:09:36.138 +05:30 [DBG] Migrating using database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:36.250 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:38.882 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:38.929 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 20:09:38.974 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (31ms).
+2026-03-21 20:09:38.997 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (75ms).
+2026-03-21 20:09:39.039 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 20:09:39.205 +05:30 [INF] Executed DbCommand (163ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 20:09:39.240 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:39.304 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (46ms).
+2026-03-21 20:09:39.352 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 20:09:39.367 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (17ms).
+2026-03-21 20:09:39.388 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (37ms).
+2026-03-21 20:09:39.401 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:39.414 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:39.431 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 20:09:39.647 +05:30 [INF] Executed DbCommand (216ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 20:09:39.711 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:39.830 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (119ms).
+2026-03-21 20:09:39.878 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:39.899 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:39.939 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-03-21 20:09:39.989 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (49ms).
+2026-03-21 20:09:40.018 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (79ms).
+2026-03-21 20:09:40.078 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 20:09:40.098 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-21 20:09:40.140 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:40.165 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (25ms).
+2026-03-21 20:09:40.198 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-03-21 20:09:40.217 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (18ms).
+2026-03-21 20:09:40.239 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (40ms).
+2026-03-21 20:09:40.254 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:40.270 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:40.283 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 20:09:40.302 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-21 20:09:40.337 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:40.347 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (10ms).
+2026-03-21 20:09:40.415 +05:30 [DBG] Opening connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:40.428 +05:30 [DBG] Opened connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:40.438 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-03-21 20:09:40.448 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (9ms).
+2026-03-21 20:09:40.463 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (24ms).
+2026-03-21 20:09:40.477 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 20:09:40.606 +05:30 [INF] Executed DbCommand (128ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-21 20:09:40.650 +05:30 [DBG] Closing data reader to 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:40.668 +05:30 [DBG] A data reader for 'InventoryServiceDB' on server 'localhost' is being disposed after spending 39ms reading results.
+2026-03-21 20:09:40.729 +05:30 [DBG] Closing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:40.789 +05:30 [DBG] Closed connection to database 'InventoryServiceDB' on server 'localhost' (59ms).
+2026-03-21 20:09:40.869 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-03-21 20:09:40.877 +05:30 [INF] Database migration completed successfully
+2026-03-21 20:09:40.889 +05:30 [DBG] 'InventoryDbContext' disposed.
+2026-03-21 20:09:40.929 +05:30 [DBG] Disposing connection to database 'InventoryServiceDB' on server 'localhost'.
+2026-03-21 20:09:41.001 +05:30 [DBG] Disposed connection to database '' on server '' (73ms).
+2026-03-21 20:09:41.039 +05:30 [INF] Starting Inventory Service
+2026-03-21 20:09:41.059 +05:30 [INF] Swagger UI will be available at: https://localhost:7005/
+2026-03-21 20:09:41.080 +05:30 [INF] Health check available at: https://localhost:7005/health
+2026-03-21 20:09:41.102 +05:30 [DBG] Hosting starting
+2026-03-21 20:09:42.250 +05:30 [INF] Now listening on: https://localhost:7005
+2026-03-21 20:09:42.281 +05:30 [INF] Now listening on: http://localhost:5005
+2026-03-21 20:09:42.306 +05:30 [DBG] Loaded hosting startup assembly api-inventory-service
+2026-03-21 20:09:42.334 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-21 20:09:42.343 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-21 20:09:42.354 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-21 20:09:42.477 +05:30 [DBG] Connection id "0HNK7AUO6I819" received FIN.
+2026-03-21 20:09:42.478 +05:30 [DBG] Connection id "0HNK7AUO6I818" received FIN.
+2026-03-21 20:09:42.492 +05:30 [DBG] Connection id "0HNK7AUO6I818" accepted.
+2026-03-21 20:09:42.493 +05:30 [DBG] Connection id "0HNK7AUO6I819" accepted.
+2026-03-21 20:09:42.545 +05:30 [DBG] Connection id "0HNK7AUO6I818" started.
+2026-03-21 20:09:42.558 +05:30 [DBG] Connection id "0HNK7AUO6I819" started.
+2026-03-21 20:09:42.618 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 20:09:42.618 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-21 20:09:42.746 +05:30 [DBG] Connection id "0HNK7AUO6I818" stopped.
+2026-03-21 20:09:42.799 +05:30 [DBG] Connection id "0HNK7AUO6I819" stopped.
+2026-03-21 20:09:42.829 +05:30 [DBG] Connection id "0HNK7AUO6I818" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 20:09:42.851 +05:30 [DBG] Connection id "0HNK7AUO6I819" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 20:09:42.932 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-21 20:09:42.952 +05:30 [INF] Hosting environment: Development
+2026-03-21 20:09:42.969 +05:30 [INF] Content root path: C:\Users\santoshshukla\source\repos\EcommSolutions\api-inventory-service
+2026-03-21 20:09:42.985 +05:30 [DBG] Hosting started
+2026-03-21 20:09:43.455 +05:30 [DBG] Connection id "0HNK7AUO6I81A" accepted.
+2026-03-21 20:09:43.531 +05:30 [DBG] Connection id "0HNK7AUO6I81A" started.
+2026-03-21 20:09:43.909 +05:30 [DBG] Connection 0HNK7AUO6I81A established using the following protocol: "Tls13"
+2026-03-21 20:09:44.597 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/index.html - null null
+2026-03-21 20:09:45.390 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-21 20:09:45.751 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-21 20:09:45.763 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-21 20:09:45.836 +05:30 [INF] HTTP GET /index.html responded 200 in 403.2896 ms
+2026-03-21 20:09:45.847 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2026-03-21 20:09:45.847 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-21 20:09:45.887 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-21 20:09:46.069 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-21 20:09:46.073 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 223.5945ms
+2026-03-21 20:09:46.308 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 461.0083ms
+2026-03-21 20:09:46.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/index.html - 200 null text/html;charset=utf-8 1562.7757ms
+2026-03-21 20:09:53.989 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2026-03-21 20:09:54.501 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 479.1923 ms
+2026-03-21 20:09:54.514 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 525.7329ms
+2026-03-21 20:16:18.446 +05:30 [DBG] Connection id "0HNK7AUO6I81A" received FIN.
+2026-03-21 20:16:18.513 +05:30 [DBG] Connection id "0HNK7AUO6I81A" is closed. The last processed stream ID was 7.
+2026-03-21 20:16:18.553 +05:30 [DBG] Connection id "0HNK7AUO6I81A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-21 20:16:18.552 +05:30 [DBG] The connection queue processing loop for 0HNK7AUO6I81A completed.
+2026-03-21 20:16:18.608 +05:30 [DBG] Connection id "0HNK7AUO6I81A" stopped.

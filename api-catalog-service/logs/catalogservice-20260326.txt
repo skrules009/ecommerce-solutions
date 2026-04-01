@@ -1,0 +1,13 @@
+2026-03-26 00:02:16.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7003/api/Product - null null
+2026-03-26 00:02:16.079 +05:30 [INF] Executing endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-26 00:02:16.086 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[api_catalog_service.DTOs.ProductDto]]] GetAllProducts() on controller api_catalog_service.Controllers.ProductController (api-catalog-service).
+2026-03-26 00:02:16.101 +05:30 [INF] GET: Retrieving all products
+2026-03-26 00:02:16.143 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[CreatedAt], [p].[DeletedAt], [p].[Description], [p].[IsActive], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Sku], [p].[Status], [p].[Stock], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[CreatedAt] DESC
+2026-03-26 00:02:16.174 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[api_catalog_service.DTOs.ProductDto, api-catalog-service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-26 00:02:16.182 +05:30 [INF] Executed action api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service) in 82.5506ms
+2026-03-26 00:02:16.188 +05:30 [INF] Executed endpoint 'api_catalog_service.Controllers.ProductController.GetAllProducts (api-catalog-service)'
+2026-03-26 00:02:16.191 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7003/api/Product - 200 null application/json; charset=utf-8 138.7502ms

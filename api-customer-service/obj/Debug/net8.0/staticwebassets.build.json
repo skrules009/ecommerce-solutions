@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BxzyvZer1zwNfQ53ry7ho0Eo7WY7+xNg9VCiHXVqDFA=",
+  "Source": "api-customer-service",
+  "BasePath": "_content/api-customer-service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
