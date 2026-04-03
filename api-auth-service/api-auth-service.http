@@ -1,0 +1,68 @@
+@baseUrl = http://localhost:5001/api/auth
+
+### Register new user
+POST {{baseUrl}}/register
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "username": "testuser",
+  "password": "SecurePassword123!",
+  "firstName": "John",
+  "lastName": "Doe"
+}
+
+### Register admin user
+POST {{baseUrl}}/register
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "username": "administrator",
+  "password": "AdminPassword123!",
+  "firstName": "Admin",
+  "lastName": "User"
+}
+
+### Login user
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "SecurePassword123!"
+}
+
+### Login by email
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+  "username": "user@example.com",
+  "password": "SecurePassword123!"
+}
+
+### Refresh token (replace refreshToken with actual token from login response)
+POST {{baseUrl}}/refresh
+Content-Type: application/json
+
+{
+  "refreshToken": "your-refresh-token-here"
+}
+
+### Validate token (replace token with actual JWT from login response)
+POST {{baseUrl}}/validate
+Content-Type: application/json
+
+{
+  "token": "your-jwt-token-here"
+}
+
+### Get current user (requires Bearer token)
+GET {{baseUrl}}/me
+Authorization: Bearer your-jwt-token-here
+
+### Logout (requires Bearer token)
+POST {{baseUrl}}/logout
+Authorization: Bearer your-jwt-token-here
+Content-Type: application/json
