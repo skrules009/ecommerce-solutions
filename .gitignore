@@ -16,6 +16,11 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# Auto-generated files
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.sourcelink.json
+
 # Visual Studio cache/options
 .vs/
 .vscode/
@@ -51,9 +56,6 @@ bld/
 *.snupkg
 packages/
 .nuget/
-
-# Rider
-.idea
 
 # DotSettings (JetBrains Rider)
 .idea/
