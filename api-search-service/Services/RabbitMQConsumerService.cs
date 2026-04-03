@@ -37,8 +37,7 @@ namespace api_search_service.Services
             _connectionFactory = new ConnectionFactory()
             {
                 HostName = rabbitMqHost,
-                Port = 5672,
-                DispatchConsumersAsync = true
+                Port = 5672
             };
         }
 
@@ -84,7 +83,7 @@ namespace api_search_service.Services
 
                 // ✅ Create Consumer
                 var consumer = new AsyncEventingBasicConsumer(_channel);
-                consumer.Received += async (model, ea) => await OnMessageReceived(ea);
+                consumer.ReceivedAsync += OnMessageReceived;
 
                 await _channel.BasicConsumeAsync(
                     queue: QueueName,
@@ -103,7 +102,7 @@ namespace api_search_service.Services
             }
         }
 
-        private async Task OnMessageReceived(BasicDeliverEventArgs ea)
+        private async Task OnMessageReceived(object sender, BasicDeliverEventArgs ea)
         {
             try
             {

@@ -37,8 +37,7 @@ try
     var connectionFactory = new ConnectionFactory()
     {
         HostName = rabbitMqHost,
-        Port = 5672,
-        DispatchConsumersAsync = true
+        Port = 5672
     };
 
     var connection = await connectionFactory.CreateConnectionAsync();  // ✅ Await async call

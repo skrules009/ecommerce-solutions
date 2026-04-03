@@ -71,10 +71,10 @@ namespace api_catalog_service.Publishers
                 var body = Encoding.UTF8.GetBytes(json);
 
                 // Create basic properties
-                var properties = _channel.CreateBasicProperties();  // ✅ This is synchronous
+                var properties = new BasicProperties();
                 properties.ContentType = "application/json";
                 properties.ContentEncoding = "utf-8";
-                properties.DeliveryMode = 2;  // Persistent delivery
+                properties.DeliveryMode = DeliveryModes.Persistent;  // Persistent delivery
                 properties.Timestamp = new AmqpTimestamp(DateTimeOffset.UtcNow.ToUnixTimeSeconds());
 
                 // Publish message
